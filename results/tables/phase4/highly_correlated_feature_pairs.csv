@@ -1,0 +1,427 @@
+feature_1,feature_2,pearson_r,abs_pearson_r
+range local difference in NsUnfilled,range local difference in NsValence,1.0,1.0
+0-norm,composition_number_of_elements,1.0,1.0
+minimum local difference in NsUnfilled,minimum local difference in NsValence,1.0,1.0
+0-norm,nelements,1.0,1.0
+mean local difference in NsUnfilled,mean local difference in NsValence,1.0,1.0
+mean neighbor distance variation,phase_BCC,1.0,1.0
+MagpieData mean NsUnfilled,MagpieData mean NsValence,-1.0,1.0
+MagpieData mean NValence,derived_vec_mean,1.0,1.0
+phase_BCC,phase_FCC,-1.0,1.0
+MagpieData maximum NsValence,MagpieData minimum NsUnfilled,-1.0,1.0
+MagpieData mean Electronegativity,derived_electronegativity_mean,1.0,1.0
+MagpieData mean GSbandgap,composition_fraction_Si,1.0,1.0
+avg_dev local difference in NsUnfilled,avg_dev local difference in NsValence,1.0,1.0
+configurational_entropy_j_mol_k,configurational_entropy_kb_per_atom,1.0,1.0
+composition_number_of_elements,nelements,1.0,1.0
+MagpieData range NsUnfilled,MagpieData range NsValence,1.0,1.0
+MagpieData maximum GSbandgap,MagpieData range GSbandgap,1.0,1.0
+maximum local difference in NsUnfilled,maximum local difference in NsValence,1.0,1.0
+maximum neighbor distance variation,mean neighbor distance variation,1.0,1.0
+maximum neighbor distance variation,minimum neighbor distance variation,1.0,1.0
+MagpieData minimum NpUnfilled,MagpieData minimum NpValence,1.0,1.0
+MagpieData avg_dev NsUnfilled,MagpieData avg_dev NsValence,0.9999999999999998,0.9999999999999998
+MagpieData maximum Row,MagpieData minimum NpUnfilled,-0.9999999999999997,0.9999999999999997
+MagpieData maximum Row,MagpieData minimum NpValence,-0.9999999999999997,0.9999999999999997
+MagpieData maximum NsUnfilled,MagpieData minimum NsValence,-0.9999999999999996,0.9999999999999996
+mean neighbor distance variation,phase_FCC,-0.9999999999999996,0.9999999999999996
+MagpieData mean MeltingT,derived_melting_point_mean,0.9999999999999992,0.9999999999999992
+MagpieData mean CovalentRadius,derived_atomic_radius_covalent_mean,0.9999999999999981,0.9999999999999981
+MagpieData mean Number,derived_atomic_number_mean,0.9999999999999974,0.9999999999999974
+MagpieData mean AtomicWeight,derived_atomic_mass_mean,0.9999999999999958,0.9999999999999958
+mean CN_VoronoiNN,minimum neighbor distance variation,-0.9999999999999897,0.9999999999999897
+mean CN_VoronoiNN,mean neighbor distance variation,-0.9999999999999893,0.9999999999999893
+minimum neighbor distance variation,phase_BCC,0.9999999999999893,0.9999999999999893
+minimum neighbor distance variation,phase_FCC,-0.9999999999999889,0.9999999999999889
+maximum neighbor distance variation,mean CN_VoronoiNN,-0.9999999999999887,0.9999999999999887
+mean CN_VoronoiNN,phase_BCC,-0.9999999999999863,0.9999999999999863
+mean CN_VoronoiNN,phase_FCC,0.9999999999999861,0.9999999999999861
+maximum neighbor distance variation,phase_BCC,0.9999999999999837,0.9999999999999837
+maximum neighbor distance variation,phase_FCC,-0.9999999999999835,0.9999999999999835
+mean neighbor distance variation,minimum neighbor distance variation,0.9999999999999793,0.9999999999999793
+max packing efficiency,maximum neighbor distance variation,-0.999999999999914,0.999999999999914
+max packing efficiency,mean neighbor distance variation,-0.9999999999999121,0.9999999999999121
+max packing efficiency,minimum neighbor distance variation,-0.999999999999893,0.999999999999893
+max packing efficiency,mean CN_VoronoiNN,0.9999999999998763,0.9999999999998763
+max packing efficiency,phase_BCC,-0.9999999999998588,0.9999999999998588
+max packing efficiency,phase_FCC,0.9999999999998583,0.9999999999998583
+maximum neighbor distance variation,minimum CN_VoronoiNN,-0.9999999999992952,0.9999999999992952
+minimum CN_VoronoiNN,phase_FCC,0.9999999999992892,0.9999999999992892
+minimum CN_VoronoiNN,phase_BCC,-0.999999999999289,0.999999999999289
+mean CN_VoronoiNN,minimum CN_VoronoiNN,0.9999999999992825,0.9999999999992825
+mean neighbor distance variation,minimum CN_VoronoiNN,-0.9999999999992786,0.9999999999992786
+minimum CN_VoronoiNN,minimum neighbor distance variation,-0.999999999999269,0.999999999999269
+max packing efficiency,minimum CN_VoronoiNN,0.9999999999992617,0.9999999999992617
+maximum CN_VoronoiNN,minimum neighbor distance variation,-0.9999999999977939,0.9999999999977939
+maximum CN_VoronoiNN,mean CN_VoronoiNN,0.9999999999977686,0.9999999999977686
+maximum CN_VoronoiNN,mean neighbor distance variation,-0.9999999999977482,0.9999999999977482
+maximum CN_VoronoiNN,phase_FCC,0.9999999999977456,0.9999999999977456
+maximum CN_VoronoiNN,phase_BCC,-0.999999999997745,0.999999999997745
+maximum CN_VoronoiNN,maximum neighbor distance variation,-0.9999999999977267,0.9999999999977267
+max packing efficiency,maximum CN_VoronoiNN,0.9999999999974368,0.9999999999974368
+maximum CN_VoronoiNN,minimum CN_VoronoiNN,0.999999999994696,0.999999999994696
+MagpieData minimum Column,MagpieData minimum MendeleevNumber,0.9995639478842184,0.9995639478842184
+MagpieData maximum NpValence,MagpieData range NpValence,0.9993970430021349,0.9993970430021349
+MagpieData minimum AtomicWeight,MagpieData minimum Number,0.9993540708828458,0.9993540708828458
+10-norm,7-norm,0.9992574260592674,0.9992574260592674
+5-norm,7-norm,0.9987724857326858,0.9987724857326858
+MagpieData maximum NpUnfilled,MagpieData range NpUnfilled,0.9986073111793053,0.9986073111793053
+MagpieData maximum GSvolume_pa,MagpieData range GSvolume_pa,0.9982324793205413,0.9982324793205413
+MagpieData minimum Row,MagpieData range Row,-0.9980341496051547,0.9980341496051547
+MagpieData maximum GSvolume_pa,MagpieData maximum NpValence,0.9975717424445653,0.9975717424445653
+MagpieData range GSvolume_pa,MagpieData range NpValence,0.9971092742936838,0.9971092742936838
+derived_atomic_mass_std,derived_atomic_number_std,0.9970921445863925,0.9970921445863925
+MagpieData maximum GSvolume_pa,MagpieData range NpValence,0.9970040941008684,0.9970040941008684
+MagpieData mode AtomicWeight,MagpieData mode Number,0.9969799806428091,0.9969799806428091
+MagpieData mean AtomicWeight,derived_atomic_number_mean,0.9969358833662326,0.9969358833662326
+derived_atomic_mass_mean,derived_atomic_number_mean,0.9969358833662267,0.9969358833662267
+MagpieData mean AtomicWeight,MagpieData mean Number,0.9969358833662263,0.9969358833662263
+MagpieData mean Number,derived_atomic_mass_mean,0.9969358833662246,0.9969358833662246
+MagpieData avg_dev AtomicWeight,MagpieData avg_dev Number,0.9968865811819492,0.9968865811819492
+pair_atomic_mass_rms_diff,pair_atomic_number_rms_diff,0.9967458256085331,0.9967458256085331
+MagpieData maximum Column,MagpieData maximum MendeleevNumber,0.9967163313864238,0.9967163313864238
+atomic_size_mismatch_percent,derived_atomic_radius_covalent_std,0.9964019839748366,0.9964019839748366
+maximum local difference in GSvolume_pa,maximum local difference in NpValence,0.9964004363602272,0.9964004363602272
+MagpieData avg_dev GSvolume_pa,MagpieData avg_dev NpValence,0.9963633551700734,0.9963633551700734
+maximum local difference in AtomicWeight,maximum local difference in Number,0.9963374562525211,0.9963374562525211
+MagpieData minimum NdValence,MagpieData minimum Number,0.9961751145424338,0.9961751145424338
+10-norm,5-norm,0.9961684967589507,0.9961684967589507
+MagpieData maximum NpValence,MagpieData range GSvolume_pa,0.9961084916466981,0.9961084916466981
+mean local difference in AtomicWeight,mean local difference in Number,0.9958419476843753,0.9958419476843753
+MagpieData mean Column,MagpieData mean MendeleevNumber,0.9956390353384553,0.9956390353384553
+mean local difference in GSvolume_pa,mean local difference in NpValence,0.9956195710189255,0.9956195710189255
+MagpieData minimum AtomicWeight,MagpieData minimum NdValence,0.9955690835799744,0.9955690835799744
+pair_atomic_mass_mean_abs_diff,pair_atomic_number_mean_abs_diff,0.995546982826059,0.995546982826059
+MagpieData mean NpUnfilled,MagpieData mean Row,-0.9953432098566898,0.9953432098566898
+MagpieData range AtomicWeight,MagpieData range Number,0.9952123371786213,0.9952123371786213
+range local difference in AtomicWeight,range local difference in Number,0.9950195559729115,0.9950195559729115
+MagpieData minimum AtomicWeight,MagpieData minimum Row,0.9946975541699132,0.9946975541699132
+avg_dev local difference in GSvolume_pa,avg_dev local difference in NpValence,0.9945608260543112,0.9945608260543112
+3-norm,5-norm,0.9944976661621843,0.9944976661621843
+MagpieData avg_dev NpUnfilled,MagpieData avg_dev Row,0.9943848562892743,0.9943848562892743
+MagpieData minimum SpaceGroupNumber,MagpieData range SpaceGroupNumber,-0.9943835344043306,0.9943835344043306
+range local difference in GSvolume_pa,range local difference in NpValence,0.9943424530112979,0.9943424530112979
+MagpieData mode Column,MagpieData mode MendeleevNumber,0.9943042343456149,0.9943042343456149
+avg_dev local difference in AtomicWeight,avg_dev local difference in Number,0.9940800307483233,0.9940800307483233
+2-norm,3-norm,0.9940183571804072,0.9940183571804072
+mean local difference in NpUnfilled,mean local difference in Row,0.9938972195212806,0.9938972195212806
+MagpieData minimum NsValence,MagpieData range NsUnfilled,-0.9937896464905915,0.9937896464905915
+MagpieData minimum NsValence,MagpieData range NsValence,-0.9937896464905915,0.9937896464905915
+MagpieData maximum NsUnfilled,MagpieData range NsUnfilled,0.99378964649059,0.99378964649059
+MagpieData maximum NsUnfilled,MagpieData range NsValence,0.99378964649059,0.99378964649059
+MagpieData minimum Number,MagpieData minimum Row,0.993561399880085,0.993561399880085
+MagpieData mean GSvolume_pa,MagpieData mean NpValence,0.9934861305579707,0.9934861305579707
+MagpieData minimum NdValence,MagpieData minimum Row,0.9927807603180285,0.9927807603180285
+MagpieData minimum AtomicWeight,MagpieData range Row,-0.9926945181538261,0.9926945181538261
+MagpieData maximum NpUnfilled,MagpieData minimum Number,-0.9924132282606786,0.9924132282606786
+MagpieData maximum NpUnfilled,MagpieData minimum Row,-0.9922894031077134,0.9922894031077134
+MagpieData range NpUnfilled,MagpieData range Row,0.9921974334148941,0.9921974334148941
+pair_vec_mean_abs_diff,pair_vec_rms_diff,0.9920536865677521,0.9920536865677521
+minimum local difference in AtomicWeight,minimum local difference in Number,0.9917444873133748,0.9917444873133748
+MagpieData minimum Number,MagpieData range Row,-0.991508592737768,0.991508592737768
+MagpieData minimum Number,MagpieData range NpUnfilled,-0.991126478225508,0.991126478225508
+MagpieData minimum Row,MagpieData range NpUnfilled,-0.9910739353453766,0.9910739353453766
+minimum local difference in NpUnfilled,minimum local difference in Row,0.9910327317595691,0.9910327317595691
+avg_dev CN_VoronoiNN,range CN_VoronoiNN,0.9908420344036218,0.9908420344036218
+MagpieData minimum NdValence,MagpieData range Row,-0.990829101868343,0.990829101868343
+maximum local difference in NpUnfilled,maximum local difference in Row,0.9905991034119008,0.9905991034119008
+avg_dev local difference in NpUnfilled,avg_dev local difference in Row,0.9902686969539665,0.9902686969539665
+MagpieData maximum NpUnfilled,MagpieData minimum AtomicWeight,-0.9901405528909708,0.9901405528909708
+MagpieData maximum NpUnfilled,MagpieData range Row,0.9901037501665253,0.9901037501665253
+pair_atomic_number_mean_abs_diff,pair_atomic_number_rms_diff,0.9896988382099643,0.9896988382099643
+MagpieData range Column,MagpieData range MendeleevNumber,0.9893079045779124,0.9893079045779124
+MagpieData minimum AtomicWeight,MagpieData range NpUnfilled,-0.9888937212051355,0.9888937212051355
+pair_atomic_mass_mean_abs_diff,pair_atomic_mass_rms_diff,0.9888534353277912,0.9888534353277912
+minimum local difference in GSvolume_pa,minimum local difference in NpValence,0.9886591703273441,0.9886591703273441
+max relative bond length,mean absolute deviation in relative bond length,0.9885947392425952,0.9885947392425952
+mean absolute deviation in relative bond length,mean absolute deviation in relative cell size,0.9884900245951134,0.9884900245951134
+derived_atomic_mass_std,pair_atomic_mass_rms_diff,0.9884061514888602,0.9884061514888602
+MagpieData mode GSvolume_pa,MagpieData mode NpValence,0.9883863289954806,0.9883863289954806
+3-norm,7-norm,0.9883658435930026,0.9883658435930026
+range local difference in NpUnfilled,range local difference in Row,0.9873531207711117,0.9873531207711117
+derived_atomic_number_std,pair_atomic_number_rms_diff,0.9871304851575199,0.9871304851575199
+mean local difference in Column,mean local difference in MendeleevNumber,0.9869639701621157,0.9869639701621157
+pair_atomic_mass_rms_diff,pair_atomic_number_mean_abs_diff,0.9856828384265303,0.9856828384265303
+MagpieData avg_dev AtomicWeight,derived_atomic_mass_std,0.9856519835881976,0.9856519835881976
+pair_atomic_mass_mean_abs_diff,pair_atomic_number_rms_diff,0.9856092858633024,0.9856092858633024
+maximum local difference in Column,maximum local difference in MendeleevNumber,0.9853053417000194,0.9853053417000194
+MagpieData minimum Number,MagpieData range Number,-0.9852592814622322,0.9852592814622322
+derived_atomic_mass_std,pair_atomic_number_rms_diff,0.9852126603372474,0.9852126603372474
+MagpieData maximum NpUnfilled,MagpieData minimum NdValence,-0.985125828072775,0.985125828072775
+MagpieData minimum AtomicWeight,MagpieData range Number,-0.9850448449146264,0.9850448449146264
+MagpieData range AtomicWeight,MagpieData range Row,0.9848485507937004,0.9848485507937004
+MagpieData avg_dev AtomicWeight,MagpieData avg_dev Row,0.984807454412411,0.984807454412411
+MagpieData range Number,MagpieData range Row,0.9847711917944283,0.9847711917944283
+maximum local difference in AtomicWeight,maximum local difference in Row,0.9847126122415492,0.9847126122415492
+MagpieData avg_dev Number,derived_atomic_number_std,0.9844795831922796,0.9844795831922796
+derived_atomic_number_std,pair_atomic_mass_rms_diff,0.9842645964900598,0.9842645964900598
+minimum local difference in Column,minimum local difference in MendeleevNumber,0.9841881644726412,0.9841881644726412
+MagpieData avg_dev AtomicWeight,derived_atomic_number_std,0.9840541354071286,0.9840541354071286
+MagpieData minimum NdValence,MagpieData range NpUnfilled,-0.9839191350635418,0.9839191350635418
+MagpieData minimum AtomicWeight,MagpieData range AtomicWeight,-0.9838811788985371,0.9838811788985371
+pair_melting_point_mean_abs_diff,pair_melting_point_rms_diff,0.9837085530978565,0.9837085530978565
+MagpieData avg_dev Column,MagpieData avg_dev MendeleevNumber,0.9834032637815974,0.9834032637815974
+MagpieData avg_dev GSbandgap,mean local difference in GSbandgap,0.983354971204686,0.983354971204686
+pair_atomic_radius_covalent_mean_abs_diff,pair_atomic_radius_covalent_rms_diff,0.9828279445032878,0.9828279445032878
+MagpieData minimum Number,MagpieData range AtomicWeight,-0.9824986718924028,0.9824986718924028
+MagpieData range NpUnfilled,MagpieData range Number,0.9823430938666253,0.9823430938666253
+10-norm,3-norm,0.9823081170038226,0.9823081170038226
+MagpieData minimum Row,MagpieData range AtomicWeight,-0.9821553557113754,0.9821553557113754
+MagpieData minimum Row,MagpieData range Number,-0.982005933737707,0.982005933737707
+MagpieData minimum NdValence,MagpieData range Number,-0.9818589569370564,0.9818589569370564
+MagpieData avg_dev AtomicWeight,MagpieData avg_dev NpUnfilled,0.9812461808898353,0.9812461808898353
+maximum local difference in Number,maximum local difference in Row,0.9811720053017248,0.9811720053017248
+MagpieData avg_dev Row,derived_atomic_mass_std,0.9805175491071325,0.9805175491071325
+MagpieData avg_dev Number,derived_atomic_mass_std,0.9804006038592092,0.9804006038592092
+mean local difference in AtomicWeight,mean local difference in Row,0.9801656918854571,0.9801656918854571
+MagpieData avg_dev Number,MagpieData avg_dev Row,0.9801546128201297,0.9801546128201297
+MagpieData maximum NpUnfilled,MagpieData range Number,0.9795794861852103,0.9795794861852103
+MagpieData minimum NdValence,MagpieData range AtomicWeight,-0.9793100901621806,0.9793100901621806
+MagpieData avg_dev NpUnfilled,MagpieData avg_dev Number,0.9790942958080572,0.9790942958080572
+range local difference in Column,range local difference in MendeleevNumber,0.97884732706064,0.97884732706064
+range local difference in AtomicWeight,range local difference in Row,0.9787515880057369,0.9787515880057369
+2-norm,configurational_entropy_kb_per_atom,-0.9787402702898096,0.9787402702898096
+2-norm,configurational_entropy_j_mol_k,-0.9787402702898029,0.9787402702898029
+max relative bond length,mean absolute deviation in relative cell size,0.9787234098645586,0.9787234098645586
+MagpieData avg_dev Row,derived_atomic_number_std,0.978561945322177,0.978561945322177
+MagpieData range AtomicWeight,derived_atomic_mass_std,0.9785610455316713,0.9785610455316713
+MagpieData avg_dev NValence,derived_vec_std,0.9784912615585283,0.9784912615585283
+MagpieData avg_dev NpUnfilled,mean local difference in NpUnfilled,0.978407290873084,0.978407290873084
+MagpieData maximum GSbandgap,maximum local difference in GSbandgap,0.9782393983587373,0.9782393983587373
+MagpieData range GSbandgap,maximum local difference in GSbandgap,0.9782393983587373,0.9782393983587373
+MagpieData range AtomicWeight,MagpieData range NpUnfilled,0.9780435656237992,0.9780435656237992
+MagpieData avg_dev NpUnfilled,derived_atomic_number_std,0.9779984443841923,0.9779984443841923
+MagpieData avg_dev Row,mean local difference in Row,0.9778906815119767,0.9778906815119767
+MagpieData maximum NValence,MagpieData minimum NUnfilled,-0.977832090282516,0.977832090282516
+2-norm,5-norm,0.9776646300355487,0.9776646300355487
+MagpieData avg_dev NpUnfilled,derived_atomic_mass_std,0.9773953221898294,0.9773953221898294
+maximum local difference in NpUnfilled,maximum local difference in Number,0.9772969427715494,0.9772969427715494
+MagpieData avg_dev NpValence,mean local difference in NpValence,0.9772580196563054,0.9772580196563054
+maximum local difference in AtomicWeight,maximum local difference in NpUnfilled,0.9769170972729893,0.9769170972729893
+MagpieData maximum GSmagmom,MagpieData range GSmagmom,0.9769005047704726,0.9769005047704726
+avg_dev local difference in Column,avg_dev local difference in MendeleevNumber,0.9768573807785548,0.9768573807785548
+mean local difference in Number,mean local difference in Row,0.9766017824752485,0.9766017824752485
+MagpieData mean NpValence,frac p valence electrons,0.9765498847271286,0.9765498847271286
+MagpieData range Number,derived_atomic_number_std,0.9762627781162969,0.9762627781162969
+MagpieData range Electronegativity,max ionic char,0.9757805738720217,0.9757805738720217
+MagpieData maximum NpUnfilled,MagpieData range AtomicWeight,0.9753437672309384,0.9753437672309384
+mean local difference in AtomicWeight,mean local difference in NpUnfilled,0.9752647469047556,0.9752647469047556
+derived_melting_point_std,pair_melting_point_rms_diff,0.9750482874005867,0.9750482874005867
+MagpieData avg_dev GSvolume_pa,mean local difference in NpValence,0.974981653107987,0.974981653107987
+MagpieData avg_dev GSvolume_pa,mean local difference in GSvolume_pa,0.9749541707008309,0.9749541707008309
+MagpieData range Number,derived_atomic_mass_std,0.9749404510026909,0.9749404510026909
+pair_electronegativity_mean_abs_diff,pair_electronegativity_rms_diff,0.974293985415318,0.974293985415318
+MagpieData mode NdValence,MagpieData mode Number,0.9741911760872529,0.9741911760872529
+mean local difference in NpUnfilled,mean local difference in Number,0.9741151170454345,0.9741151170454345
+MagpieData range AtomicWeight,derived_atomic_number_std,0.9739592883783562,0.9739592883783562
+MagpieData maximum GSvolume_pa,MagpieData maximum MendeleevNumber,0.9738319591786104,0.9738319591786104
+MagpieData mean NdValence,derived_vec_mean,0.9735954425060221,0.9735954425060221
+MagpieData mean NValence,MagpieData mean NdValence,0.9735954425060063,0.9735954425060063
+MagpieData mean GSvolume_pa,MagpieData mean Row,-0.973232563342623,0.973232563342623
+MagpieData mean GSvolume_pa,frac p valence electrons,0.9731482813779336,0.9731482813779336
+avg_dev local difference in AtomicWeight,avg_dev local difference in Row,0.9730658409772642,0.9730658409772642
+MagpieData avg_dev Row,mean local difference in NpUnfilled,0.9729645357812223,0.9729645357812223
+range local difference in Number,range local difference in Row,0.9727931790562203,0.9727931790562203
+MagpieData avg_dev AtomicWeight,pair_atomic_mass_rms_diff,0.9727473185421857,0.9727473185421857
+MagpieData avg_dev NpUnfilled,mean local difference in Row,0.9725713135485541,0.9725713135485541
+MagpieData range NpValence,maximum local difference in NpValence,0.972550369323121,0.972550369323121
+MagpieData maximum MendeleevNumber,MagpieData range GSvolume_pa,0.9721133326835434,0.9721133326835434
+MagpieData range GSvolume_pa,maximum local difference in NpValence,0.9719352932384568,0.9719352932384568
+MagpieData maximum NpValence,maximum local difference in NpValence,0.9719188184562614,0.9719188184562614
+MagpieData mode AtomicWeight,MagpieData mode Row,0.9718949094663056,0.9718949094663056
+maximum local difference in GSbandgap,range local difference in GSbandgap,0.9716661508486218,0.9716661508486218
+MagpieData mean Column,MagpieData mean NdUnfilled,-0.971503575907791,0.971503575907791
+MagpieData avg_dev NpValence,mean local difference in GSvolume_pa,0.9709919922606034,0.9709919922606034
+MagpieData avg_dev AtomicWeight,pair_atomic_number_rms_diff,0.9708459002047329,0.9708459002047329
+MagpieData avg_dev Number,pair_atomic_number_rms_diff,0.9706832923394,0.9706832923394
+MagpieData maximum GSvolume_pa,maximum local difference in NpValence,0.9700519497500871,0.9700519497500871
+MagpieData avg_dev Electronegativity,avg ionic char,0.9698730329820314,0.9698730329820314
+MagpieData range NpUnfilled,maximum local difference in NpUnfilled,0.9693346130950742,0.9693346130950742
+avg ionic char,derived_electronegativity_std,0.9689210616070024,0.9689210616070024
+MagpieData range GSvolume_pa,maximum local difference in GSvolume_pa,0.9687911725796341,0.9687911725796341
+MagpieData avg_dev Electronegativity,derived_electronegativity_std,0.9687044100168437,0.9687044100168437
+MagpieData avg_dev CovalentRadius,derived_atomic_radius_covalent_std,0.968645695883652,0.968645695883652
+derived_vec_std,pair_vec_rms_diff,0.9686409763951739,0.9686409763951739
+MagpieData range Row,derived_atomic_mass_std,0.9680465524217305,0.9680465524217305
+MagpieData maximum NpUnfilled,maximum local difference in NpUnfilled,0.9679655358164234,0.9679655358164234
+MagpieData maximum MendeleevNumber,MagpieData maximum NpValence,0.9679325130241924,0.9679325130241924
+MagpieData mean Row,derived_atomic_mass_mean,0.9678217097991754,0.9678217097991754
+MagpieData mean AtomicWeight,MagpieData mean Row,0.967821709799143,0.967821709799143
+MagpieData maximum NValence,MagpieData maximum Number,0.9677869455577435,0.9677869455577435
+MagpieData maximum MendeleevNumber,MagpieData range NpValence,0.9674381902346808,0.9674381902346808
+MagpieData range Row,maximum local difference in Row,0.9672170309895477,0.9672170309895477
+2-norm,7-norm,0.9671922933280427,0.9671922933280427
+MagpieData avg_dev Number,pair_atomic_mass_rms_diff,0.9666564181527033,0.9666564181527033
+avg_dev local difference in Number,avg_dev local difference in Row,0.9665730763468318,0.9665730763468318
+MagpieData minimum AtomicWeight,derived_atomic_mass_std,-0.9664854013226222,0.9664854013226222
+MagpieData minimum Number,derived_atomic_mass_std,-0.9661194363003701,0.9661194363003701
+avg_dev local difference in GSbandgap,maximum local difference in GSbandgap,0.9660863500677535,0.9660863500677535
+MagpieData maximum GSvolume_pa,maximum local difference in GSvolume_pa,0.9657760090950595,0.9657760090950595
+range local difference in AtomicWeight,range local difference in NpUnfilled,0.9655349781273148,0.9655349781273148
+mean local difference in GSvolume_pa,mean local difference in Row,0.9655181933174894,0.9655181933174894
+MagpieData range NpUnfilled,derived_atomic_mass_std,0.9654703867047614,0.9654703867047614
+MagpieData minimum Row,derived_atomic_mass_std,-0.9654598236541805,0.9654598236541805
+MagpieData range AtomicWeight,pair_atomic_mass_rms_diff,0.965342444783428,0.965342444783428
+MagpieData minimum Row,maximum local difference in Row,-0.9653156270072866,0.9653156270072866
+MagpieData minimum Number,derived_atomic_number_std,-0.9649645702664174,0.9649645702664174
+MagpieData range NpUnfilled,derived_atomic_number_std,0.9647247701592251,0.9647247701592251
+MagpieData mean NpUnfilled,derived_atomic_mass_mean,-0.964710853062106,0.964710853062106
+MagpieData mean AtomicWeight,MagpieData mean NpUnfilled,-0.9647108530620724,0.9647108530620724
+MagpieData avg_dev GSvolume_pa,MagpieData avg_dev Row,0.9646944532633039,0.9646944532633039
+MagpieData range Row,derived_atomic_number_std,0.9644922081201841,0.9644922081201841
+MagpieData range NpValence,maximum local difference in GSvolume_pa,0.9642860856979981,0.9642860856979981
+MagpieData minimum AtomicWeight,derived_atomic_number_std,-0.9641970350117678,0.9641970350117678
+MagpieData range Row,maximum local difference in NpUnfilled,0.9639838126037863,0.9639838126037863
+MagpieData mode AtomicWeight,MagpieData mode NdValence,0.9639799466373126,0.9639799466373126
+range local difference in NpUnfilled,range local difference in Number,0.963629893400358,0.963629893400358
+MagpieData minimum NValence,MagpieData minimum Number,0.9635029821757092,0.9635029821757092
+MagpieData maximum NpValence,maximum local difference in GSvolume_pa,0.9633271980286259,0.9633271980286259
+MagpieData avg_dev Row,pair_atomic_mass_rms_diff,0.9632076898342596,0.9632076898342596
+MagpieData mode NValence,MagpieData mode NdValence,0.9631677771543639,0.9631677771543639
+MagpieData minimum Row,maximum local difference in NpUnfilled,-0.9628713270140404,0.9628713270140404
+MagpieData maximum NpUnfilled,derived_atomic_mass_std,0.9628645775006919,0.9628645775006919
+MagpieData maximum MendeleevNumber,MagpieData minimum Row,-0.962836719158718,0.962836719158718
+MagpieData range AtomicWeight,MagpieData range NdValence,0.9627695560697018,0.9627695560697018
+avg_dev local difference in AtomicWeight,avg_dev local difference in NpUnfilled,0.9626939391327242,0.9626939391327242
+derived_atomic_mass_std,pair_atomic_mass_mean_abs_diff,0.9623388047600349,0.9623388047600349
+MagpieData avg_dev AtomicWeight,mean local difference in Row,0.9622917584452556,0.9622917584452556
+MagpieData mode Number,MagpieData mode Row,0.9622388977166682,0.9622388977166682
+MagpieData maximum NpUnfilled,derived_atomic_number_std,0.9621014916050498,0.9621014916050498
+MagpieData minimum Number,maximum local difference in NpUnfilled,-0.9619791492390259,0.9619791492390259
+MagpieData minimum Row,derived_atomic_number_std,-0.9618852797315017,0.9618852797315017
+derived_atomic_number_std,pair_atomic_number_mean_abs_diff,0.9618448352174971,0.9618448352174971
+MagpieData maximum NValence,MagpieData maximum NdValence,0.9618296287986319,0.9618296287986319
+MagpieData range NdValence,MagpieData range Number,0.9617423657618553,0.9617423657618553
+MagpieData avg_dev AtomicWeight,mean local difference in AtomicWeight,0.9617372559155561,0.9617372559155561
+MagpieData minimum NdValence,derived_atomic_mass_std,-0.9617133874828301,0.9617133874828301
+atomic_size_mismatch_percent,pair_atomic_radius_covalent_rms_diff,0.9615577987242603,0.9615577987242603
+MagpieData avg_dev CovalentRadius,atomic_size_mismatch_percent,0.9614074382526779,0.9614074382526779
+derived_atomic_radius_covalent_std,pair_atomic_radius_covalent_rms_diff,0.9612930374521931,0.9612930374521931
+MagpieData avg_dev AtomicWeight,pair_atomic_mass_mean_abs_diff,0.961174105310124,0.961174105310124
+MagpieData mean NdValence,MagpieData mean Number,0.9610248768560676,0.9610248768560676
+MagpieData mean NdValence,derived_atomic_number_mean,0.9610248768560398,0.9610248768560398
+MagpieData avg_dev Row,pair_atomic_number_rms_diff,0.960963900798233,0.960963900798233
+MagpieData mean NpValence,MagpieData mean Row,-0.9609336488755295,0.9609336488755295
+MagpieData mean Row,derived_atomic_number_mean,0.9607799639013118,0.9607799639013118
+MagpieData mean Number,MagpieData mean Row,0.9607799639012713,0.9607799639012713
+MagpieData avg_dev Number,pair_atomic_number_mean_abs_diff,0.9607104550073837,0.9607104550073837
+MagpieData minimum NdValence,derived_atomic_number_std,-0.9606710852560113,0.9606710852560113
+MagpieData avg_dev NpUnfilled,pair_atomic_number_rms_diff,0.9606056406355816,0.9606056406355816
+MagpieData maximum MendeleevNumber,MagpieData range Row,0.9605944551868749,0.9605944551868749
+derived_atomic_mass_std,mean local difference in AtomicWeight,0.9605081215428041,0.9605081215428041
+MagpieData minimum AtomicWeight,maximum local difference in NpUnfilled,-0.9603023502795532,0.9603023502795532
+MagpieData range AtomicWeight,pair_atomic_number_rms_diff,0.960275961402951,0.960275961402951
+MagpieData maximum GSvolume_pa,MagpieData minimum Row,-0.9602410416518464,0.9602410416518464
+MagpieData avg_dev NpUnfilled,pair_atomic_mass_rms_diff,0.9601979121929359,0.9601979121929359
+MagpieData avg_dev AtomicWeight,pair_atomic_number_mean_abs_diff,0.9599564943396641,0.9599564943396641
+derived_atomic_mass_std,pair_atomic_number_mean_abs_diff,0.959914025168382,0.959914025168382
+MagpieData avg_dev NpUnfilled,MagpieData range NpUnfilled,0.9598542427857043,0.9598542427857043
+MagpieData minimum AtomicWeight,maximum local difference in Row,-0.959670774230499,0.959670774230499
+avg_dev local difference in NpUnfilled,avg_dev local difference in Number,0.9596369404176055,0.9596369404176055
+MagpieData avg_dev AtomicWeight,mean local difference in NpUnfilled,0.9595222993696917,0.9595222993696917
+MagpieData mean NpUnfilled,derived_atomic_number_mean,-0.9593908147394373,0.9593908147394373
+MagpieData mean NpUnfilled,MagpieData mean Number,-0.9593908147393977,0.9593908147393977
+maximum local difference in NpValence,range local difference in NpValence,0.95884668742209,0.95884668742209
+MagpieData minimum AtomicWeight,MagpieData minimum NValence,0.9586796799970079,0.9586796799970079
+MagpieData avg_dev MeltingT,derived_melting_point_std,0.9586620318473243,0.9586620318473243
+MagpieData avg_dev NpUnfilled,MagpieData maximum NpUnfilled,0.9585765128742958,0.9585765128742958
+MagpieData minimum NdValence,maximum local difference in Row,-0.9583467821271654,0.9583467821271654
+derived_atomic_number_std,mean local difference in AtomicWeight,0.9583265511372091,0.9583265511372091
+10-norm,2-norm,0.958273809900684,0.958273809900684
+MagpieData minimum Number,maximum local difference in Row,-0.957999119168218,0.957999119168218
+maximum local difference in NdValence,maximum local difference in Number,0.9579980351878142,0.9579980351878142
+MagpieData avg_dev Number,mean local difference in AtomicWeight,0.9579409251726305,0.9579409251726305
+MagpieData range Number,pair_atomic_number_rms_diff,0.9579194447135773,0.9579194447135773
+MagpieData range GSvolume_pa,MagpieData range Row,0.9579051257992973,0.9579051257992973
+derived_atomic_mass_std,mean local difference in Row,0.9578859662621031,0.9578859662621031
+MagpieData avg_dev Number,mean local difference in Row,0.9578192967680605,0.9578192967680605
+MagpieData maximum GSvolume_pa,MagpieData range Row,0.9578142425554814,0.9578142425554814
+MagpieData avg_dev Number,mean local difference in NpUnfilled,0.9575218336602868,0.9575218336602868
+MagpieData minimum Row,MagpieData range GSvolume_pa,-0.9575002093550119,0.9575002093550119
+derived_atomic_number_std,pair_atomic_mass_mean_abs_diff,0.9574966035785091,0.9574966035785091
+maximum local difference in GSvolume_pa,range local difference in NpValence,0.957372240280524,0.957372240280524
+MagpieData range NpUnfilled,maximum local difference in Row,0.9572983105163115,0.9572983105163115
+MagpieData avg_dev Number,mean local difference in Number,0.9572494114099424,0.9572494114099424
+MagpieData avg_dev NpValence,MagpieData range NpValence,0.957181033327501,0.957181033327501
+mean local difference in NdValence,mean local difference in Number,0.957163501684904,0.957163501684904
+MagpieData maximum NdValence,MagpieData minimum NUnfilled,-0.957138685739416,0.957138685739416
+MagpieData range Number,pair_atomic_mass_rms_diff,0.9570581779307971,0.9570581779307971
+derived_atomic_number_std,mean local difference in Number,0.9568580358147651,0.9568580358147651
+MagpieData avg_dev NpValence,MagpieData maximum NpValence,0.9568103245763087,0.9568103245763087
+0-norm,configurational_entropy_j_mol_k,0.9563879715692793,0.9563879715692793
+configurational_entropy_j_mol_k,nelements,0.9563879715692793,0.9563879715692793
+composition_number_of_elements,configurational_entropy_j_mol_k,0.9563879715692793,0.9563879715692793
+configurational_entropy_kb_per_atom,nelements,0.9563879715692543,0.9563879715692543
+0-norm,configurational_entropy_kb_per_atom,0.9563879715692541,0.9563879715692541
+composition_number_of_elements,configurational_entropy_kb_per_atom,0.9563879715692541,0.9563879715692541
+MagpieData avg_dev NdValence,MagpieData avg_dev Number,0.9563235008273216,0.9563235008273216
+minimum local difference in AtomicWeight,minimum local difference in Row,0.9560794851301289,0.9560794851301289
+derived_atomic_number_std,mean local difference in Row,0.9560408513928816,0.9560408513928816
+MagpieData minimum NdValence,maximum local difference in NpUnfilled,-0.9559201281214176,0.9559201281214176
+MagpieData maximum GSvolume_pa,MagpieData minimum AtomicWeight,-0.9555830431479866,0.9555830431479866
+MagpieData avg_dev NpValence,MagpieData maximum GSvolume_pa,0.9554675680254908,0.9554675680254908
+MagpieData avg_dev Number,pair_atomic_mass_mean_abs_diff,0.9554659360282224,0.9554659360282224
+MagpieData avg_dev MeltingT,pair_melting_point_rms_diff,0.955376569306466,0.955376569306466
+MagpieData maximum NpUnfilled,maximum local difference in Row,0.9552749964253374,0.9552749964253374
+avg_dev local difference in GSbandgap,range local difference in GSbandgap,0.9552295190567786,0.9552295190567786
+MagpieData avg_dev AtomicWeight,mean local difference in Number,0.9552167105696625,0.9552167105696625
+derived_electronegativity_std,pair_electronegativity_rms_diff,0.9550646041928271,0.9550646041928271
+MagpieData range Row,pair_atomic_mass_rms_diff,0.9549676185531525,0.9549676185531525
+derived_atomic_number_std,mean local difference in NpUnfilled,0.9549580632545412,0.9549580632545412
+MagpieData avg_dev Row,MagpieData range Row,0.9547972794617027,0.9547972794617027
+MagpieData range AtomicWeight,maximum local difference in AtomicWeight,0.9547270905570955,0.9547270905570955
+MagpieData maximum GSvolume_pa,MagpieData minimum NdValence,-0.9546152453273355,0.9546152453273355
+MagpieData avg_dev Row,MagpieData range NpUnfilled,0.9544094568985232,0.9544094568985232
+avg_dev local difference in NpValence,range local difference in NpValence,0.9543676208347542,0.9543676208347542
+derived_atomic_mass_std,mean local difference in NpUnfilled,0.9543024229712208,0.9543024229712208
+MagpieData maximum MendeleevNumber,MagpieData range Number,0.9541557749462101,0.9541557749462101
+avg_dev local difference in NpUnfilled,range local difference in NpUnfilled,0.9541338942820404,0.9541338942820404
+avg_dev local difference in NpValence,maximum local difference in NpValence,0.9541200042684999,0.9541200042684999
+maximum local difference in AtomicWeight,maximum local difference in NdValence,0.9537581174224566,0.9537581174224566
+MagpieData avg_dev NpValence,MagpieData range GSvolume_pa,0.9533964960903554,0.9533964960903554
+MagpieData mean AtomicWeight,MagpieData mean NdValence,0.953117427672752,0.953117427672752
+MagpieData mean NdValence,derived_atomic_mass_mean,0.9531174276727193,0.9531174276727193
+MagpieData avg_dev Row,MagpieData minimum Row,-0.9529202908528918,0.9529202908528918
+MagpieData range Number,maximum local difference in AtomicWeight,0.9528868955420517,0.9528868955420517
+derived_atomic_mass_std,mean local difference in Number,0.9528771915979447,0.9528771915979447
+MagpieData mean MendeleevNumber,MagpieData mean NdUnfilled,-0.9528021938398515,0.9528021938398515
+MagpieData minimum AtomicWeight,MagpieData range GSvolume_pa,-0.9527527206773123,0.9527527206773123
+MagpieData avg_dev GSvolume_pa,MagpieData maximum GSvolume_pa,0.9527310248567652,0.9527310248567652
+mean local difference in AtomicWeight,mean local difference in NdValence,0.9527175735286341,0.9527175735286341
+MagpieData minimum NValence,MagpieData minimum NdValence,0.9526828232894655,0.9526828232894655
+maximum local difference in GSvolume_pa,range local difference in GSvolume_pa,0.9526283603970334,0.9526283603970334
+minimum local difference in GSvolume_pa,minimum local difference in Row,0.9525803617627321,0.9525803617627321
+MagpieData maximum Column,MagpieData maximum GSvolume_pa,0.9525673511810342,0.9525673511810342
+MagpieData minimum Row,pair_atomic_mass_rms_diff,-0.9524353816154547,0.9524353816154547
+MagpieData avg_dev Row,MagpieData maximum NpUnfilled,0.9524052570926395,0.9524052570926395
+MagpieData avg_dev GSvolume_pa,MagpieData range GSvolume_pa,0.9521642161015108,0.9521642161015108
+MagpieData range Number,maximum local difference in NpUnfilled,0.9520736718632419,0.9520736718632419
+MagpieData range Number,maximum local difference in Number,0.9519834824449732,0.9519834824449732
+3-norm,configurational_entropy_j_mol_k,-0.9519740794846615,0.9519740794846615
+3-norm,configurational_entropy_kb_per_atom,-0.9519740794846556,0.9519740794846556
+MagpieData minimum AtomicWeight,pair_atomic_mass_rms_diff,-0.9519627687299058,0.9519627687299058
+MagpieData avg_dev Row,mean local difference in AtomicWeight,0.9519233062321137,0.9519233062321137
+MagpieData minimum NdValence,MagpieData range GSvolume_pa,-0.9518522737001259,0.9518522737001259
+MagpieData range GSbandgap,avg_dev local difference in GSbandgap,0.9517077303268447,0.9517077303268447
+MagpieData maximum GSbandgap,avg_dev local difference in GSbandgap,0.9517077303268447,0.9517077303268447
+MagpieData avg_dev GSvolume_pa,MagpieData range NpValence,0.9516983018288766,0.9516983018288766
+mean local difference in NpValence,mean local difference in Row,0.9513921060383282,0.9513921060383282
+MagpieData range NValence,MagpieData range NdValence,0.9513728335278436,0.9513728335278436
+MagpieData avg_dev NpValence,MagpieData avg_dev Row,0.9513704216521947,0.9513704216521947
+avg_dev local difference in NpValence,maximum local difference in GSvolume_pa,0.9513380820446371,0.9513380820446371
+MagpieData range Row,pair_atomic_number_rms_diff,0.951241902604763,0.951241902604763
+MagpieData maximum MendeleevNumber,MagpieData range AtomicWeight,0.9512297775498483,0.9512297775498483
+MagpieData range Row,maximum local difference in AtomicWeight,0.9511458830321841,0.9511458830321841
+MagpieData mean Row,frac p valence electrons,-0.9510690681957441,0.9510690681957441
+MagpieData maximum GSvolume_pa,MagpieData minimum Number,-0.9510319939253515,0.9510319939253515
+MagpieData maximum MendeleevNumber,MagpieData minimum AtomicWeight,-0.9510109057416595,0.9510109057416595
+MagpieData avg_dev GSvolume_pa,MagpieData maximum NpValence,0.9509229639347747,0.9509229639347747
+MagpieData maximum Column,MagpieData range GSvolume_pa,0.9508840232668931,0.9508840232668931
+MagpieData minimum Number,pair_atomic_mass_rms_diff,-0.9506201303042324,0.9506201303042324
+MagpieData avg_dev AtomicWeight,MagpieData avg_dev NdValence,0.9504910995859308,0.9504910995859308
+maximum local difference in GSvolume_pa,maximum local difference in Row,0.9503784623853742,0.9503784623853742
+MagpieData maximum MendeleevNumber,MagpieData minimum NdValence,-0.9503726690347971,0.9503726690347971
+MagpieData maximum Column,MagpieData minimum Row,-0.9501987121325534,0.9501987121325534
+avg_dev local difference in GSvolume_pa,range local difference in GSvolume_pa,0.9501354593243834,0.9501354593243834
+avg_dev local difference in GSvolume_pa,range local difference in NpValence,0.9500802369582061,0.9500802369582061
+MagpieData avg_dev NpUnfilled,MagpieData minimum Number,-0.9500413445485923,0.9500413445485923

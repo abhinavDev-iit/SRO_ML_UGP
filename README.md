@@ -4,7 +4,7 @@ Local, reproducible research-software project for constructing a provenance-pres
 
 ## Current status
 
-The project has completed Phase 3 database construction and extensive leakage-controlled feature engineering. No machine-learning model has been trained.
+The project has completed Phase 4 exploratory analysis, correlation/redundancy screening, and preliminary feature-set construction. No machine-learning model has been trained.
 
 - Seven local source families and 46,123 raw files have been inventoried.
 - The 84k DFT source provides 83,797 initial FCC/BCC configurations with aggregate shell-resolved SRO labels.
@@ -12,7 +12,10 @@ The project has completed Phase 3 database construction and extensive leakage-co
 - The local processed database contains 83,797 validated rows (40,425 FCC; 43,372 BCC) and 348 candidate predictors with complete provenance and no missing feature values.
 - Four Zstandard-compressed Parquet tables are reproducibly generated under ignored `data/processed/`.
 - HCP remains a critical gap: 255 candidate HCP CrCoNi CFG configurations were audited at the documented 500 K, but zero WC labels pass reference validation.
-- Five 300 dpi thesis figures and compact CSV summaries report phase, alloy-system, element, feature-availability and missingness coverage.
+- Phase 4 analyzes exactly the 83,797 validated FCC/BCC rows; all 255 provisional HCP configurations remain excluded.
+- Pearson, Spearman and mutual-information screens were calculated for the aggregate, FCC-only and BCC-only cohorts. The 348-feature library contains 24 constants, 29 near-zero-variance features, and 426 feature pairs with aggregate |Pearson r| >= 0.95.
+- Preliminary comparison sets contain 324 `FULL_CLEAN`, 198 `BALANCED_PRELIMINARY`, and 19 `MINIMAL_PRELIMINARY` predictors. These are not final model-selected sets.
+- Eighteen 300 dpi thesis figures and matching compact CSV tables report coverage, target distributions, associations, phase differences, nonlinear trends, availability and redundancy.
 
 ## Data policy
 
@@ -32,6 +35,7 @@ python scripts/profile_raw_inventory.py
 python scripts/profile_mlp_csro_cfg.py
 python run_pipeline.py ingest-84k --dry-run
 python run_pipeline.py build-phase3
+python run_pipeline.py analyze-phase4
 ```
 
 The legacy standardized ignored local CSV view can still be generated with:
@@ -49,6 +53,7 @@ python run_pipeline.py ingest-84k
 - `src/ingestion/`: source-specific ingestion adapters
 - `src/features/`: composition, elemental-property and pair feature engineering
 - `src/pipeline/`: validated Phase 3 Parquet/QA/figure construction
+- `src/analysis/`: reproducible Phase 4 EDA, association, redundancy and preliminary-set logic
 - `tests/`: scientifically important validation tests
 - `run_pipeline.py`: modular command-line entry point
 
@@ -56,4 +61,4 @@ python run_pipeline.py ingest-84k
 
 Raw provenance is retained; physically different SRO metrics are not merged; initial and relaxed features are separated; final DFT energy, volume and symmetry are excluded from default 84k predictors; direct ordering proxies are also excluded. Future validation must group related structures, compositions, trajectories and sources to prevent pseudo-replication.
 
-See `reports/data_quality_report.md` and `reports/tables/feature_provenance.csv` before any EDA or modeling. Initial structure-derived descriptors require an explicit ablation against composition-only features because they can encode the occupations used to calculate SRO.
+See `reports/eda_analysis.md`, `reports/feature_groups.md`, `reports/feature_redundancy.md`, and `reports/minimal_feature_set.md` before modeling. Initial structure-derived descriptors require an explicit ablation against composition-only features because they can encode the occupations used to calculate SRO. Phase 5 must use composition/alloy-system grouped validation rather than naive row-random splitting.

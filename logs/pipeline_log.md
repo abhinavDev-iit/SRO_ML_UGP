@@ -36,3 +36,17 @@
 - **Warnings:** 84k target is shell/pair aggregated and temperature-free; initial arrangement descriptors need composition-only ablation; rows within chemical systems/configuration families are dependent
 - **Raw changes:** added ignored 5.68 MB upstream source archive under `data/raw/mlp_csro/upstream_2026-08-22/`; no existing raw file changed
 - **Training:** not started
+
+## 2026-08-22 — Phase 4: EDA, association and redundancy analysis
+
+- **Input:** ignored local `ml_dataset.parquet` with 83,797 validated rows and tracked 348-feature provenance table
+- **Population:** FCC 40,425; BCC 43,372; HCP 0. All 255 provisional HCP CFG rows excluded by assertion and tests.
+- **Operations:** master/FCC/BCC coverage and target characterization; feature taxonomy/portability flags; Pearson and Spearman correlations on every cohort row; deterministic target-quantile-stratified mutual information (maximum 20,000 rows per cohort); exact-duplicate/constant/NZV audit; full aggregate Pearson redundancy matrix; preliminary feature sets; 300 dpi figure generation
+- **Target:** `target_mean_abs_sro_shell1`, an aggregate unlike-pair first-shell Warren–Cowley magnitude, never used as a predictor
+- **Results:** target mean 0.3345 (FCC 0.2640; BCC 0.4002); 24 constants; 29 NZV features; 426 pairs with |r| >= 0.95; aggregate strongest Pearson/Spearman feature `space_group_number_ini` (r=0.4753, rho=0.5931); strongest MI feature `5-norm` (1.7996, ranking statistic only)
+- **Feature sets:** `FULL_CLEAN` 324; `BALANCED_PRELIMINARY` 198; `MINIMAL_PRELIMINARY` 19. No model importance or held-out performance used.
+- **Outputs:** five scientific reports, Phase 4 metrics JSON, 14 compact result-table families mirrored into thesis outputs, full correlation CSV, 18 thesis-quality figures, captions/analysis notes/results summary
+- **Validation:** exact cohort/key counts, HCP exclusion, leakage/proxy rank checks, complete feature-group coverage, deterministic rerun, CSV artifact inspection, PNG dimension/DPI checks, full unit/integration test suite
+- **Warnings:** association is not causation; rows are nested within compositions/systems; MI magnitudes depend on estimator/sample; initial symmetry/geometry can encode configuration regime; Phase 5 requires group-aware validation and structure-feature ablation
+- **HCP:** no new data downloaded; validated count remains zero; MLP-cSRO reference arrays or compact HfTiZr WC/configuration bundle still required
+- **Training:** not started

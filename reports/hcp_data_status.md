@@ -2,6 +2,12 @@
 
 Inventory date: 2026-08-22.
 
+## Phase 4 update
+
+The exploratory/correlation database remains FCC/BCC-only: **40,425 FCC**, **43,372 BCC**, and **0 validated HCP** observations. All **255 provisional MLP-cSRO HCP CrCoNi configurations** were excluded by an explicit pipeline assertion and output test. No new HCP archive was downloaded during Phase 4, and no file above 500 MB was requested. The missing author HCP `LOP_*.npy` Warren–Cowley reference arrays still prevent validation of the reconstructed values.
+
+The next compact priority is unchanged: obtain the MLP-cSRO HCP reference arrays/topology mapping to validate the already-local 255 configurations. If unavailable, add a completed HfTiZr HCP bundle containing configurations, pair-resolved WC output, and genuine run-temperature metadata. Phase 4's `MINIMAL_PRELIMINARY` composition/elemental feature set is designed for this future cross-source comparison, but its binary phase representation must be expanded after HCP validation.
+
 ## Phase 3 update
 
 The validated HCP count remains **0**. The 255 TS-5-minus-TS-4 HCP CFG additions were parsed as 144-atom equiatomic CrCoNi configurations at the study's documented 500 K. First-shell WC values were provisionally reconstructed using 12 periodic nearest neighbours, but 98/255 configurations have a minimum 13th/12th-neighbour distance ratio below 1.02 (minimum `1.0000008`). This makes distance-ranked topology ambiguous for a substantial subset. Because the author-reference `LOP_*.npy` HCP arrays and exact topology mapping are still absent, these values are stored only in ignored `data/processed/hcp_candidates_provisional.parquet` and are excluded from the validated ML database.

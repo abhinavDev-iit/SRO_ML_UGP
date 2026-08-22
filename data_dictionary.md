@@ -44,3 +44,16 @@ This dictionary covers fields created or explicitly governed by the current inge
 | HCP provisional WC fields | six unique Cr/Co/Ni pair WC values reconstructed from 12 nearest neighbours | dimensionless | structure-derived, unvalidated | 0% within candidate table | excluded from primary ML |
 
 Feature origins are controlled vocabulary values: `direct source`, `composition-derived`, `elemental-reference-derived`, `structure-derived`, and `externally enriched`. Phase 3 uses the first four; no externally enriched predictor is present.
+
+## Phase 4 analysis artifacts
+
+| Table/field | Definition | Units | Interpretation |
+|---|---|---|---|
+| `feature_group_mapping.csv` | one row per candidate predictor with physical group, origin, availability class, metadata and proxy-risk flags | none | governs scientific interpretation and cross-source portability |
+| `feature_target_associations.csv` | aggregate/FCC/BCC Pearson, Spearman and 5-neighbour mutual-information statistics | mixed | screening only; absolute MI values are estimator-dependent |
+| `feature_quality.csv` | cohort-specific missingness, range, variance, unique values and dominant-value fraction | mixed | identifies constants and near-zero-variance predictors |
+| `highly_correlated_feature_pairs.csv` | all aggregate predictor pairs satisfying `abs(Pearson r) >= 0.95` | dimensionless | redundancy audit; not a causal relation |
+| `preliminary_feature_sets.csv` | membership and rationale for `FULL_CLEAN`, `BALANCED_PRELIMINARY`, and `MINIMAL_PRELIMINARY` | none | preliminary only; must be evaluated inside group-aware Phase 5 validation |
+| `target_statistics.csv` | range, moments, percentiles, Tukey outliers and near-zero fractions for all/FCC/BCC | target units | target is dimensionless aggregate first-shell ordering magnitude |
+
+Phase 4 excludes the 24 aggregate-constant predictors from `FULL_CLEAN`; it does not treat the 255 HCP candidate configurations as labelled observations. The 19-feature portable set uses `phase_FCC` for the current two-phase database. If HCP is validated later, phase encoding must become an explicit three-level training-time transformation.

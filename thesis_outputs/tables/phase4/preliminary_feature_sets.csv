@@ -1,0 +1,542 @@
+set,selection_order,feature,rationale
+FULL_CLEAN,1,0-norm,scientifically valid nonleaking
+FULL_CLEAN,2,10-norm,scientifically valid nonleaking
+FULL_CLEAN,3,2-norm,scientifically valid nonleaking
+FULL_CLEAN,4,3-norm,scientifically valid nonleaking
+FULL_CLEAN,5,5-norm,scientifically valid nonleaking
+FULL_CLEAN,6,7-norm,scientifically valid nonleaking
+FULL_CLEAN,7,MagpieData avg_dev AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,8,MagpieData avg_dev Column,scientifically valid nonleaking
+FULL_CLEAN,9,MagpieData avg_dev CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,10,MagpieData avg_dev Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,11,MagpieData avg_dev GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,12,MagpieData avg_dev GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,13,MagpieData avg_dev GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,14,MagpieData avg_dev MeltingT,scientifically valid nonleaking
+FULL_CLEAN,15,MagpieData avg_dev MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,16,MagpieData avg_dev NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,17,MagpieData avg_dev NValence,scientifically valid nonleaking
+FULL_CLEAN,18,MagpieData avg_dev NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,19,MagpieData avg_dev NdValence,scientifically valid nonleaking
+FULL_CLEAN,20,MagpieData avg_dev NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,21,MagpieData avg_dev NpValence,scientifically valid nonleaking
+FULL_CLEAN,22,MagpieData avg_dev NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,23,MagpieData avg_dev NsValence,scientifically valid nonleaking
+FULL_CLEAN,24,MagpieData avg_dev Number,scientifically valid nonleaking
+FULL_CLEAN,25,MagpieData avg_dev Row,scientifically valid nonleaking
+FULL_CLEAN,26,MagpieData avg_dev SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,27,MagpieData maximum AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,28,MagpieData maximum Column,scientifically valid nonleaking
+FULL_CLEAN,29,MagpieData maximum CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,30,MagpieData maximum Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,31,MagpieData maximum GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,32,MagpieData maximum GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,33,MagpieData maximum GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,34,MagpieData maximum MeltingT,scientifically valid nonleaking
+FULL_CLEAN,35,MagpieData maximum MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,36,MagpieData maximum NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,37,MagpieData maximum NValence,scientifically valid nonleaking
+FULL_CLEAN,38,MagpieData maximum NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,39,MagpieData maximum NdValence,scientifically valid nonleaking
+FULL_CLEAN,40,MagpieData maximum NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,41,MagpieData maximum NpValence,scientifically valid nonleaking
+FULL_CLEAN,42,MagpieData maximum NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,43,MagpieData maximum NsValence,scientifically valid nonleaking
+FULL_CLEAN,44,MagpieData maximum Number,scientifically valid nonleaking
+FULL_CLEAN,45,MagpieData maximum Row,scientifically valid nonleaking
+FULL_CLEAN,46,MagpieData maximum SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,47,MagpieData mean AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,48,MagpieData mean Column,scientifically valid nonleaking
+FULL_CLEAN,49,MagpieData mean CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,50,MagpieData mean Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,51,MagpieData mean GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,52,MagpieData mean GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,53,MagpieData mean GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,54,MagpieData mean MeltingT,scientifically valid nonleaking
+FULL_CLEAN,55,MagpieData mean MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,56,MagpieData mean NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,57,MagpieData mean NValence,scientifically valid nonleaking
+FULL_CLEAN,58,MagpieData mean NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,59,MagpieData mean NdValence,scientifically valid nonleaking
+FULL_CLEAN,60,MagpieData mean NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,61,MagpieData mean NpValence,scientifically valid nonleaking
+FULL_CLEAN,62,MagpieData mean NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,63,MagpieData mean NsValence,scientifically valid nonleaking
+FULL_CLEAN,64,MagpieData mean Number,scientifically valid nonleaking
+FULL_CLEAN,65,MagpieData mean Row,scientifically valid nonleaking
+FULL_CLEAN,66,MagpieData mean SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,67,MagpieData minimum AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,68,MagpieData minimum Column,scientifically valid nonleaking
+FULL_CLEAN,69,MagpieData minimum CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,70,MagpieData minimum Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,71,MagpieData minimum GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,72,MagpieData minimum GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,73,MagpieData minimum MeltingT,scientifically valid nonleaking
+FULL_CLEAN,74,MagpieData minimum MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,75,MagpieData minimum NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,76,MagpieData minimum NValence,scientifically valid nonleaking
+FULL_CLEAN,77,MagpieData minimum NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,78,MagpieData minimum NdValence,scientifically valid nonleaking
+FULL_CLEAN,79,MagpieData minimum NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,80,MagpieData minimum NpValence,scientifically valid nonleaking
+FULL_CLEAN,81,MagpieData minimum NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,82,MagpieData minimum NsValence,scientifically valid nonleaking
+FULL_CLEAN,83,MagpieData minimum Number,scientifically valid nonleaking
+FULL_CLEAN,84,MagpieData minimum Row,scientifically valid nonleaking
+FULL_CLEAN,85,MagpieData minimum SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,86,MagpieData mode AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,87,MagpieData mode Column,scientifically valid nonleaking
+FULL_CLEAN,88,MagpieData mode CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,89,MagpieData mode Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,90,MagpieData mode GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,91,MagpieData mode GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,92,MagpieData mode GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,93,MagpieData mode MeltingT,scientifically valid nonleaking
+FULL_CLEAN,94,MagpieData mode MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,95,MagpieData mode NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,96,MagpieData mode NValence,scientifically valid nonleaking
+FULL_CLEAN,97,MagpieData mode NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,98,MagpieData mode NdValence,scientifically valid nonleaking
+FULL_CLEAN,99,MagpieData mode NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,100,MagpieData mode NpValence,scientifically valid nonleaking
+FULL_CLEAN,101,MagpieData mode NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,102,MagpieData mode NsValence,scientifically valid nonleaking
+FULL_CLEAN,103,MagpieData mode Number,scientifically valid nonleaking
+FULL_CLEAN,104,MagpieData mode Row,scientifically valid nonleaking
+FULL_CLEAN,105,MagpieData mode SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,106,MagpieData range AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,107,MagpieData range Column,scientifically valid nonleaking
+FULL_CLEAN,108,MagpieData range CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,109,MagpieData range Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,110,MagpieData range GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,111,MagpieData range GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,112,MagpieData range GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,113,MagpieData range MeltingT,scientifically valid nonleaking
+FULL_CLEAN,114,MagpieData range MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,115,MagpieData range NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,116,MagpieData range NValence,scientifically valid nonleaking
+FULL_CLEAN,117,MagpieData range NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,118,MagpieData range NdValence,scientifically valid nonleaking
+FULL_CLEAN,119,MagpieData range NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,120,MagpieData range NpValence,scientifically valid nonleaking
+FULL_CLEAN,121,MagpieData range NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,122,MagpieData range NsValence,scientifically valid nonleaking
+FULL_CLEAN,123,MagpieData range Number,scientifically valid nonleaking
+FULL_CLEAN,124,MagpieData range Row,scientifically valid nonleaking
+FULL_CLEAN,125,MagpieData range SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,126,NIONS,scientifically valid nonleaking
+FULL_CLEAN,127,atomic_size_mismatch_percent,scientifically valid nonleaking
+FULL_CLEAN,128,avg ionic char,scientifically valid nonleaking
+FULL_CLEAN,129,avg_dev CN_VoronoiNN,scientifically valid nonleaking
+FULL_CLEAN,130,avg_dev local difference in AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,131,avg_dev local difference in Column,scientifically valid nonleaking
+FULL_CLEAN,132,avg_dev local difference in CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,133,avg_dev local difference in Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,134,avg_dev local difference in GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,135,avg_dev local difference in GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,136,avg_dev local difference in GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,137,avg_dev local difference in MeltingT,scientifically valid nonleaking
+FULL_CLEAN,138,avg_dev local difference in MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,139,avg_dev local difference in NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,140,avg_dev local difference in NValence,scientifically valid nonleaking
+FULL_CLEAN,141,avg_dev local difference in NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,142,avg_dev local difference in NdValence,scientifically valid nonleaking
+FULL_CLEAN,143,avg_dev local difference in NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,144,avg_dev local difference in NpValence,scientifically valid nonleaking
+FULL_CLEAN,145,avg_dev local difference in NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,146,avg_dev local difference in NsValence,scientifically valid nonleaking
+FULL_CLEAN,147,avg_dev local difference in Number,scientifically valid nonleaking
+FULL_CLEAN,148,avg_dev local difference in Row,scientifically valid nonleaking
+FULL_CLEAN,149,avg_dev local difference in SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,150,avg_dev neighbor distance variation,scientifically valid nonleaking
+FULL_CLEAN,151,composition_fraction_Al,scientifically valid nonleaking
+FULL_CLEAN,152,composition_fraction_Co,scientifically valid nonleaking
+FULL_CLEAN,153,composition_fraction_Cr,scientifically valid nonleaking
+FULL_CLEAN,154,composition_fraction_Cu,scientifically valid nonleaking
+FULL_CLEAN,155,composition_fraction_Fe,scientifically valid nonleaking
+FULL_CLEAN,156,composition_fraction_Mn,scientifically valid nonleaking
+FULL_CLEAN,157,composition_fraction_Ni,scientifically valid nonleaking
+FULL_CLEAN,158,composition_fraction_Si,scientifically valid nonleaking
+FULL_CLEAN,159,composition_number_of_elements,scientifically valid nonleaking
+FULL_CLEAN,160,compound possible,scientifically valid nonleaking
+FULL_CLEAN,161,configurational_entropy_j_mol_k,scientifically valid nonleaking
+FULL_CLEAN,162,configurational_entropy_kb_per_atom,scientifically valid nonleaking
+FULL_CLEAN,163,configurational_entropy_normalized,scientifically valid nonleaking
+FULL_CLEAN,164,derived_atomic_mass_mean,scientifically valid nonleaking
+FULL_CLEAN,165,derived_atomic_mass_std,scientifically valid nonleaking
+FULL_CLEAN,166,derived_atomic_number_mean,scientifically valid nonleaking
+FULL_CLEAN,167,derived_atomic_number_std,scientifically valid nonleaking
+FULL_CLEAN,168,derived_atomic_radius_covalent_mean,scientifically valid nonleaking
+FULL_CLEAN,169,derived_atomic_radius_covalent_std,scientifically valid nonleaking
+FULL_CLEAN,170,derived_electronegativity_mean,scientifically valid nonleaking
+FULL_CLEAN,171,derived_electronegativity_std,scientifically valid nonleaking
+FULL_CLEAN,172,derived_melting_point_mean,scientifically valid nonleaking
+FULL_CLEAN,173,derived_melting_point_std,scientifically valid nonleaking
+FULL_CLEAN,174,derived_vec_mean,scientifically valid nonleaking
+FULL_CLEAN,175,derived_vec_std,scientifically valid nonleaking
+FULL_CLEAN,176,frac d valence electrons,scientifically valid nonleaking
+FULL_CLEAN,177,frac p valence electrons,scientifically valid nonleaking
+FULL_CLEAN,178,frac s valence electrons,scientifically valid nonleaking
+FULL_CLEAN,179,max ionic char,scientifically valid nonleaking
+FULL_CLEAN,180,max packing efficiency,scientifically valid nonleaking
+FULL_CLEAN,181,max relative bond length,scientifically valid nonleaking
+FULL_CLEAN,182,maximum CN_VoronoiNN,scientifically valid nonleaking
+FULL_CLEAN,183,maximum local difference in AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,184,maximum local difference in Column,scientifically valid nonleaking
+FULL_CLEAN,185,maximum local difference in CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,186,maximum local difference in Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,187,maximum local difference in GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,188,maximum local difference in GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,189,maximum local difference in GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,190,maximum local difference in MeltingT,scientifically valid nonleaking
+FULL_CLEAN,191,maximum local difference in MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,192,maximum local difference in NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,193,maximum local difference in NValence,scientifically valid nonleaking
+FULL_CLEAN,194,maximum local difference in NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,195,maximum local difference in NdValence,scientifically valid nonleaking
+FULL_CLEAN,196,maximum local difference in NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,197,maximum local difference in NpValence,scientifically valid nonleaking
+FULL_CLEAN,198,maximum local difference in NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,199,maximum local difference in NsValence,scientifically valid nonleaking
+FULL_CLEAN,200,maximum local difference in Number,scientifically valid nonleaking
+FULL_CLEAN,201,maximum local difference in Row,scientifically valid nonleaking
+FULL_CLEAN,202,maximum local difference in SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,203,maximum neighbor distance variation,scientifically valid nonleaking
+FULL_CLEAN,204,mean CN_VoronoiNN,scientifically valid nonleaking
+FULL_CLEAN,205,mean absolute deviation in relative bond length,scientifically valid nonleaking
+FULL_CLEAN,206,mean absolute deviation in relative cell size,scientifically valid nonleaking
+FULL_CLEAN,207,mean local difference in AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,208,mean local difference in Column,scientifically valid nonleaking
+FULL_CLEAN,209,mean local difference in CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,210,mean local difference in Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,211,mean local difference in GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,212,mean local difference in GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,213,mean local difference in GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,214,mean local difference in MeltingT,scientifically valid nonleaking
+FULL_CLEAN,215,mean local difference in MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,216,mean local difference in NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,217,mean local difference in NValence,scientifically valid nonleaking
+FULL_CLEAN,218,mean local difference in NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,219,mean local difference in NdValence,scientifically valid nonleaking
+FULL_CLEAN,220,mean local difference in NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,221,mean local difference in NpValence,scientifically valid nonleaking
+FULL_CLEAN,222,mean local difference in NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,223,mean local difference in NsValence,scientifically valid nonleaking
+FULL_CLEAN,224,mean local difference in Number,scientifically valid nonleaking
+FULL_CLEAN,225,mean local difference in Row,scientifically valid nonleaking
+FULL_CLEAN,226,mean local difference in SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,227,mean neighbor distance variation,scientifically valid nonleaking
+FULL_CLEAN,228,min relative bond length,scientifically valid nonleaking
+FULL_CLEAN,229,minimum CN_VoronoiNN,scientifically valid nonleaking
+FULL_CLEAN,230,minimum local difference in AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,231,minimum local difference in Column,scientifically valid nonleaking
+FULL_CLEAN,232,minimum local difference in CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,233,minimum local difference in Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,234,minimum local difference in GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,235,minimum local difference in GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,236,minimum local difference in GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,237,minimum local difference in MeltingT,scientifically valid nonleaking
+FULL_CLEAN,238,minimum local difference in MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,239,minimum local difference in NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,240,minimum local difference in NValence,scientifically valid nonleaking
+FULL_CLEAN,241,minimum local difference in NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,242,minimum local difference in NdValence,scientifically valid nonleaking
+FULL_CLEAN,243,minimum local difference in NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,244,minimum local difference in NpValence,scientifically valid nonleaking
+FULL_CLEAN,245,minimum local difference in NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,246,minimum local difference in NsValence,scientifically valid nonleaking
+FULL_CLEAN,247,minimum local difference in Number,scientifically valid nonleaking
+FULL_CLEAN,248,minimum local difference in Row,scientifically valid nonleaking
+FULL_CLEAN,249,minimum local difference in SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,250,minimum neighbor distance variation,scientifically valid nonleaking
+FULL_CLEAN,251,nelements,scientifically valid nonleaking
+FULL_CLEAN,252,pair_atomic_mass_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,253,pair_atomic_mass_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,254,pair_atomic_number_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,255,pair_atomic_number_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,256,pair_atomic_radius_covalent_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,257,pair_atomic_radius_covalent_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,258,pair_electronegativity_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,259,pair_electronegativity_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,260,pair_fraction_Al_Al,scientifically valid nonleaking
+FULL_CLEAN,261,pair_fraction_Al_Co,scientifically valid nonleaking
+FULL_CLEAN,262,pair_fraction_Al_Cr,scientifically valid nonleaking
+FULL_CLEAN,263,pair_fraction_Al_Cu,scientifically valid nonleaking
+FULL_CLEAN,264,pair_fraction_Al_Fe,scientifically valid nonleaking
+FULL_CLEAN,265,pair_fraction_Al_Mn,scientifically valid nonleaking
+FULL_CLEAN,266,pair_fraction_Al_Ni,scientifically valid nonleaking
+FULL_CLEAN,267,pair_fraction_Al_Si,scientifically valid nonleaking
+FULL_CLEAN,268,pair_fraction_Co_Co,scientifically valid nonleaking
+FULL_CLEAN,269,pair_fraction_Co_Cr,scientifically valid nonleaking
+FULL_CLEAN,270,pair_fraction_Co_Cu,scientifically valid nonleaking
+FULL_CLEAN,271,pair_fraction_Co_Fe,scientifically valid nonleaking
+FULL_CLEAN,272,pair_fraction_Co_Mn,scientifically valid nonleaking
+FULL_CLEAN,273,pair_fraction_Co_Ni,scientifically valid nonleaking
+FULL_CLEAN,274,pair_fraction_Co_Si,scientifically valid nonleaking
+FULL_CLEAN,275,pair_fraction_Cr_Cr,scientifically valid nonleaking
+FULL_CLEAN,276,pair_fraction_Cr_Cu,scientifically valid nonleaking
+FULL_CLEAN,277,pair_fraction_Cr_Fe,scientifically valid nonleaking
+FULL_CLEAN,278,pair_fraction_Cr_Mn,scientifically valid nonleaking
+FULL_CLEAN,279,pair_fraction_Cr_Ni,scientifically valid nonleaking
+FULL_CLEAN,280,pair_fraction_Cr_Si,scientifically valid nonleaking
+FULL_CLEAN,281,pair_fraction_Cu_Cu,scientifically valid nonleaking
+FULL_CLEAN,282,pair_fraction_Cu_Fe,scientifically valid nonleaking
+FULL_CLEAN,283,pair_fraction_Cu_Mn,scientifically valid nonleaking
+FULL_CLEAN,284,pair_fraction_Cu_Ni,scientifically valid nonleaking
+FULL_CLEAN,285,pair_fraction_Cu_Si,scientifically valid nonleaking
+FULL_CLEAN,286,pair_fraction_Fe_Fe,scientifically valid nonleaking
+FULL_CLEAN,287,pair_fraction_Fe_Mn,scientifically valid nonleaking
+FULL_CLEAN,288,pair_fraction_Fe_Ni,scientifically valid nonleaking
+FULL_CLEAN,289,pair_fraction_Fe_Si,scientifically valid nonleaking
+FULL_CLEAN,290,pair_fraction_Mn_Mn,scientifically valid nonleaking
+FULL_CLEAN,291,pair_fraction_Mn_Ni,scientifically valid nonleaking
+FULL_CLEAN,292,pair_fraction_Mn_Si,scientifically valid nonleaking
+FULL_CLEAN,293,pair_fraction_Ni_Ni,scientifically valid nonleaking
+FULL_CLEAN,294,pair_fraction_Ni_Si,scientifically valid nonleaking
+FULL_CLEAN,295,pair_fraction_Si_Si,scientifically valid nonleaking
+FULL_CLEAN,296,pair_melting_point_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,297,pair_melting_point_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,298,pair_vec_mean_abs_diff,scientifically valid nonleaking
+FULL_CLEAN,299,pair_vec_rms_diff,scientifically valid nonleaking
+FULL_CLEAN,300,phase_BCC,scientifically valid nonleaking
+FULL_CLEAN,301,phase_FCC,scientifically valid nonleaking
+FULL_CLEAN,302,range CN_VoronoiNN,scientifically valid nonleaking
+FULL_CLEAN,303,range local difference in AtomicWeight,scientifically valid nonleaking
+FULL_CLEAN,304,range local difference in Column,scientifically valid nonleaking
+FULL_CLEAN,305,range local difference in CovalentRadius,scientifically valid nonleaking
+FULL_CLEAN,306,range local difference in Electronegativity,scientifically valid nonleaking
+FULL_CLEAN,307,range local difference in GSbandgap,scientifically valid nonleaking
+FULL_CLEAN,308,range local difference in GSmagmom,scientifically valid nonleaking
+FULL_CLEAN,309,range local difference in GSvolume_pa,scientifically valid nonleaking
+FULL_CLEAN,310,range local difference in MeltingT,scientifically valid nonleaking
+FULL_CLEAN,311,range local difference in MendeleevNumber,scientifically valid nonleaking
+FULL_CLEAN,312,range local difference in NUnfilled,scientifically valid nonleaking
+FULL_CLEAN,313,range local difference in NValence,scientifically valid nonleaking
+FULL_CLEAN,314,range local difference in NdUnfilled,scientifically valid nonleaking
+FULL_CLEAN,315,range local difference in NdValence,scientifically valid nonleaking
+FULL_CLEAN,316,range local difference in NpUnfilled,scientifically valid nonleaking
+FULL_CLEAN,317,range local difference in NpValence,scientifically valid nonleaking
+FULL_CLEAN,318,range local difference in NsUnfilled,scientifically valid nonleaking
+FULL_CLEAN,319,range local difference in NsValence,scientifically valid nonleaking
+FULL_CLEAN,320,range local difference in Number,scientifically valid nonleaking
+FULL_CLEAN,321,range local difference in Row,scientifically valid nonleaking
+FULL_CLEAN,322,range local difference in SpaceGroupNumber,scientifically valid nonleaking
+FULL_CLEAN,323,range neighbor distance variation,scientifically valid nonleaking
+FULL_CLEAN,324,space_group_number_ini,scientifically valid nonleaking
+BALANCED_PRELIMINARY,1,5-norm,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,2,configurational_entropy_j_mol_k,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,3,space_group_number_ini,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,4,configurational_entropy_normalized,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,5,range neighbor distance variation,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,6,avg_dev local difference in NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,7,avg_dev neighbor distance variation,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,8,mean absolute deviation in relative cell size,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,9,NIONS,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,10,mean local difference in NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,11,range local difference in NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,12,max packing efficiency,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,13,mean local difference in NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,14,avg_dev CN_VoronoiNN,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,15,maximum local difference in NsUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,16,minimum local difference in NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,17,MagpieData avg_dev GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,18,mean local difference in GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,19,MagpieData avg_dev NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,20,MagpieData mean GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,21,pair_atomic_number_mean_abs_diff,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,22,range local difference in NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,23,min relative bond length,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,24,range local difference in Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,25,pair_vec_rms_diff,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,26,MagpieData avg_dev SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,27,range local difference in NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,28,range local difference in NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,29,mean local difference in SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,30,avg_dev local difference in SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,31,minimum local difference in NsUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,32,minimum local difference in NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,33,MagpieData avg_dev NsUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,34,maximum local difference in NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,35,minimum local difference in Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,36,pair_atomic_radius_covalent_mean_abs_diff,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,37,avg_dev local difference in NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,38,MagpieData mean NsUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,39,pair_fraction_Co_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,40,pair_fraction_Fe_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,41,range local difference in Number,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,42,pair_fraction_Co_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,43,pair_fraction_Mn_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,44,pair_fraction_Co_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,45,mean local difference in NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,46,pair_fraction_Cr_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,47,pair_fraction_Cr_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,48,pair_fraction_Fe_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,49,pair_fraction_Cr_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,50,pair_fraction_Co_Cr,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,51,avg ionic char,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,52,avg_dev local difference in GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,53,minimum local difference in NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,54,range local difference in NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,55,mean local difference in Row,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,56,composition_fraction_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,57,pair_fraction_Ni_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,58,composition_fraction_Co,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,59,MagpieData mean GSvolume_pa,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,60,maximum local difference in NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,61,pair_fraction_Co_Co,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,62,MagpieData avg_dev GSvolume_pa,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,63,maximum local difference in Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,64,mean local difference in NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,65,composition_fraction_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,66,pair_fraction_Mn_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,67,composition_fraction_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,68,pair_fraction_Fe_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,69,composition_fraction_Cr,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,70,pair_fraction_Cr_Cr,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,71,derived_atomic_mass_mean,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,72,mean local difference in Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,73,MagpieData mean SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,74,maximum local difference in Row,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,75,derived_atomic_radius_covalent_std,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,76,mean local difference in NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,77,range local difference in SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,78,derived_melting_point_std,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,79,range local difference in GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,80,range local difference in CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,81,maximum local difference in NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,82,MagpieData avg_dev NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,83,minimum local difference in GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,84,MagpieData avg_dev Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,85,pair_melting_point_mean_abs_diff,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,86,avg_dev local difference in NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,87,MagpieData avg_dev NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,88,MagpieData mean NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,89,avg_dev local difference in Row,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,90,MagpieData mean NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,91,minimum local difference in Number,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,92,range local difference in NpValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,93,MagpieData avg_dev NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,94,frac s valence electrons,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,95,avg_dev local difference in NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,96,MagpieData mean CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,97,frac d valence electrons,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,98,avg_dev local difference in Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,99,minimum local difference in NdValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,100,mean local difference in GSbandgap,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,101,MagpieData range NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,102,pair_electronegativity_mean_abs_diff,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,103,mean local difference in CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,104,derived_melting_point_mean,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,105,maximum local difference in NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,106,MagpieData mean NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,107,maximum local difference in GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,108,maximum local difference in CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,109,avg_dev local difference in GSbandgap,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,110,minimum local difference in CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,111,avg_dev local difference in NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,112,maximum local difference in SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,113,minimum local difference in SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,114,mean local difference in Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,115,max ionic char,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,116,MagpieData mean GSbandgap,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,117,pair_fraction_Si_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,118,composition_fraction_Al,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,119,pair_fraction_Al_Al,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,120,minimum local difference in Row,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,121,MagpieData range MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,122,minimum local difference in NpValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,123,derived_electronegativity_mean,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,124,range local difference in Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,125,MagpieData range AtomicWeight,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,126,MagpieData minimum NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,127,MagpieData maximum Number,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,128,MagpieData maximum AtomicWeight,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,129,MagpieData range SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,130,MagpieData range GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,131,minimum local difference in Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,132,range local difference in MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,133,MagpieData range NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,134,avg_dev local difference in CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,135,pair_fraction_Al_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,136,pair_fraction_Ni_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,137,pair_fraction_Al_Co,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,138,MagpieData range NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,139,pair_fraction_Al_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,140,mean local difference in MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,141,pair_fraction_Al_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,142,avg_dev local difference in MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,143,pair_fraction_Al_Cr,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,144,pair_fraction_Co_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,145,pair_fraction_Al_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,146,pair_fraction_Fe_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,147,pair_fraction_Cr_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,148,pair_fraction_Mn_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,149,MagpieData maximum Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,150,MagpieData range Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,151,minimum local difference in GSbandgap,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,152,MagpieData minimum GSvolume_pa,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,153,MagpieData minimum Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,154,MagpieData maximum MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,155,MagpieData minimum Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,156,MagpieData maximum NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,157,MagpieData range CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,158,pair_fraction_Cu_Cu,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,159,composition_fraction_Cu,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,160,MagpieData maximum Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,161,avg_dev local difference in Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,162,MagpieData minimum CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,163,MagpieData minimum NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,164,MagpieData minimum NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,165,MagpieData minimum MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,166,maximum local difference in Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,167,MagpieData maximum CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,168,minimum local difference in MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,169,maximum local difference in MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,170,MagpieData mode GSvolume_pa,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,171,MagpieData maximum NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,172,MagpieData mode Column,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,173,MagpieData maximum SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,174,MagpieData range NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,175,MagpieData mode NUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,176,MagpieData mode NpUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,177,MagpieData mode SpaceGroupNumber,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,178,pair_fraction_Co_Cu,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,179,pair_fraction_Cu_Ni,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,180,pair_fraction_Cu_Si,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,181,pair_fraction_Cu_Fe,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,182,pair_fraction_Al_Cu,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,183,pair_fraction_Cr_Cu,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,184,pair_fraction_Cu_Mn,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,185,MagpieData mode Electronegativity,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,186,MagpieData mode NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,187,MagpieData minimum GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,188,MagpieData mode MeltingT,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,189,MagpieData mode Row,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,190,MagpieData mode GSbandgap,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,191,MagpieData mode NValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,192,MagpieData mode CovalentRadius,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,193,MagpieData maximum NsValence,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,194,MagpieData mode NdUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,195,MagpieData mode GSmagmom,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,196,MagpieData mode NsUnfilled,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,197,compound possible,correlation-pruned statistical screen
+BALANCED_PRELIMINARY,198,MagpieData minimum NpValence,correlation-pruned statistical screen
+MINIMAL_PRELIMINARY,1,composition_number_of_elements,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,2,configurational_entropy_j_mol_k,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,3,atomic_size_mismatch_percent,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,4,derived_atomic_number_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,5,derived_atomic_number_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,6,derived_atomic_mass_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,7,derived_atomic_mass_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,8,derived_atomic_radius_covalent_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,9,derived_atomic_radius_covalent_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,10,pair_atomic_radius_covalent_mean_abs_diff,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,11,derived_electronegativity_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,12,derived_electronegativity_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,13,pair_electronegativity_mean_abs_diff,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,14,derived_vec_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,15,derived_vec_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,16,pair_vec_mean_abs_diff,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,17,derived_melting_point_mean,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,18,derived_melting_point_std,portable interpretable composition/elemental baseline
+MINIMAL_PRELIMINARY,19,phase_FCC,portable interpretable composition/elemental baseline

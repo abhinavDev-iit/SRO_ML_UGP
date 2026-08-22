@@ -1,0 +1,19 @@
+feature_group,features
+valence / VEC,118
+composition pair fractions,36
+periodic-table position,33
+atomic size,27
+electronegativity / ionic,17
+atomic mass,15
+melting point,15
+atomic number,15
+initial structural geometry,15
+initial symmetry,12
+elemental electronic proxy,11
+elemental magnetic proxy,11
+composition fractions,8
+composition norms,6
+composition complexity,3
+configurational entropy,3
+phase metadata,2
+composition feasibility flag,1

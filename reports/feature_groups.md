@@ -1,0 +1,168 @@
+# Phase 4 feature groups
+
+The 348 candidate predictors are classified by physical meaning, scientific origin, and expected cross-source availability. The complete machine-readable mapping is `results/tables/phase4/feature_group_mapping.csv`.
+
+## Group counts
+
+- **valence / VEC**: 118 features
+- **composition pair fractions**: 36 features
+- **periodic-table position**: 33 features
+- **atomic size**: 27 features
+- **electronegativity / ionic**: 17 features
+- **atomic mass**: 15 features
+- **melting point**: 15 features
+- **atomic number**: 15 features
+- **initial structural geometry**: 15 features
+- **initial symmetry**: 12 features
+- **elemental electronic proxy**: 11 features
+- **elemental magnetic proxy**: 11 features
+- **composition fractions**: 8 features
+- **composition norms**: 6 features
+- **composition complexity**: 3 features
+- **configurational entropy**: 3 features
+- **phase metadata**: 2 features
+- **composition feasibility flag**: 1 features
+
+## Risk flags
+
+No identifiers or direct SRO-derived proxy features entered the Phase 3 feature library. Initial-geometry descriptors are scientifically legitimate pre-relaxation measurements, but are flagged because coordination, neighbor-distance, packing, and local-difference statistics may encode configuration-specific ordering. Phase indicators and atom/component counts are metadata or grouping variables and should not be interpreted as elemental mechanisms.
+
+- `NIONS` — metadata/grouping variable; interpret separately
+- `avg_dev CN_VoronoiNN` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in AtomicWeight` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in Column` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in CovalentRadius` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in Electronegativity` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in GSbandgap` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in GSmagmom` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in GSvolume_pa` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in MeltingT` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in MendeleevNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NdUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NdValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NfUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NfValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NpUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NpValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NsUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in NsValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in Number` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in Row` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev local difference in SpaceGroupNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `avg_dev neighbor distance variation` — initial-geometry descriptor may encode configuration-specific ordering
+- `max packing efficiency` — initial-geometry descriptor may encode configuration-specific ordering
+- `max relative bond length` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum CN_VoronoiNN` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in AtomicWeight` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in Column` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in CovalentRadius` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in Electronegativity` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in GSbandgap` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in GSmagmom` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in GSvolume_pa` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in MeltingT` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in MendeleevNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NdUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NdValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NfUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NfValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NpUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NpValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NsUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in NsValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in Number` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in Row` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum local difference in SpaceGroupNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `maximum neighbor distance variation` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean CN_VoronoiNN` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean absolute deviation in relative bond length` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean absolute deviation in relative cell size` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in AtomicWeight` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in Column` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in CovalentRadius` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in Electronegativity` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in GSbandgap` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in GSmagmom` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in GSvolume_pa` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in MeltingT` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in MendeleevNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NdUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NdValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NfUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NfValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NpUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NpValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NsUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in NsValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in Number` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in Row` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean local difference in SpaceGroupNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `mean neighbor distance variation` — initial-geometry descriptor may encode configuration-specific ordering
+- `min relative bond length` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum CN_VoronoiNN` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in AtomicWeight` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in Column` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in CovalentRadius` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in Electronegativity` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in GSbandgap` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in GSmagmom` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in GSvolume_pa` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in MeltingT` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in MendeleevNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NdUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NdValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NfUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NfValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NpUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NpValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NsUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in NsValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in Number` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in Row` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum local difference in SpaceGroupNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `minimum neighbor distance variation` — initial-geometry descriptor may encode configuration-specific ordering
+- `nelements` — metadata/grouping variable; interpret separately
+- `phase_BCC` — metadata/grouping variable; interpret separately
+- `phase_FCC` — metadata/grouping variable; interpret separately
+- `range CN_VoronoiNN` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in AtomicWeight` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in Column` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in CovalentRadius` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in Electronegativity` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in GSbandgap` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in GSmagmom` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in GSvolume_pa` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in MeltingT` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in MendeleevNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NdUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NdValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NfUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NfValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NpUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NpValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NsUnfilled` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in NsValence` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in Number` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in Row` — initial-geometry descriptor may encode configuration-specific ordering
+- `range local difference in SpaceGroupNumber` — initial-geometry descriptor may encode configuration-specific ordering
+- `range neighbor distance variation` — initial-geometry descriptor may encode configuration-specific ordering
+- `space_group_number_ini` — metadata/grouping variable; interpret separately
+
+## Provenance meanings
+
+- `direct source`: copied from an allowed initial/source field.
+- `composition-derived`: computed only from normalized elemental fractions.
+- `elemental-reference-derived`: composition statistics using reconstructed elemental reference values.
+- `structure-derived`: calculated from the initial, pre-relaxation structure only.
+
+Final energy, relaxed volume, final symmetry/structure, force, pressure, hull distance, and source SRO/order parameters remain excluded.

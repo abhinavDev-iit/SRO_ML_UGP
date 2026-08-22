@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 from src.ingestion.hea84k import build_manifest, ingest_hea84k
+from src.analysis.phase4 import run_phase4
 from src.pipeline.phase3 import build_phase3_database
 
 
@@ -20,6 +21,7 @@ def main() -> None:
     phase3 = sub.add_parser("build-phase3", help="construct the validated Parquet database and feature library")
     phase3.add_argument("--raw-dir", type=Path, default=Path("data/raw/dataset_84k_hea"))
     phase3.add_argument("--output-dir", type=Path, default=Path("data/processed"))
+    sub.add_parser("analyze-phase4", help="run EDA, association and preliminary feature-set analysis")
     args = parser.parse_args()
 
     if args.command == "ingest-84k":
@@ -27,6 +29,8 @@ def main() -> None:
         print(json.dumps(result, indent=2))
     elif args.command == "build-phase3":
         print(json.dumps(build_phase3_database(raw_dir=args.raw_dir, output_dir=args.output_dir), indent=2))
+    elif args.command == "analyze-phase4":
+        print(json.dumps(run_phase4(), indent=2))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,349 @@
+feature,feature_group,availability_class,identifier_flag,direct_sro_proxy_flag,target_proxy_risk,metadata_flag,unsuitable_for_analysis,caution_reason,origin,source_field
+0-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,0-norm
+10-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,10-norm
+2-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,2-norm
+3-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,3-norm
+5-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,5-norm
+7-norm,composition norms,composition-universal,False,False,none,False,False,,composition-derived,7-norm
+MagpieData avg_dev AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev AtomicWeight
+MagpieData avg_dev Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev Column
+MagpieData avg_dev CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev CovalentRadius
+MagpieData avg_dev Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev Electronegativity
+MagpieData avg_dev GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev GSbandgap
+MagpieData avg_dev GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev GSmagmom
+MagpieData avg_dev GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev GSvolume_pa
+MagpieData avg_dev MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev MeltingT
+MagpieData avg_dev MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev MendeleevNumber
+MagpieData avg_dev NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NUnfilled
+MagpieData avg_dev NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NValence
+MagpieData avg_dev NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NdUnfilled
+MagpieData avg_dev NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NdValence
+MagpieData avg_dev NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NfUnfilled
+MagpieData avg_dev NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NfValence
+MagpieData avg_dev NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NpUnfilled
+MagpieData avg_dev NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NpValence
+MagpieData avg_dev NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NsUnfilled
+MagpieData avg_dev NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev NsValence
+MagpieData avg_dev Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev Number
+MagpieData avg_dev Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev Row
+MagpieData avg_dev SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData avg_dev SpaceGroupNumber
+MagpieData maximum AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum AtomicWeight
+MagpieData maximum Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum Column
+MagpieData maximum CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum CovalentRadius
+MagpieData maximum Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum Electronegativity
+MagpieData maximum GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum GSbandgap
+MagpieData maximum GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum GSmagmom
+MagpieData maximum GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum GSvolume_pa
+MagpieData maximum MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum MeltingT
+MagpieData maximum MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum MendeleevNumber
+MagpieData maximum NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NUnfilled
+MagpieData maximum NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NValence
+MagpieData maximum NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NdUnfilled
+MagpieData maximum NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NdValence
+MagpieData maximum NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NfUnfilled
+MagpieData maximum NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NfValence
+MagpieData maximum NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NpUnfilled
+MagpieData maximum NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NpValence
+MagpieData maximum NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NsUnfilled
+MagpieData maximum NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum NsValence
+MagpieData maximum Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum Number
+MagpieData maximum Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum Row
+MagpieData maximum SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData maximum SpaceGroupNumber
+MagpieData mean AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean AtomicWeight
+MagpieData mean Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Column
+MagpieData mean CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean CovalentRadius
+MagpieData mean Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Electronegativity
+MagpieData mean GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean GSbandgap
+MagpieData mean GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean GSmagmom
+MagpieData mean GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean GSvolume_pa
+MagpieData mean MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean MeltingT
+MagpieData mean MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean MendeleevNumber
+MagpieData mean NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NUnfilled
+MagpieData mean NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NValence
+MagpieData mean NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NdUnfilled
+MagpieData mean NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NdValence
+MagpieData mean NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NfUnfilled
+MagpieData mean NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NfValence
+MagpieData mean NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NpUnfilled
+MagpieData mean NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NpValence
+MagpieData mean NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NsUnfilled
+MagpieData mean NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NsValence
+MagpieData mean Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Number
+MagpieData mean Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Row
+MagpieData mean SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean SpaceGroupNumber
+MagpieData minimum AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum AtomicWeight
+MagpieData minimum Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum Column
+MagpieData minimum CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum CovalentRadius
+MagpieData minimum Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum Electronegativity
+MagpieData minimum GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum GSbandgap
+MagpieData minimum GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum GSmagmom
+MagpieData minimum GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum GSvolume_pa
+MagpieData minimum MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum MeltingT
+MagpieData minimum MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum MendeleevNumber
+MagpieData minimum NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NUnfilled
+MagpieData minimum NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NValence
+MagpieData minimum NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NdUnfilled
+MagpieData minimum NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NdValence
+MagpieData minimum NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NfUnfilled
+MagpieData minimum NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NfValence
+MagpieData minimum NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NpUnfilled
+MagpieData minimum NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NpValence
+MagpieData minimum NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NsUnfilled
+MagpieData minimum NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum NsValence
+MagpieData minimum Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum Number
+MagpieData minimum Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum Row
+MagpieData minimum SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData minimum SpaceGroupNumber
+MagpieData mode AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode AtomicWeight
+MagpieData mode Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode Column
+MagpieData mode CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode CovalentRadius
+MagpieData mode Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode Electronegativity
+MagpieData mode GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode GSbandgap
+MagpieData mode GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode GSmagmom
+MagpieData mode GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode GSvolume_pa
+MagpieData mode MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode MeltingT
+MagpieData mode MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode MendeleevNumber
+MagpieData mode NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NUnfilled
+MagpieData mode NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NValence
+MagpieData mode NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NdUnfilled
+MagpieData mode NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NdValence
+MagpieData mode NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NfUnfilled
+MagpieData mode NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NfValence
+MagpieData mode NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NpUnfilled
+MagpieData mode NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NpValence
+MagpieData mode NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NsUnfilled
+MagpieData mode NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode NsValence
+MagpieData mode Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode Number
+MagpieData mode Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode Row
+MagpieData mode SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mode SpaceGroupNumber
+MagpieData range AtomicWeight,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range AtomicWeight
+MagpieData range Column,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range Column
+MagpieData range CovalentRadius,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range CovalentRadius
+MagpieData range Electronegativity,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range Electronegativity
+MagpieData range GSbandgap,elemental electronic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range GSbandgap
+MagpieData range GSmagmom,elemental magnetic proxy,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range GSmagmom
+MagpieData range GSvolume_pa,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range GSvolume_pa
+MagpieData range MeltingT,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range MeltingT
+MagpieData range MendeleevNumber,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range MendeleevNumber
+MagpieData range NUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NUnfilled
+MagpieData range NValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NValence
+MagpieData range NdUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NdUnfilled
+MagpieData range NdValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NdValence
+MagpieData range NfUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NfUnfilled
+MagpieData range NfValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NfValence
+MagpieData range NpUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NpUnfilled
+MagpieData range NpValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NpValence
+MagpieData range NsUnfilled,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NsUnfilled
+MagpieData range NsValence,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range NsValence
+MagpieData range Number,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range Number
+MagpieData range Row,periodic-table position,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range Row
+MagpieData range SpaceGroupNumber,initial symmetry,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData range SpaceGroupNumber
+NIONS,composition complexity,source-specific,False,False,none,True,False,metadata/grouping variable; interpret separately,direct source,NIONS
+atomic_size_mismatch_percent,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+avg ionic char,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,avg ionic char
+avg_dev CN_VoronoiNN,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev CN_VoronoiNN
+avg_dev local difference in AtomicWeight,atomic mass,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in AtomicWeight
+avg_dev local difference in Column,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in Column
+avg_dev local difference in CovalentRadius,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in CovalentRadius
+avg_dev local difference in Electronegativity,electronegativity / ionic,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in Electronegativity
+avg_dev local difference in GSbandgap,elemental electronic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in GSbandgap
+avg_dev local difference in GSmagmom,elemental magnetic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in GSmagmom
+avg_dev local difference in GSvolume_pa,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in GSvolume_pa
+avg_dev local difference in MeltingT,melting point,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in MeltingT
+avg_dev local difference in MendeleevNumber,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in MendeleevNumber
+avg_dev local difference in NUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NUnfilled
+avg_dev local difference in NValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NValence
+avg_dev local difference in NdUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NdUnfilled
+avg_dev local difference in NdValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NdValence
+avg_dev local difference in NfUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NfUnfilled
+avg_dev local difference in NfValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NfValence
+avg_dev local difference in NpUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NpUnfilled
+avg_dev local difference in NpValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NpValence
+avg_dev local difference in NsUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NsUnfilled
+avg_dev local difference in NsValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in NsValence
+avg_dev local difference in Number,atomic number,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in Number
+avg_dev local difference in Row,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in Row
+avg_dev local difference in SpaceGroupNumber,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev local difference in SpaceGroupNumber
+avg_dev neighbor distance variation,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,avg_dev neighbor distance variation
+composition_fraction_Al,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Co,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Cr,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Cu,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Fe,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Mn,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Ni,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_fraction_Si,composition fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+composition_number_of_elements,composition complexity,composition-universal,False,False,none,False,False,,composition-derived,formula
+compound possible,composition feasibility flag,composition-universal,False,False,none,False,False,,composition-derived,compound possible
+configurational_entropy_j_mol_k,configurational entropy,composition-universal,False,False,none,False,False,,composition-derived,formula
+configurational_entropy_kb_per_atom,configurational entropy,composition-universal,False,False,none,False,False,,composition-derived,formula
+configurational_entropy_normalized,configurational entropy,composition-universal,False,False,none,False,False,,composition-derived,formula
+derived_atomic_mass_mean,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean AtomicWeight
+derived_atomic_mass_std,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_atomic_number_mean,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Number
+derived_atomic_number_std,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_atomic_radius_covalent_mean,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean CovalentRadius
+derived_atomic_radius_covalent_std,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_electronegativity_mean,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean Electronegativity
+derived_electronegativity_std,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_melting_point_mean,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean MeltingT
+derived_melting_point_std,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_vec_mean,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,MagpieData mean NValence
+derived_vec_std,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+frac d valence electrons,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,frac d valence electrons
+frac f valence electrons,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,frac f valence electrons
+frac p valence electrons,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,frac p valence electrons
+frac s valence electrons,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,frac s valence electrons
+max ionic char,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,max ionic char
+max packing efficiency,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,max packing efficiency
+max relative bond length,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,max relative bond length
+maximum CN_VoronoiNN,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum CN_VoronoiNN
+maximum local difference in AtomicWeight,atomic mass,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in AtomicWeight
+maximum local difference in Column,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in Column
+maximum local difference in CovalentRadius,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in CovalentRadius
+maximum local difference in Electronegativity,electronegativity / ionic,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in Electronegativity
+maximum local difference in GSbandgap,elemental electronic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in GSbandgap
+maximum local difference in GSmagmom,elemental magnetic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in GSmagmom
+maximum local difference in GSvolume_pa,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in GSvolume_pa
+maximum local difference in MeltingT,melting point,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in MeltingT
+maximum local difference in MendeleevNumber,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in MendeleevNumber
+maximum local difference in NUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NUnfilled
+maximum local difference in NValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NValence
+maximum local difference in NdUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NdUnfilled
+maximum local difference in NdValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NdValence
+maximum local difference in NfUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NfUnfilled
+maximum local difference in NfValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NfValence
+maximum local difference in NpUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NpUnfilled
+maximum local difference in NpValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NpValence
+maximum local difference in NsUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NsUnfilled
+maximum local difference in NsValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in NsValence
+maximum local difference in Number,atomic number,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in Number
+maximum local difference in Row,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in Row
+maximum local difference in SpaceGroupNumber,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum local difference in SpaceGroupNumber
+maximum neighbor distance variation,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,maximum neighbor distance variation
+mean CN_VoronoiNN,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean CN_VoronoiNN
+mean absolute deviation in relative bond length,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean absolute deviation in relative bond length
+mean absolute deviation in relative cell size,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean absolute deviation in relative cell size
+mean local difference in AtomicWeight,atomic mass,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in AtomicWeight
+mean local difference in Column,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in Column
+mean local difference in CovalentRadius,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in CovalentRadius
+mean local difference in Electronegativity,electronegativity / ionic,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in Electronegativity
+mean local difference in GSbandgap,elemental electronic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in GSbandgap
+mean local difference in GSmagmom,elemental magnetic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in GSmagmom
+mean local difference in GSvolume_pa,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in GSvolume_pa
+mean local difference in MeltingT,melting point,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in MeltingT
+mean local difference in MendeleevNumber,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in MendeleevNumber
+mean local difference in NUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NUnfilled
+mean local difference in NValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NValence
+mean local difference in NdUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NdUnfilled
+mean local difference in NdValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NdValence
+mean local difference in NfUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NfUnfilled
+mean local difference in NfValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NfValence
+mean local difference in NpUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NpUnfilled
+mean local difference in NpValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NpValence
+mean local difference in NsUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NsUnfilled
+mean local difference in NsValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in NsValence
+mean local difference in Number,atomic number,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in Number
+mean local difference in Row,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in Row
+mean local difference in SpaceGroupNumber,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean local difference in SpaceGroupNumber
+mean neighbor distance variation,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,mean neighbor distance variation
+min relative bond length,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,min relative bond length
+minimum CN_VoronoiNN,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum CN_VoronoiNN
+minimum local difference in AtomicWeight,atomic mass,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in AtomicWeight
+minimum local difference in Column,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in Column
+minimum local difference in CovalentRadius,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in CovalentRadius
+minimum local difference in Electronegativity,electronegativity / ionic,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in Electronegativity
+minimum local difference in GSbandgap,elemental electronic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in GSbandgap
+minimum local difference in GSmagmom,elemental magnetic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in GSmagmom
+minimum local difference in GSvolume_pa,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in GSvolume_pa
+minimum local difference in MeltingT,melting point,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in MeltingT
+minimum local difference in MendeleevNumber,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in MendeleevNumber
+minimum local difference in NUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NUnfilled
+minimum local difference in NValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NValence
+minimum local difference in NdUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NdUnfilled
+minimum local difference in NdValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NdValence
+minimum local difference in NfUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NfUnfilled
+minimum local difference in NfValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NfValence
+minimum local difference in NpUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NpUnfilled
+minimum local difference in NpValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NpValence
+minimum local difference in NsUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NsUnfilled
+minimum local difference in NsValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in NsValence
+minimum local difference in Number,atomic number,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in Number
+minimum local difference in Row,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in Row
+minimum local difference in SpaceGroupNumber,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum local difference in SpaceGroupNumber
+minimum neighbor distance variation,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,minimum neighbor distance variation
+nelements,composition complexity,source-specific,False,False,none,True,False,metadata/grouping variable; interpret separately,direct source,nelements
+pair_atomic_mass_mean_abs_diff,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_mass_rms_diff,atomic mass,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_number_mean_abs_diff,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_number_rms_diff,atomic number,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_radius_covalent_mean_abs_diff,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_radius_covalent_rms_diff,atomic size,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_electronegativity_mean_abs_diff,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_electronegativity_rms_diff,electronegativity / ionic,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_fraction_Al_Al,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Co,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Cr,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Cu,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Fe,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Al_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Co,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Cr,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Cu,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Fe,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Co_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Cr,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Cu,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Fe,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cr_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cu_Cu,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cu_Fe,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cu_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cu_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Cu_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Fe_Fe,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Fe_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Fe_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Fe_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Mn_Mn,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Mn_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Mn_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Ni_Ni,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Ni_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_fraction_Si_Si,composition pair fractions,composition-universal,False,False,none,False,False,,composition-derived,formula
+pair_melting_point_mean_abs_diff,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_melting_point_rms_diff,melting point,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_vec_mean_abs_diff,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_vec_rms_diff,valence / VEC,composition-plus-elemental-reference,False,False,none,False,False,,elemental-reference-derived,formula + reconstructed Magpie reference
+phase_BCC,phase metadata,phase-label-dependent,False,False,none,True,False,metadata/grouping variable; interpret separately,direct source,lattice
+phase_FCC,phase metadata,phase-label-dependent,False,False,none,True,False,metadata/grouping variable; interpret separately,direct source,lattice
+range CN_VoronoiNN,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range CN_VoronoiNN
+range local difference in AtomicWeight,atomic mass,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in AtomicWeight
+range local difference in Column,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in Column
+range local difference in CovalentRadius,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in CovalentRadius
+range local difference in Electronegativity,electronegativity / ionic,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in Electronegativity
+range local difference in GSbandgap,elemental electronic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in GSbandgap
+range local difference in GSmagmom,elemental magnetic proxy,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in GSmagmom
+range local difference in GSvolume_pa,atomic size,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in GSvolume_pa
+range local difference in MeltingT,melting point,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in MeltingT
+range local difference in MendeleevNumber,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in MendeleevNumber
+range local difference in NUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NUnfilled
+range local difference in NValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NValence
+range local difference in NdUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NdUnfilled
+range local difference in NdValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NdValence
+range local difference in NfUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NfUnfilled
+range local difference in NfValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NfValence
+range local difference in NpUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NpUnfilled
+range local difference in NpValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NpValence
+range local difference in NsUnfilled,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NsUnfilled
+range local difference in NsValence,valence / VEC,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in NsValence
+range local difference in Number,atomic number,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in Number
+range local difference in Row,periodic-table position,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in Row
+range local difference in SpaceGroupNumber,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range local difference in SpaceGroupNumber
+range neighbor distance variation,initial structural geometry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,False,False,initial-geometry descriptor may encode configuration-specific ordering,structure-derived,range neighbor distance variation
+space_group_number_ini,initial symmetry,initial-structure-dependent,False,False,possible_initial_geometry_proxy,True,False,metadata/grouping variable; interpret separately,structure-derived,space_group_number_ini

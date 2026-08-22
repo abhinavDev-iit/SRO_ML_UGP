@@ -1,0 +1,5 @@
+check,count,interpretation
+duplicate configuration identifiers,0,must be zero
+duplicate complete predictor rows,1394,must be zero
+rows sharing a formula label,83111,distinct configurations may share formula
+rows sharing a normalized composition,83161,retain for configuration-level SRO variation

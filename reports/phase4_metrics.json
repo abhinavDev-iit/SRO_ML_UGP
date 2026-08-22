@@ -1,0 +1,637 @@
+{
+  "rows": 83797,
+  "fcc_observations": 40425,
+  "bcc_observations": 43372,
+  "validated_hcp_observations": 0,
+  "provisional_hcp_excluded": 255,
+  "unique_configurations": 83797,
+  "unique_alloy_systems": 246,
+  "unique_formulas": 11354,
+  "unique_compositions": 9633,
+  "features_entering_analysis": 348,
+  "identifier_or_direct_proxy_features_removed": 0,
+  "constant_features_all": 24,
+  "constant_feature_names_all": [
+    "MagpieData avg_dev NfUnfilled",
+    "MagpieData avg_dev NfValence",
+    "MagpieData maximum NfUnfilled",
+    "MagpieData maximum NfValence",
+    "MagpieData mean NfUnfilled",
+    "MagpieData mean NfValence",
+    "MagpieData minimum GSbandgap",
+    "MagpieData minimum NfUnfilled",
+    "MagpieData minimum NfValence",
+    "MagpieData mode NfUnfilled",
+    "MagpieData mode NfValence",
+    "MagpieData range NfUnfilled",
+    "MagpieData range NfValence",
+    "avg_dev local difference in NfUnfilled",
+    "avg_dev local difference in NfValence",
+    "frac f valence electrons",
+    "maximum local difference in NfUnfilled",
+    "maximum local difference in NfValence",
+    "mean local difference in NfUnfilled",
+    "mean local difference in NfValence",
+    "minimum local difference in NfUnfilled",
+    "minimum local difference in NfValence",
+    "range local difference in NfUnfilled",
+    "range local difference in NfValence"
+  ],
+  "near_zero_variance_features_all": 29,
+  "near_zero_variance_feature_names_all": [
+    "MagpieData avg_dev NfUnfilled",
+    "MagpieData avg_dev NfValence",
+    "MagpieData maximum NfUnfilled",
+    "MagpieData maximum NfValence",
+    "MagpieData maximum NsValence",
+    "MagpieData maximum Row",
+    "MagpieData mean NfUnfilled",
+    "MagpieData mean NfValence",
+    "MagpieData minimum GSbandgap",
+    "MagpieData minimum NfUnfilled",
+    "MagpieData minimum NfValence",
+    "MagpieData minimum NpUnfilled",
+    "MagpieData minimum NpValence",
+    "MagpieData minimum NsUnfilled",
+    "MagpieData mode NfUnfilled",
+    "MagpieData mode NfValence",
+    "MagpieData range NfUnfilled",
+    "MagpieData range NfValence",
+    "avg_dev local difference in NfUnfilled",
+    "avg_dev local difference in NfValence",
+    "frac f valence electrons",
+    "maximum local difference in NfUnfilled",
+    "maximum local difference in NfValence",
+    "mean local difference in NfUnfilled",
+    "mean local difference in NfValence",
+    "minimum local difference in NfUnfilled",
+    "minimum local difference in NfValence",
+    "range local difference in NfUnfilled",
+    "range local difference in NfValence"
+  ],
+  "highly_correlated_pairs_abs_r_ge_0_95": 426,
+  "exact_duplicate_feature_groups": [
+    [
+      "0-norm",
+      "composition_number_of_elements",
+      "nelements"
+    ],
+    [
+      "MagpieData avg_dev NfUnfilled",
+      "MagpieData avg_dev NfValence",
+      "MagpieData maximum NfUnfilled",
+      "MagpieData maximum NfValence",
+      "MagpieData mean NfUnfilled",
+      "MagpieData mean NfValence",
+      "MagpieData minimum GSbandgap",
+      "MagpieData minimum NfUnfilled",
+      "MagpieData minimum NfValence",
+      "MagpieData mode NfUnfilled",
+      "MagpieData mode NfValence",
+      "MagpieData range NfUnfilled",
+      "MagpieData range NfValence",
+      "avg_dev local difference in NfUnfilled",
+      "avg_dev local difference in NfValence",
+      "frac f valence electrons",
+      "maximum local difference in NfUnfilled",
+      "maximum local difference in NfValence",
+      "mean local difference in NfUnfilled",
+      "mean local difference in NfValence",
+      "minimum local difference in NfUnfilled",
+      "minimum local difference in NfValence",
+      "range local difference in NfUnfilled",
+      "range local difference in NfValence"
+    ],
+    [
+      "MagpieData maximum GSbandgap",
+      "MagpieData range GSbandgap"
+    ],
+    [
+      "MagpieData range NsUnfilled",
+      "MagpieData range NsValence"
+    ],
+    [
+      "avg_dev local difference in NsUnfilled",
+      "avg_dev local difference in NsValence"
+    ],
+    [
+      "maximum local difference in NsUnfilled",
+      "maximum local difference in NsValence"
+    ],
+    [
+      "mean local difference in NsUnfilled",
+      "mean local difference in NsValence"
+    ],
+    [
+      "minimum local difference in NsUnfilled",
+      "minimum local difference in NsValence"
+    ],
+    [
+      "range local difference in NsUnfilled",
+      "range local difference in NsValence"
+    ]
+  ],
+  "feature_set_counts": {
+    "FULL_CLEAN": 324,
+    "BALANCED_PRELIMINARY": 198,
+    "MINIMAL_PRELIMINARY": 19
+  },
+  "phase_target_comparison": {
+    "fcc_mean": 0.26398980368521835,
+    "bcc_mean": 0.4002233684621084,
+    "mean_difference_bcc_minus_fcc": 0.13623356477689003,
+    "cohens_d": 0.5253184660561235,
+    "ks_statistic": 0.23339536389707005,
+    "ks_pvalue": 0.0
+  },
+  "target_statistics": [
+    {
+      "cohort": "ALL",
+      "n": 83797,
+      "minimum": 0.0,
+      "maximum": 1.5000000000000002,
+      "mean": 0.33450213910896,
+      "median": 0.2708333333333333,
+      "std": 0.26811965874851157,
+      "skewness": 1.1061646964798262,
+      "p01": 0.0,
+      "p05": 0.0,
+      "p10": 0.03319444444444455,
+      "p25": 0.1428571428571428,
+      "p50": 0.2708333333333333,
+      "p75": 0.4999999999999998,
+      "p90": 0.7,
+      "p95": 0.9166666666666666,
+      "p99": 1.0666666666666669,
+      "tukey_lower_fence": -0.3928571428571427,
+      "tukey_upper_fence": 1.0357142857142851,
+      "tukey_outlier_count": 1036,
+      "near_zero_le_0_05_fraction": 0.11292767044166259,
+      "near_zero_le_0_10_fraction": 0.17401577622110576,
+      "exact_zero_count": 7278
+    },
+    {
+      "cohort": "FCC",
+      "n": 40425,
+      "minimum": 0.0,
+      "maximum": 1.1111111111111112,
+      "mean": 0.26398980368521835,
+      "median": 0.2222222222222223,
+      "std": 0.19991326139310897,
+      "skewness": 0.9233267731488186,
+      "p01": 0.0,
+      "p05": 0.0,
+      "p10": 0.0,
+      "p25": 0.1166666666666666,
+      "p50": 0.2222222222222223,
+      "p75": 0.3611111111111111,
+      "p90": 0.5555555555555555,
+      "p95": 0.638888888888889,
+      "p99": 0.8666666666666667,
+      "tukey_lower_fence": -0.2500000000000002,
+      "tukey_upper_fence": 0.7277777777777779,
+      "tukey_outlier_count": 882,
+      "near_zero_le_0_05_fraction": 0.14592455163883736,
+      "near_zero_le_0_10_fraction": 0.19374149659863946,
+      "exact_zero_count": 5381
+    },
+    {
+      "cohort": "BCC",
+      "n": 43372,
+      "minimum": 0.0,
+      "maximum": 1.5000000000000002,
+      "mean": 0.4002233684621084,
+      "median": 0.3333333333333333,
+      "std": 0.30445014580608104,
+      "skewness": 0.8492657070658385,
+      "p01": 0.0,
+      "p05": 0.0125000000000001,
+      "p10": 0.0572916666666666,
+      "p25": 0.1666666666666666,
+      "p50": 0.3333333333333333,
+      "p75": 0.59375,
+      "p90": 0.9166666666666664,
+      "p95": 1.0,
+      "p99": 1.2,
+      "tukey_lower_fence": -0.47395833333333337,
+      "tukey_upper_fence": 1.234375,
+      "tukey_outlier_count": 347,
+      "near_zero_le_0_05_fraction": 0.08217283039749147,
+      "near_zero_le_0_10_fraction": 0.1556303606013096,
+      "exact_zero_count": 1897
+    }
+  ],
+  "top_associations": {
+    "ALL": {
+      "pearson": [
+        {
+          "feature": "space_group_number_ini",
+          "pearson_r": 0.47528068148463876
+        },
+        {
+          "feature": "NIONS",
+          "pearson_r": -0.32887935657325823
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "pearson_r": 0.301072901286093
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "pearson_r": 0.3010729012860926
+        },
+        {
+          "feature": "2-norm",
+          "pearson_r": -0.2966699043702749
+        },
+        {
+          "feature": "3-norm",
+          "pearson_r": -0.28800008503151797
+        },
+        {
+          "feature": "nelements",
+          "pearson_r": 0.277085233365174
+        },
+        {
+          "feature": "composition_number_of_elements",
+          "pearson_r": 0.277085233365174
+        },
+        {
+          "feature": "0-norm",
+          "pearson_r": 0.277085233365174
+        },
+        {
+          "feature": "5-norm",
+          "pearson_r": -0.27462575969070063
+        }
+      ],
+      "spearman": [
+        {
+          "feature": "space_group_number_ini",
+          "spearman_rho": 0.593098727188191
+        },
+        {
+          "feature": "NIONS",
+          "spearman_rho": -0.32603985561234367
+        },
+        {
+          "feature": "2-norm",
+          "spearman_rho": -0.27911823606489
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "spearman_rho": 0.27140796416065893
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "spearman_rho": 0.27140796416065893
+        },
+        {
+          "feature": "5-norm",
+          "spearman_rho": -0.27090787826531465
+        },
+        {
+          "feature": "3-norm",
+          "spearman_rho": -0.27056077286156455
+        },
+        {
+          "feature": "7-norm",
+          "spearman_rho": -0.26931909387930947
+        },
+        {
+          "feature": "10-norm",
+          "spearman_rho": -0.2687117784450364
+        },
+        {
+          "feature": "avg_dev local difference in NsValence",
+          "spearman_rho": 0.2493651765493421
+        }
+      ],
+      "mutual_information": [
+        {
+          "feature": "5-norm",
+          "mutual_information": 1.7996305858999158
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "mutual_information": 1.797869549673293
+        },
+        {
+          "feature": "10-norm",
+          "mutual_information": 1.7939272311797332
+        },
+        {
+          "feature": "7-norm",
+          "mutual_information": 1.792532643461338
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "mutual_information": 1.7857916512327163
+        },
+        {
+          "feature": "3-norm",
+          "mutual_information": 1.776163091615187
+        },
+        {
+          "feature": "configurational_entropy_normalized",
+          "mutual_information": 1.7323086116879765
+        },
+        {
+          "feature": "2-norm",
+          "mutual_information": 1.6654282812307466
+        },
+        {
+          "feature": "mean absolute deviation in relative cell size",
+          "mutual_information": 1.4562460550070213
+        },
+        {
+          "feature": "avg_dev neighbor distance variation",
+          "mutual_information": 1.4452485686140077
+        }
+      ]
+    },
+    "FCC": {
+      "pearson": [
+        {
+          "feature": "space_group_number_ini",
+          "pearson_r": 0.4811970654148267
+        },
+        {
+          "feature": "NIONS",
+          "pearson_r": -0.3482824210798673
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "pearson_r": 0.3445502488088979
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "pearson_r": 0.34455024880889756
+        },
+        {
+          "feature": "2-norm",
+          "pearson_r": -0.34184696209131965
+        },
+        {
+          "feature": "3-norm",
+          "pearson_r": -0.3340194647146489
+        },
+        {
+          "feature": "min relative bond length",
+          "pearson_r": 0.32538026677724724
+        },
+        {
+          "feature": "5-norm",
+          "pearson_r": -0.31962617459733844
+        },
+        {
+          "feature": "0-norm",
+          "pearson_r": 0.31800513131122743
+        },
+        {
+          "feature": "composition_number_of_elements",
+          "pearson_r": 0.31800513131122743
+        }
+      ],
+      "spearman": [
+        {
+          "feature": "space_group_number_ini",
+          "spearman_rho": 0.5520301075126124
+        },
+        {
+          "feature": "range CN_VoronoiNN",
+          "spearman_rho": -0.35635952829735423
+        },
+        {
+          "feature": "NIONS",
+          "spearman_rho": -0.34502767261141065
+        },
+        {
+          "feature": "minimum CN_VoronoiNN",
+          "spearman_rho": 0.31005182823352917
+        },
+        {
+          "feature": "2-norm",
+          "spearman_rho": -0.30660862145958945
+        },
+        {
+          "feature": "5-norm",
+          "spearman_rho": -0.30142256385704425
+        },
+        {
+          "feature": "3-norm",
+          "spearman_rho": -0.2989068811070215
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "spearman_rho": 0.29735428616950504
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "spearman_rho": 0.29735428616950504
+        },
+        {
+          "feature": "7-norm",
+          "spearman_rho": -0.29522320645340694
+        }
+      ],
+      "mutual_information": [
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "mutual_information": 2.0079279570724484
+        },
+        {
+          "feature": "7-norm",
+          "mutual_information": 2.0061748330134757
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "mutual_information": 1.998611580747557
+        },
+        {
+          "feature": "5-norm",
+          "mutual_information": 1.9981180373046739
+        },
+        {
+          "feature": "10-norm",
+          "mutual_information": 1.997498051087521
+        },
+        {
+          "feature": "3-norm",
+          "mutual_information": 1.9761029256131248
+        },
+        {
+          "feature": "configurational_entropy_normalized",
+          "mutual_information": 1.9257269807088182
+        },
+        {
+          "feature": "2-norm",
+          "mutual_information": 1.8410057886793467
+        },
+        {
+          "feature": "avg_dev neighbor distance variation",
+          "mutual_information": 1.6952754654404592
+        },
+        {
+          "feature": "mean neighbor distance variation",
+          "mutual_information": 1.5924037675901248
+        }
+      ]
+    },
+    "BCC": {
+      "pearson": [
+        {
+          "feature": "space_group_number_ini",
+          "pearson_r": 0.4876873979532325
+        },
+        {
+          "feature": "NIONS",
+          "pearson_r": -0.34241651207343726
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "pearson_r": 0.3104720119457764
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "pearson_r": 0.3104720119457763
+        },
+        {
+          "feature": "2-norm",
+          "pearson_r": -0.30527050459390087
+        },
+        {
+          "feature": "3-norm",
+          "pearson_r": -0.2954897600612007
+        },
+        {
+          "feature": "mean neighbor distance variation",
+          "pearson_r": -0.2913023202338477
+        },
+        {
+          "feature": "composition_number_of_elements",
+          "pearson_r": 0.2843625355127937
+        },
+        {
+          "feature": "0-norm",
+          "pearson_r": 0.2843625355127937
+        },
+        {
+          "feature": "nelements",
+          "pearson_r": 0.2843625355127937
+        }
+      ],
+      "spearman": [
+        {
+          "feature": "space_group_number_ini",
+          "spearman_rho": 0.6199869772773623
+        },
+        {
+          "feature": "NIONS",
+          "spearman_rho": -0.3049591589339542
+        },
+        {
+          "feature": "avg_dev local difference in NsUnfilled",
+          "spearman_rho": 0.30145734649880085
+        },
+        {
+          "feature": "avg_dev local difference in NsValence",
+          "spearman_rho": 0.30145734649880085
+        },
+        {
+          "feature": "mean neighbor distance variation",
+          "spearman_rho": -0.2955186233744562
+        },
+        {
+          "feature": "2-norm",
+          "spearman_rho": -0.28855427775571946
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "spearman_rho": 0.2820408525246862
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "spearman_rho": 0.2820408525246862
+        },
+        {
+          "feature": "10-norm",
+          "spearman_rho": -0.27831974704600015
+        },
+        {
+          "feature": "7-norm",
+          "spearman_rho": -0.27829456004908637
+        }
+      ],
+      "mutual_information": [
+        {
+          "feature": "7-norm",
+          "mutual_information": 2.0955302765193364
+        },
+        {
+          "feature": "5-norm",
+          "mutual_information": 2.0942374222760716
+        },
+        {
+          "feature": "10-norm",
+          "mutual_information": 2.091503586009452
+        },
+        {
+          "feature": "configurational_entropy_j_mol_k",
+          "mutual_information": 2.0874028064941035
+        },
+        {
+          "feature": "configurational_entropy_kb_per_atom",
+          "mutual_information": 2.0855776325446964
+        },
+        {
+          "feature": "3-norm",
+          "mutual_information": 2.0654878332923623
+        },
+        {
+          "feature": "configurational_entropy_normalized",
+          "mutual_information": 2.015335450362109
+        },
+        {
+          "feature": "2-norm",
+          "mutual_information": 1.9420581720535148
+        },
+        {
+          "feature": "avg_dev neighbor distance variation",
+          "mutual_information": 1.5190473346656308
+        },
+        {
+          "feature": "mean absolute deviation in relative bond length",
+          "mutual_information": 1.4931371638981439
+        }
+      ]
+    }
+  },
+  "mi_estimation": {
+    "method": "5-neighbor mutual information regression",
+    "max_rows_per_cohort": 20000,
+    "sampling": "deterministic target-quantile-stratified",
+    "random_state": 42
+  },
+  "figures": [
+    "thesis_outputs\\figures\\phase4\\phase_counts_hcp_exclusion.png",
+    "thesis_outputs\\figures\\phase4\\alloy_system_frequency.png",
+    "thesis_outputs\\figures\\phase4\\element_frequency.png",
+    "thesis_outputs\\figures\\phase4\\component_count_distribution.png",
+    "thesis_outputs\\figures\\phase4\\feature_group_counts.png",
+    "thesis_outputs\\figures\\phase4\\feature_provenance_counts.png",
+    "thesis_outputs\\figures\\phase4\\feature_availability_distribution.png",
+    "thesis_outputs\\figures\\phase4\\missing_data_pattern_summary.png",
+    "thesis_outputs\\figures\\phase4\\target_distribution_by_phase.png",
+    "thesis_outputs\\figures\\phase4\\target_phase_boxplot.png",
+    "thesis_outputs\\figures\\phase4\\top_abs_pearson_r.png",
+    "thesis_outputs\\figures\\phase4\\top_abs_spearman_rho.png",
+    "thesis_outputs\\figures\\phase4\\top_mutual_information.png",
+    "thesis_outputs\\figures\\phase4\\top_mi_fcc.png",
+    "thesis_outputs\\figures\\phase4\\top_mi_bcc.png",
+    "thesis_outputs\\figures\\phase4\\fcc_bcc_association_comparison.png",
+    "thesis_outputs\\figures\\phase4\\nonlinear_interpretable_feature_panels.png",
+    "thesis_outputs\\figures\\phase4\\selected_feature_redundancy_heatmap.png"
+  ],
+  "ready_for_phase5": true
+}
