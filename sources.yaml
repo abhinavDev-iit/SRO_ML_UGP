@@ -1,0 +1,184 @@
+inventory_date: 2026-08-22
+datasets:
+  - dataset_id: hea_84k_dft_2023
+    dataset_name: DFT dataset for high entropy materials
+    paper_title: Efficient first principles based modeling via machine learning - from simple representations to high entropy materials
+    authors: [Kangming Li, Kamal Choudhary, Brian DeCost, Michael Greenwood, Jason Hattrick-Simpers]
+    year: 2024
+    DOI: 10.5281/zenodo.10854500
+    repository_URL: https://github.com/mathsphy/high-entropy-alloys-dataset-ML
+    archive_URL: https://zenodo.org/records/10854500
+    access_date: 2026-08-22
+    license: CC BY 4.0
+    source_type: theoretical_DFT
+    source_provenance: direct_dataset
+    theoretical_method: DFT; detailed settings unresolved
+    code_software: unknown
+    phase_coverage: [FCC, BCC, UNKNOWN]
+    elements: unresolved_from_253_chemical_systems
+    alloy_systems: 253
+    number_of_structures_rows: 84024
+    temperature_availability: false
+    composition_availability: true
+    SRO_definition: Warren-Cowley alpha over unique unlike-element pairs, summarized per structure and shell
+    SRO_shells_available: [1, 2, 3, 4]
+    important_properties_features: [formation_energy_per_atom, energy_above_hull, magnetic_moments, charge, volume_per_atom, Matminer_features]
+    files_actually_used: [hea.2023-04-06.csv, SROs_structure_ini.csv, structure_featurized.dat_all.csv, structure_ini_featurized.dat_all.csv, explore_data.py, demo_ML_training.py]
+    files_deliberately_ignored: []
+    known_limitations: [no_HCP, no_temperature, no_pair_resolved_SRO, relaxed_output_metadata_in_initial_feature_table, 227_rows_without_initial_structure]
+  - dataset_id: rao_curtin_2021
+    dataset_name: Analytical models of short-range order in FCC and BCC alloys
+    paper_title: Analytical models of short-range order in FCC and BCC alloys
+    authors: [You Rao, William A. Curtin]
+    year: 2021
+    DOI: 10.24435/materialscloud:qa-ba
+    repository_URL: null
+    archive_URL: https://archive.materialscloud.org/records/xc3bm-qc060
+    access_date: 2026-08-22
+    license: unknown
+    source_type: theoretical_MC
+    source_provenance: direct_dataset
+    theoretical_method: analytical statistical mechanics with reference Monte Carlo
+    code_software: Python and MATLAB scripts
+    phase_coverage: [FCC, BCC]
+    elements: [abstract_species]
+    alloy_systems: binary_and_ternary_model_systems
+    number_of_structures_rows: unresolved
+    temperature_availability: reduced_interaction_or_temperature_parameter
+    composition_availability: true
+    SRO_definition: pair probabilities and derived SRO; convention pending code audit
+    SRO_shells_available: [1, 2]
+    important_properties_features: [composition, pair_interaction_parameter, pair_probability, Monte_Carlo_fluctuation]
+    files_actually_used: [sro_fcc.xlsx, sro_bcc.xlsx, files_description.md, extracted_simulation_tree]
+    files_deliberately_ignored: [macOS_AppleDouble_files, DS_Store, plots_as_primary_data]
+    known_limitations: [no_HCP, repeated_simulation_files, presentation_oriented_workbooks, abstract_species]
+  - dataset_id: mlp_csro_crconi_2024_2025
+    dataset_name: MLP-cSRO CrCoNi
+    paper_title: Capturing Short-Range Order in High-Entropy Alloys with Machine Learning Potentials
+    authors: [Yifan Cao, Killian Sheriff, Rodrigo Freitas]
+    year: 2025
+    DOI: 10.1038/s41524-025-01722-2
+    repository_URL: unresolved_local_snapshot
+    archive_URL: null
+    access_date: 2026-08-22
+    license: present_locally_pending_text_audit
+    source_type: theoretical_MLIP
+    source_provenance: direct_dataset
+    theoretical_method: MTP trained to DFT
+    code_software: MLIP/MTP
+    phase_coverage: [FCC, HCP, LIQUID]
+    elements: [Cr, Co, Ni]
+    alloy_systems: [CrCoNi]
+    number_of_structures_rows: unresolved_nested_training_sets
+    temperature_availability: true
+    composition_availability: equiatomic
+    SRO_definition: Warren-Cowley in publication; repository extraction pending
+    SRO_shells_available: unresolved
+    important_properties_features: [structures, energies, forces, trained_potentials, plotted_WC_arrays]
+    files_actually_used: [README.md, training_datasets, plotting_codes, potentials]
+    files_deliberately_ignored: [trained_potential_replicas_as_observations]
+    known_limitations: [nested_training_sets, correlated_MC_snapshots, no_normalized_SRO_table]
+  - dataset_id: csro_lattice_crconi_2025
+    dataset_name: cSRO_lattice
+    paper_title: On the nature of chemical short-range order evolution
+    authors: [G. C. Stumpf, Y. Cao, V. P. Bacurau, D. Miracle, W. Wolf, E. D. Zanotto, R. Freitas, F. G. Coury]
+    year: 2025
+    DOI: null
+    repository_URL: unresolved_local_snapshot
+    archive_URL: null
+    access_date: 2026-08-22
+    license: present_locally_pending_text_audit
+    source_type: theoretical_MLIP
+    source_provenance: direct_dataset
+    theoretical_method: MC and MD with trained potential
+    code_software: LAMMPS, Python
+    phase_coverage: [unresolved_likely_FCC]
+    elements: [Cr, Co, Ni]
+    alloy_systems: [CrCoNi]
+    number_of_structures_rows: 3085_dump_files_plus_supporting_arrays
+    temperature_availability: true
+    composition_availability: equiatomic
+    SRO_definition: Warren-Cowley evolution; exact pair/shell convention pending code audit
+    SRO_shells_available: unresolved
+    important_properties_features: [MC_structures, thermal_ramps, bond_lengths, lattice_volume, WC_evolution]
+    files_actually_used: [README.md, simulations, plotting_codes]
+    files_deliberately_ignored: [PDF_figures_as_numerical_source_when_arrays_exist]
+    known_limitations: [trajectory_pseudoreplication, filename_encoded_metadata, no_normalized_table]
+  - dataset_id: crconi_colabfit_2024
+    dataset_name: CrCoNi_Cao_2022
+    paper_title: Quantifying chemical short-range order in metallic alloys
+    authors: [Yifan Cao, Killian Sheriff, Rodrigo Freitas]
+    year: 2024
+    DOI: 10.60732/76208b62
+    repository_URL: https://github.com/yifan-henry-cao/MachineLearningPotential
+    archive_URL: null
+    access_date: 2026-08-22
+    license: MIT
+    source_type: theoretical_DFT
+    source_provenance: direct_dataset
+    theoretical_method: spin-polarized DFT-PBE
+    code_software: VASP 6.2.1
+    phase_coverage: [unresolved_from_cells]
+    elements: [Cr, Co, Ni]
+    alloy_systems: [CrCoNi]
+    number_of_structures_rows: 1257
+    temperature_availability: metadata_not_present_in_extxyz_header
+    composition_availability: equiatomic_overall
+    SRO_definition: none_reported_in_dataset
+    SRO_shells_available: []
+    important_properties_features: [structures, energies, atomic_forces, stresses]
+    files_actually_used: [dataset.json, co_0.extxyz]
+    files_deliberately_ignored: []
+    known_limitations: [training_collection_not_equilibrium_SRO_dataset, SRO_requires_validation]
+  - dataset_id: cms_eam_2025
+    dataset_name: CMS-EAM 2025
+    paper_title: Chemical short-range order and its influence on selected properties of non-dilute random alloys
+    authors: [Subah Mubassira, Mahshad Fani, Anshu Raj, Cliff Hirt, Richard S. Brinlee, Amin Poozesh, Wu-Rong Jian, Saeed Zare Chavoshi, Chanho Lee, Shuozhi Xu]
+    year: 2025
+    DOI: 10.1016/j.commatsci.2024.113587
+    repository_URL: unresolved_local_snapshot
+    archive_URL: null
+    access_date: 2026-08-22
+    license: unknown
+    source_type: theoretical_EAM
+    source_provenance: direct_dataset
+    theoretical_method: EAM Monte Carlo / molecular simulation
+    code_software: LAMMPS, Atomsk, OVITO
+    phase_coverage: [FCC, BCC, HCP]
+    elements: [Co, Cr, Ni, Hf, Ti, Zr, Mo, Nb, Ta, V, W]
+    alloy_systems: 21_planned_ternaries
+    number_of_structures_rows: incomplete_local_results
+    temperature_availability: 300_K_CSRO_generation_documented
+    composition_availability: equiatomic_ternaries
+    SRO_definition: Warren-Cowley calculation described but consolidated values absent
+    SRO_shells_available: unresolved
+    important_properties_features: [lattice_parameter, lattice_distortion, USFE, melting_point]
+    files_actually_used: [README.md, EAM_potential, LAMMPS_inputs, random_property_tables]
+    files_deliberately_ignored: [planned_outputs_not_present]
+    known_limitations: [mostly_workflow_not_completed_dataset, HCP_SRO_values_absent]
+  - dataset_id: hea_computational_toolkit_2024
+    dataset_name: High-Entropy-Alloys computational toolkit
+    paper_title: null
+    authors: [A. I. Bhatti et al.]
+    year: 2024
+    DOI: 10.1016/j.commatsci.2024.113196
+    repository_URL: unresolved_local_snapshot
+    archive_URL: null
+    access_date: 2026-08-22
+    license: GPL-3.0
+    source_type: software_resource
+    source_provenance: calculated_from_structure
+    theoretical_method: not_applicable
+    code_software: Python, C++, Fortran
+    phase_coverage: [FCC, BCC, HCP]
+    elements: [general]
+    alloy_systems: general
+    number_of_structures_rows: 0
+    temperature_availability: not_applicable
+    composition_availability: not_applicable
+    SRO_definition: PM-SRO and WC-SRO implementations require validation
+    SRO_shells_available: multiple
+    important_properties_features: [SRO_calculation, SQS_generation, configurational_entropy]
+    files_actually_used: [README.md, PMSROCalculatorPyScale2.py, SRO_pyscal.py]
+    files_deliberately_ignored: [compiled_cache_files, bundled_p4vasp_zip]
+    known_limitations: [software_not_source_data, scientific_validation_required]
