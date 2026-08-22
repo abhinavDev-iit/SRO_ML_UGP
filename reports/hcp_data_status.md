@@ -2,6 +2,10 @@
 
 Inventory date: 2026-08-22.
 
+## Phase 5 update
+
+No HCP model was trained. All Phase 5 split, model, prediction, residual, importance, and alloy-error tables assert a validated HCP count of **0** and contain only the **40,425 FCC** and **43,372 BCC** observations. The 255 MLP-cSRO HCP configurations remain provisional and excluded because the author WC reference arrays/topology validation are unavailable. This prevents any claim of FCC/BCC/HCP model parity and remains the principal data limitation before HCP inference.
+
 ## Phase 4 update
 
 The exploratory/correlation database remains FCC/BCC-only: **40,425 FCC**, **43,372 BCC**, and **0 validated HCP** observations. All **255 provisional MLP-cSRO HCP CrCoNi configurations** were excluded by an explicit pipeline assertion and output test. No new HCP archive was downloaded during Phase 4, and no file above 500 MB was requested. The missing author HCP `LOP_*.npy` Warren–Cowley reference arrays still prevent validation of the reconstructed values.

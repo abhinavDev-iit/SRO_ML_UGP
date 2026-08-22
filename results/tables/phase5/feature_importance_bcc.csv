@@ -1,0 +1,199 @@
+feature,built_in_importance,permutation_mae_increase,permutation_std,cohort,model,feature_set
+space_group_number_ini,,0.1635380693666212,0.0013007042121014997,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+configurational_entropy_j_mol_k,,0.09100079518242343,0.0016058647195610963,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+NIONS,,0.03307891131012757,0.0005362763539445371,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+configurational_entropy_normalized,,0.018791691509438015,0.000313536401158544,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in NsUnfilled,,0.00720321042856117,0.00026420887113945386,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in SpaceGroupNumber,,0.006054189338311551,0.0002589112191620704,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+5-norm,,0.005963400461377703,0.00013798242507130995,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in Electronegativity,,0.005670886242355529,0.00012755543515309399,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in NsValence,,0.005474934532003557,0.00015596696002784507,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+max packing efficiency,,0.004786158258440099,0.00015665892802201248,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NsUnfilled,,0.004521003307271572,0.0002221052852985763,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in GSmagmom,,0.003682581749012865,0.00014381204830292603,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean absolute deviation in relative cell size,,0.0033122734506231106,0.0001628656847068536,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range neighbor distance variation,,0.0021948849859981315,6.358020985615688e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in SpaceGroupNumber,,0.002123020412801257,1.5760912756451267e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in Row,,0.0017151431355861533,0.00015904047028726635,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in NsValence,,0.0014783219277468725,6.994650417300067e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev neighbor distance variation,,0.001213293678349323,0.00012468773986356338,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in Electronegativity,,0.0011874003057208218,7.734683975010772e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NValence,,0.001132534193089868,7.287703962074581e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in Electronegativity,,0.0010374702321728723,0.00011677533778540447,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in SpaceGroupNumber,,0.0010298382869328275,0.00011090431470337222,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in MeltingT,,0.0009762697654793715,5.422664133340745e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in GSbandgap,,0.0009683932349150437,0.00024333185496690958,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NUnfilled,,0.0009379817895335771,7.77023953118398e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in Row,,0.0009335137719778281,3.4314158755925415e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev CN_VoronoiNN,,0.0009002145229261548,6.108614286427827e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in SpaceGroupNumber,,0.0008810879024176294,4.791164800842798e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in GSmagmom,,0.0008623879427690889,2.979814811989324e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in NUnfilled,,0.0007704520480374052,0.00011222899734404628,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in GSbandgap,,0.000768401315507157,0.00020471482937244728,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in SpaceGroupNumber,,0.0007314949729448605,3.741153310826465e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Mn,,0.0007170291576044605,1.7841822312230723e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in Row,,0.0006912875915039257,7.77662286788744e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in CovalentRadius,,0.0006340927839335597,0.00013540475396845892,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in Column,,0.0006030692547035176,9.743292248347692e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+min relative bond length,,0.0005843278517088957,9.996209705163862e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in Column,,0.0005802812566914247,9.035449966353765e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in GSmagmom,,0.0005475996611864348,3.803923480646928e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in GSmagmom,,0.0005430374683579875,6.634575281386106e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev NsUnfilled,,0.0004938358176269202,5.842196702126716e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in NdUnfilled,,0.0004925099643954567,6.395448838034774e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NdUnfilled,,0.00047715199013149734,5.0239434524576434e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Fe_Ni,,0.00045671895169710947,6.0041674132219655e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in CovalentRadius,,0.0004526296513660567,7.56372839244854e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in GSmagmom,,0.0004144372200796803,3.957165753588879e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_atomic_radius_covalent_mean_abs_diff,,0.00040103702293457777,1.1502753440658153e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev SpaceGroupNumber,,0.0003806767694559676,4.0677252923799306e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Fe,,0.00035996036685669264,3.4849466873257e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in NUnfilled,,0.0003189953309208927,7.347416123827288e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in NdValence,,0.0003104435207792952,7.282316433302885e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in MeltingT,,0.00031014499988543665,5.283808676756814e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in GSbandgap,,0.0002986297575127671,6.313766033591593e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in Electronegativity,,0.00029610363149774194,9.442593176573661e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in Column,,0.00028939477289902094,3.070131749506588e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Co,,0.00028864865990089567,6.996768187964592e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in NUnfilled,,0.00026948700913225393,3.176518463156513e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NsValence,,0.0002428719318109789,2.544277158282845e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in Electronegativity,,0.00023410603008382908,6.499480413283659e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Mn_Ni,,0.00022116257483364063,2.027528075824427e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in CovalentRadius,,0.0001910186017029201,4.785733777430369e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in MeltingT,,0.00018336612178267847,1.8178315458554113e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg ionic char,,0.0001796532425105459,1.6921143434460055e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Ni,,0.0001753003394840691,2.830509805070092e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in MeltingT,,0.00017489558509814715,5.073747667988761e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in Row,,0.00017400852382500978,7.376336805408911e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean SpaceGroupNumber,,0.00017400578784777798,1.841721920125523e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev GSmagmom,,0.00015787994078699194,2.717862434337594e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range CovalentRadius,,0.00014732177058270532,4.8172391771343007e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Ni,,0.00014676598682578554,1.2350760072665406e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NUnfilled,,0.00014306897779821823,1.6206652273159398e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev Column,,0.0001389436902750965,7.360736711516341e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in NValence,,0.0001334004467384182,1.9294013223391263e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range AtomicWeight,,0.0001327367827913354,2.6729967614483412e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev NUnfilled,,0.00012901346369141123,4.479804036753898e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in NdValence,,0.0001222196969563096,1.948892116346669e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NdValence,,0.0001170007246174623,2.4851844777560364e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev GSvolume_pa,,0.00011624144427311207,6.2155368058023075e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in Column,,0.00011232883832081042,2.2764486119711163e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NdValence,,0.00010826200085766365,9.730103921928473e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in CovalentRadius,,0.0001078506028229879,1.4445130611227645e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in NValence,,0.0001049220778386456,2.2598694719093423e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NpValence,,0.00010360975721408529,2.784226692843793e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev NValence,,0.00010174934597709934,1.0697430441424297e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean NsUnfilled,,0.0001010950821644536,8.697648299152024e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+mean local difference in Column,,9.829370580654213e-05,2.455835019296657e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in Number,,9.014809330243113e-05,9.803680104160496e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range GSmagmom,,7.486163717892551e-05,7.579231496223658e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NValence,,7.177316934948996e-05,7.73601312413455e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in CovalentRadius,,7.053518402350596e-05,2.497995626262573e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Fe,,6.140621697821082e-05,2.0230656387280047e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in Number,,6.107350098008557e-05,8.433798585712414e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_atomic_number_mean_abs_diff,,5.436973310359028e-05,2.359499250130827e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in NdUnfilled,,5.387994747160322e-05,1.4345524013969805e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in MeltingT,,5.253895550808944e-05,4.9350791282676576e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev NdUnfilled,,5.207133902168417e-05,2.1421707277362796e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+derived_atomic_mass_mean,,4.7783719558026905e-05,7.52333307141905e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NsValence,,4.4534358634854464e-05,5.1375834318060885e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum AtomicWeight,,4.214632591781342e-05,1.2806838274424761e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Fe,,3.936806089648026e-05,2.960671729279157e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_vec_rms_diff,,3.5622687494740735e-05,1.8140515238754726e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range NUnfilled,,3.4825724505645195e-05,1.5082531641570515e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean GSmagmom,,3.416974383606969e-05,1.4610467002075081e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode Electronegativity,,3.1171698689757645e-05,4.4384366507117486e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+derived_melting_point_mean,,2.881110881711631e-05,4.337186252955729e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode MeltingT,,2.2377067229589303e-05,1.1429228440921546e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+avg_dev local difference in NdUnfilled,,2.174569105982636e-05,9.46238622322456e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+minimum local difference in NpValence,,2.0875133483487056e-05,9.710404705828857e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Mn,,1.9232227652541307e-05,7.387384026520132e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+max ionic char,,1.716536331936025e-05,6.917218882942894e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range NdUnfilled,,1.67201902226341e-05,5.353892022714859e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Mn,,1.5943657209171087e-05,1.923247528222938e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+range local difference in NdUnfilled,,1.3065615423892007e-05,4.385507050895523e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode GSmagmom,,1.1735459241326665e-05,1.6223660834551705e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Cr,,1.1012086450150338e-05,1.093436895138196e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean NValence,,1.023396883683784e-05,7.208484719535111e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+derived_atomic_radius_covalent_std,,9.303709698098758e-06,1.3573712607516099e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in NValence,,8.502120822956316e-06,3.894480778390691e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+frac s valence electrons,,8.26239736846183e-06,3.163381659239601e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Fe_Mn,,8.256671534344803e-06,6.992764883556652e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_electronegativity_mean_abs_diff,,7.999331305521643e-06,8.32779925368262e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode GSvolume_pa,,7.873168577185452e-06,1.7660704790708828e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Si,,6.605302188803878e-06,1.785692662715343e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode CovalentRadius,,4.948637544332131e-06,2.105102775437402e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean NdUnfilled,,4.1622741702533146e-06,1.8723436314774873e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NsUnfilled,,3.5449190254286758e-06,1.7007362981554926e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode Column,,3.5010305827638346e-06,6.189006165522228e-07,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NValence,,3.2027201610496103e-06,1.633073259772272e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+frac d valence electrons,,2.9978941432593866e-06,4.559682477559354e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Cr,,2.4920829092741257e-06,1.3682216379871039e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Ni,,1.3814679408682973e-06,3.3949629604277186e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode SpaceGroupNumber,,1.0135703195241856e-06,3.351840802660001e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Co,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean GSvolume_pa,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NdUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Cr,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Mn_Mn,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Fe_Fe,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Ni_Ni,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range MeltingT,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum Number,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range NValence,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean NUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Si_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Al,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum NUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+derived_melting_point_std,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Al,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+derived_electronegativity_mean,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range SpaceGroupNumber,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum MeltingT,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum NdUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum NValence,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum CovalentRadius,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range Column,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum Electronegativity,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Mn_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Fe,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Cr,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Mn,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Fe_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData range NsValence,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Co,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Ni,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Ni_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+compound possible,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode GSbandgap,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cu_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Al_Cu,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+composition_fraction_Cu,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum Column,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum NUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cu_Cu,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum GSvolume_pa,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum Column,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum Electronegativity,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum MeltingT,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Si,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cu_Fe,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum SpaceGroupNumber,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum NdUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum NpValence,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum NsValence,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData minimum GSmagmom,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode Row,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cu_Ni,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Co_Cu,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NpUnfilled,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cu_Mn,,0.0,0.0,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_melting_point_mean_abs_diff,,-3.5609742948343e-07,1.552009130512861e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData maximum CovalentRadius,,-9.74954392864158e-07,1.3787937250837189e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+maximum local difference in NdValence,,-1.5394180956154746e-06,4.134429069803653e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean CovalentRadius,,-2.8845468772210428e-06,1.0198413287691927e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+pair_fraction_Cr_Cu,,-3.347429132376234e-06,1.3653661335708146e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mode NUnfilled,,-4.137684585910073e-06,1.037237068801605e-05,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData avg_dev NdValence,,-2.0163002897720383e-05,8.297442070467504e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY
+MagpieData mean GSbandgap,,-3.0049314298792595e-05,2.945242824499803e-06,BCC,HistGradientBoosting,BALANCED_PRELIMINARY

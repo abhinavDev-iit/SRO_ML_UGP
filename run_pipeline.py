@@ -8,6 +8,7 @@ from pathlib import Path
 
 from src.ingestion.hea84k import build_manifest, ingest_hea84k
 from src.analysis.phase4 import run_phase4
+from src.ml.phase5 import run_phase5
 from src.pipeline.phase3 import build_phase3_database
 
 
@@ -22,6 +23,7 @@ def main() -> None:
     phase3.add_argument("--raw-dir", type=Path, default=Path("data/raw/dataset_84k_hea"))
     phase3.add_argument("--output-dir", type=Path, default=Path("data/processed"))
     sub.add_parser("analyze-phase4", help="run EDA, association and preliminary feature-set analysis")
+    sub.add_parser("train-phase5", help="run leakage-controlled grouped ML evaluation independently")
     args = parser.parse_args()
 
     if args.command == "ingest-84k":
@@ -31,6 +33,8 @@ def main() -> None:
         print(json.dumps(build_phase3_database(raw_dir=args.raw_dir, output_dir=args.output_dir), indent=2))
     elif args.command == "analyze-phase4":
         print(json.dumps(run_phase4(), indent=2))
+    elif args.command == "train-phase5":
+        print(json.dumps(run_phase5(), indent=2))
 
 
 if __name__ == "__main__":

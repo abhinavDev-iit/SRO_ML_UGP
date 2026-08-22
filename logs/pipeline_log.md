@@ -50,3 +50,20 @@
 - **Warnings:** association is not causation; rows are nested within compositions/systems; MI magnitudes depend on estimator/sample; initial symmetry/geometry can encode configuration regime; Phase 5 requires group-aware validation and structure-feature ablation
 - **HCP:** no new data downloaded; validated count remains zero; MLP-cSRO reference arrays or compact HfTiZr WC/configuration bundle still required
 - **Training:** not started
+
+## 2026-08-22 — Phase 5: leakage-controlled grouped machine learning
+
+- **Input:** ignored validated `ml_dataset.parquet`; Phase 4 feature mapping and preliminary sets; target `target_mean_abs_sro_shell1`
+- **Population:** 83,797 rows (FCC 40,425; BCC 43,372); HCP 0; all 255 provisional HCP configurations excluded
+- **Primary split:** 196 training and 50 held-out alloy systems; 71,117/12,680 rows; zero group overlap; fixed seed 42; three-fold shuffled alloy-system GroupKFold inside training
+- **Models:** dummy median, linear, Ridge, Elastic Net, Random Forest, Extra Trees, Gradient Boosting, HistGradientBoosting, and 10,000-row SVR baseline. XGBoost/LightGBM/SHAP skipped because not installed.
+- **Selection:** model/feature configuration chosen only by inner grouped-CV R²; outer test never used to select. Fitted constant filtering and required scaling live inside sklearn pipelines.
+- **Best:** HistGradientBoosting + BALANCED (198 features) for all cohorts; unified test R²/MAE/RMSE 0.8997/0.0535/0.0764; FCC 0.9058/0.0348/0.0534; BCC 0.9154/0.0563/0.0808
+- **Split sensitivity:** unified R² 0.9266 random, 0.9161 composition-held-out, 0.8997 alloy-system-held-out; grouped result governs conclusions
+- **Ablation:** unified grouped-CV R² 0.0262 composition-only, 0.1764 composition+phase, 0.8783 composition+initial structure, 0.1008 MINIMAL, 0.8803 BALANCED
+- **Space group:** removing `space_group_number_ini` lowers held-out R² by 0.0794 unified, 0.0811 FCC, 0.0777 BCC; sensitivity persists within phase but is not causal evidence
+- **Importance:** space group, configurational entropy, packing/neighbor geometry, atom count and local-difference descriptors lead held-out permutation importance; interpretation remains preliminary
+- **Models:** three compressed joblib pipelines retained locally under ignored `models/phase5/`; compact JSON metadata tracked
+- **Outputs:** complete result/prediction/importance/split/alloy CSVs; seven ML reports; 18 Phase 5 300 dpi figures; updated thesis captions, notes and numerical summary
+- **Runtime:** approximately 31.9 minutes for the complete local run; no raw ingestion rerun; no model binary committed
+- **Training caution:** Phase 4 BALANCED selection was informed by whole-dataset EDA, so Phase 5 is exploratory rather than pristine confirmatory validation

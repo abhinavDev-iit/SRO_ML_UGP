@@ -4,7 +4,7 @@ Local, reproducible research-software project for constructing a provenance-pres
 
 ## Current status
 
-The project has completed Phase 4 exploratory analysis, correlation/redundancy screening, and preliminary feature-set construction. No machine-learning model has been trained.
+The project has completed Phase 5 leakage-controlled regression, phase-specific comparison, feature ablation, and preliminary model interpretation.
 
 - Seven local source families and 46,123 raw files have been inventoried.
 - The 84k DFT source provides 83,797 initial FCC/BCC configurations with aggregate shell-resolved SRO labels.
@@ -16,6 +16,10 @@ The project has completed Phase 4 exploratory analysis, correlation/redundancy s
 - Pearson, Spearman and mutual-information screens were calculated for the aggregate, FCC-only and BCC-only cohorts. The 348-feature library contains 24 constants, 29 near-zero-variance features, and 426 feature pairs with aggregate |Pearson r| >= 0.95.
 - Preliminary comparison sets contain 324 `FULL_CLEAN`, 198 `BALANCED_PRELIMINARY`, and 19 `MINIMAL_PRELIMINARY` predictors. These are not final model-selected sets.
 - Eighteen 300 dpi thesis figures and matching compact CSV tables report coverage, target distributions, associations, phase differences, nonlinear trends, availability and redundancy.
+- The primary ML evaluation holds out 50 entire alloy systems (12,680 rows) and uses grouped inner CV for model/feature-set selection.
+- CV-selected HistGradientBoosting models with 198 BALANCED predictors achieve alloy-held-out R² of 0.8997 unified, 0.9058 FCC, and 0.9154 BCC.
+- Composition-only grouped-CV R² is only 0.0262 unified; leakage-safe initial structural descriptors raise it to 0.8783. This is strong configuration-level prediction, not evidence of composition-only transferability.
+- Best model binaries are stored only under ignored `models/`; compact metadata, predictions, metrics, importance tables, reports, and 18 Phase 5 figures are version-controlled.
 
 ## Data policy
 
@@ -36,6 +40,7 @@ python scripts/profile_mlp_csro_cfg.py
 python run_pipeline.py ingest-84k --dry-run
 python run_pipeline.py build-phase3
 python run_pipeline.py analyze-phase4
+python run_pipeline.py train-phase5
 ```
 
 The legacy standardized ignored local CSV view can still be generated with:
@@ -54,6 +59,7 @@ python run_pipeline.py ingest-84k
 - `src/features/`: composition, elemental-property and pair feature engineering
 - `src/pipeline/`: validated Phase 3 Parquet/QA/figure construction
 - `src/analysis/`: reproducible Phase 4 EDA, association, redundancy and preliminary-set logic
+- `src/ml/`: Phase 5 grouped splits, sklearn pipelines, model/ablation comparison, importance, residual and alloy-system analysis
 - `tests/`: scientifically important validation tests
 - `run_pipeline.py`: modular command-line entry point
 

@@ -14,3 +14,18 @@
 | 255 HCP CrCoNi configurations remain provisional and excluded | `phase_counts_hcp_exclusion.png` | `phase_counts.csv` | Missing author WC arrays/topology validation prevents scientific use as labels. |
 
 [LITERATURE SUPPORT REQUIRED] for microscopic explanations of phase-specific descriptor trends.
+
+## Phase 5 model results
+
+| Numerical result | Model / validation | Figure | Table | Cautious interpretation |
+|---|---|---|---|---|
+| Unified R² 0.8997; MAE 0.0535; RMSE 0.0764 | HistGradientBoosting/BALANCED; alloy-system held out | `predicted_vs_actual_unified.png` | `best_model_metrics.csv` | Strong prediction for unseen source alloy systems, conditional on available initial descriptors. |
+| FCC R² 0.9058; MAE 0.0348; RMSE 0.0534 | FCC HistGradientBoosting/BALANCED | `predicted_vs_actual_fcc.png` | `model_comparison_fcc.csv` | FCC has lower raw errors partly because its target spread is smaller. |
+| BCC R² 0.9154; MAE 0.0563; RMSE 0.0808 | BCC HistGradientBoosting/BALANCED | `predicted_vs_actual_bcc.png` | `model_comparison_bcc.csv` | BCC has higher R² but also larger raw errors and target spread. |
+| FCC phase-specific R² 0.9058 vs unified-on-FCC 0.8668; BCC 0.9154 vs 0.9038 | identical held-out alloy systems | `unified_vs_phase_specific.png` | `unified_vs_phase_specific_metrics.csv` | Separate phase models improve both phases, especially FCC. |
+| Unified R²: random 0.9266, composition-held-out 0.9161, alloy-held-out 0.8997 | same CV-selected pipeline re-fitted per split | `random_vs_grouped_validation.png` | `grouped_validation_results.csv` | Random splitting is optimistic; alloy grouping is the primary scientific result. |
+| Grouped-CV R²: composition 0.0262; +phase 0.1764; +initial structure 0.8783 | HistGradientBoosting ablation | `feature_set_comparison.png` | `feature_set_model_comparison.csv` | Most predictive information is configuration-sensitive initial geometry, not composition alone. |
+| MINIMAL grouped-CV R² 0.1008 vs BALANCED 0.8803 | HistGradientBoosting | `feature_set_comparison.png` | `feature_set_model_comparison.csv` | The 19-feature portable baseline does not retain most accuracy. |
+| Removing initial space group lowers R² 0.0794 unified, 0.0811 FCC, 0.0777 BCC | FULL_CLEAN HistGradientBoosting sensitivity | `feature_importance_unified.png` | `space_group_sensitivity.csv` | Within-phase predictive signal exists, but causality is not established. |
+| Top unified permutation features: initial space group, configurational entropy, packing efficiency, atom count | held-out 3,000-row deterministic permutation | `feature_importance_unified.png` | `feature_importance_unified.csv` | Importance is conditional and correlated-feature dependent. [LITERATURE SUPPORT REQUIRED] |
+| Validated HCP model count 0 | HCP excluded | `phase_counts_hcp_exclusion.png` | `best_model_metrics.csv` | No HCP performance claim is scientifically permitted. |

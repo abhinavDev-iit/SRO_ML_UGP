@@ -20,3 +20,26 @@
 18. **Selected-feature redundancy heatmap** (`selected_feature_redundancy_heatmap.png`). Pearson matrix for the 19 portable preliminary descriptors, illustrating remaining physical and mathematical covariance without displaying the unreadable 324-feature full matrix.
 
 All PNGs are generated at 300 dpi. [LITERATURE SUPPORT REQUIRED] for any thesis claim connecting these empirical associations to specific microscopic mechanisms.
+
+## Phase 5 figures
+
+1. **Unified model R² comparison** (`model_r2_comparison_unified.png`). Outer alloy-system-held-out R² for screened model families and feature sets; selection used inner grouped CV.
+2. **Unified model MAE comparison** (`model_mae_comparison_unified.png`). Outer MAE for the same configurations; lower is better.
+3. **Unified model RMSE comparison** (`model_rmse_comparison_unified.png`). Outer RMSE, emphasizing large residuals.
+4. **FCC model comparison** (`model_comparison_fcc.png`). FCC-only alloy-held-out R² across screened configurations.
+5. **BCC model comparison** (`model_comparison_bcc.png`). BCC-only alloy-held-out R² across screened configurations.
+6. **Unified versus phase-specific** (`unified_vs_phase_specific.png`). Best CV-selected model result for pooled and phase-specific cohorts; exact same-row comparison is tabulated separately.
+7. **Feature-set ablation** (`feature_set_comparison.png`). Best unified HistGradientBoosting performance across FULL, BALANCED, MINIMAL and physical ablation sets.
+8. **Random versus grouped validation** (`random_vs_grouped_validation.png`). Random, composition-held-out and alloy-system-held-out R² for the frozen best pipeline; the alloy result is primary.
+9. **Unified observed versus predicted** (`predicted_vs_actual_unified.png`). Density of outer-test predictions against aggregate first-shell SRO magnitude.
+10. **FCC observed versus predicted** (`predicted_vs_actual_fcc.png`). FCC-specific outer-test predictions.
+11. **BCC observed versus predicted** (`predicted_vs_actual_bcc.png`). BCC-specific outer-test predictions.
+12. **Unified residual plot** (`residual_plot_unified.png`). Observed-minus-predicted residual versus prediction for unseen alloy systems.
+13. **Unified residual distribution** (`residual_distribution_unified.png`). Distribution of unified outer-test residuals.
+14. **FCC residual plot** (`residual_plot_fcc.png`). FCC-specific residual structure.
+15. **BCC residual plot** (`residual_plot_bcc.png`). BCC-specific residual structure.
+16. **Unified permutation importance** (`feature_importance_unified.png`). Held-out MAE increase after deterministic feature permutation; correlated descriptors share/reallocate importance.
+17. **FCC permutation importance** (`feature_importance_fcc.png`). FCC-specific held-out permutation importance.
+18. **BCC permutation importance** (`feature_importance_bcc.png`). BCC-specific held-out permutation importance.
+
+All Phase 5 PNGs are 300 dpi. Model importance is not causality. [LITERATURE SUPPORT REQUIRED] for microscopic explanations.

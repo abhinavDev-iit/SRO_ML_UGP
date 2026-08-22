@@ -1,0 +1,4 @@
+strategy,seed,train_rows,test_rows,train_fcc,train_bcc,test_fcc,test_bcc,group_column,train_groups,test_groups,group_overlap
+random_configuration,42,67037,16760,32340,34697,8085,8675,none,67037,16760,not_applicable
+composition_grouped,42,68318,15479,32921,35397,7504,7975,composition_fractions_json,7706,1927,0
+alloy_system_grouped,42,71117,12680,34520,36597,5905,6775,chemical_system,196,50,0

@@ -1,0 +1,1271 @@
+feature_set,feature,feature_order
+BALANCED_PRELIMINARY,5-norm,1
+BALANCED_PRELIMINARY,configurational_entropy_j_mol_k,2
+BALANCED_PRELIMINARY,space_group_number_ini,3
+BALANCED_PRELIMINARY,configurational_entropy_normalized,4
+BALANCED_PRELIMINARY,range neighbor distance variation,5
+BALANCED_PRELIMINARY,avg_dev local difference in NsValence,6
+BALANCED_PRELIMINARY,avg_dev neighbor distance variation,7
+BALANCED_PRELIMINARY,mean absolute deviation in relative cell size,8
+BALANCED_PRELIMINARY,NIONS,9
+BALANCED_PRELIMINARY,mean local difference in NsValence,10
+BALANCED_PRELIMINARY,range local difference in NsValence,11
+BALANCED_PRELIMINARY,max packing efficiency,12
+BALANCED_PRELIMINARY,mean local difference in NUnfilled,13
+BALANCED_PRELIMINARY,avg_dev CN_VoronoiNN,14
+BALANCED_PRELIMINARY,maximum local difference in NsUnfilled,15
+BALANCED_PRELIMINARY,minimum local difference in NUnfilled,16
+BALANCED_PRELIMINARY,MagpieData avg_dev GSmagmom,17
+BALANCED_PRELIMINARY,mean local difference in GSmagmom,18
+BALANCED_PRELIMINARY,MagpieData avg_dev NUnfilled,19
+BALANCED_PRELIMINARY,MagpieData mean GSmagmom,20
+BALANCED_PRELIMINARY,pair_atomic_number_mean_abs_diff,21
+BALANCED_PRELIMINARY,range local difference in NdUnfilled,22
+BALANCED_PRELIMINARY,min relative bond length,23
+BALANCED_PRELIMINARY,range local difference in Column,24
+BALANCED_PRELIMINARY,pair_vec_rms_diff,25
+BALANCED_PRELIMINARY,MagpieData avg_dev SpaceGroupNumber,26
+BALANCED_PRELIMINARY,range local difference in NdValence,27
+BALANCED_PRELIMINARY,range local difference in NValence,28
+BALANCED_PRELIMINARY,mean local difference in SpaceGroupNumber,29
+BALANCED_PRELIMINARY,avg_dev local difference in SpaceGroupNumber,30
+BALANCED_PRELIMINARY,minimum local difference in NsUnfilled,31
+BALANCED_PRELIMINARY,minimum local difference in NValence,32
+BALANCED_PRELIMINARY,MagpieData avg_dev NsUnfilled,33
+BALANCED_PRELIMINARY,maximum local difference in NdUnfilled,34
+BALANCED_PRELIMINARY,minimum local difference in Column,35
+BALANCED_PRELIMINARY,pair_atomic_radius_covalent_mean_abs_diff,36
+BALANCED_PRELIMINARY,avg_dev local difference in NUnfilled,37
+BALANCED_PRELIMINARY,MagpieData mean NsUnfilled,38
+BALANCED_PRELIMINARY,pair_fraction_Co_Ni,39
+BALANCED_PRELIMINARY,pair_fraction_Fe_Ni,40
+BALANCED_PRELIMINARY,range local difference in Number,41
+BALANCED_PRELIMINARY,pair_fraction_Co_Mn,42
+BALANCED_PRELIMINARY,pair_fraction_Mn_Ni,43
+BALANCED_PRELIMINARY,pair_fraction_Co_Fe,44
+BALANCED_PRELIMINARY,mean local difference in NdUnfilled,45
+BALANCED_PRELIMINARY,pair_fraction_Cr_Ni,46
+BALANCED_PRELIMINARY,pair_fraction_Cr_Fe,47
+BALANCED_PRELIMINARY,pair_fraction_Fe_Mn,48
+BALANCED_PRELIMINARY,pair_fraction_Cr_Mn,49
+BALANCED_PRELIMINARY,pair_fraction_Co_Cr,50
+BALANCED_PRELIMINARY,avg ionic char,51
+BALANCED_PRELIMINARY,avg_dev local difference in GSmagmom,52
+BALANCED_PRELIMINARY,minimum local difference in NdUnfilled,53
+BALANCED_PRELIMINARY,range local difference in NUnfilled,54
+BALANCED_PRELIMINARY,mean local difference in Row,55
+BALANCED_PRELIMINARY,composition_fraction_Ni,56
+BALANCED_PRELIMINARY,pair_fraction_Ni_Ni,57
+BALANCED_PRELIMINARY,composition_fraction_Co,58
+BALANCED_PRELIMINARY,MagpieData mean GSvolume_pa,59
+BALANCED_PRELIMINARY,maximum local difference in NdValence,60
+BALANCED_PRELIMINARY,pair_fraction_Co_Co,61
+BALANCED_PRELIMINARY,MagpieData avg_dev GSvolume_pa,62
+BALANCED_PRELIMINARY,maximum local difference in Column,63
+BALANCED_PRELIMINARY,mean local difference in NdValence,64
+BALANCED_PRELIMINARY,composition_fraction_Mn,65
+BALANCED_PRELIMINARY,pair_fraction_Mn_Mn,66
+BALANCED_PRELIMINARY,composition_fraction_Fe,67
+BALANCED_PRELIMINARY,pair_fraction_Fe_Fe,68
+BALANCED_PRELIMINARY,composition_fraction_Cr,69
+BALANCED_PRELIMINARY,pair_fraction_Cr_Cr,70
+BALANCED_PRELIMINARY,derived_atomic_mass_mean,71
+BALANCED_PRELIMINARY,mean local difference in Column,72
+BALANCED_PRELIMINARY,MagpieData mean SpaceGroupNumber,73
+BALANCED_PRELIMINARY,maximum local difference in Row,74
+BALANCED_PRELIMINARY,derived_atomic_radius_covalent_std,75
+BALANCED_PRELIMINARY,mean local difference in NValence,76
+BALANCED_PRELIMINARY,range local difference in SpaceGroupNumber,77
+BALANCED_PRELIMINARY,derived_melting_point_std,78
+BALANCED_PRELIMINARY,range local difference in GSmagmom,79
+BALANCED_PRELIMINARY,range local difference in CovalentRadius,80
+BALANCED_PRELIMINARY,maximum local difference in NValence,81
+BALANCED_PRELIMINARY,MagpieData avg_dev NdUnfilled,82
+BALANCED_PRELIMINARY,minimum local difference in GSmagmom,83
+BALANCED_PRELIMINARY,MagpieData avg_dev Column,84
+BALANCED_PRELIMINARY,pair_melting_point_mean_abs_diff,85
+BALANCED_PRELIMINARY,avg_dev local difference in NdUnfilled,86
+BALANCED_PRELIMINARY,MagpieData avg_dev NValence,87
+BALANCED_PRELIMINARY,MagpieData mean NValence,88
+BALANCED_PRELIMINARY,avg_dev local difference in Row,89
+BALANCED_PRELIMINARY,MagpieData mean NdUnfilled,90
+BALANCED_PRELIMINARY,minimum local difference in Number,91
+BALANCED_PRELIMINARY,range local difference in NpValence,92
+BALANCED_PRELIMINARY,MagpieData avg_dev NdValence,93
+BALANCED_PRELIMINARY,frac s valence electrons,94
+BALANCED_PRELIMINARY,avg_dev local difference in NdValence,95
+BALANCED_PRELIMINARY,MagpieData mean CovalentRadius,96
+BALANCED_PRELIMINARY,frac d valence electrons,97
+BALANCED_PRELIMINARY,avg_dev local difference in Column,98
+BALANCED_PRELIMINARY,minimum local difference in NdValence,99
+BALANCED_PRELIMINARY,mean local difference in GSbandgap,100
+BALANCED_PRELIMINARY,MagpieData range NUnfilled,101
+BALANCED_PRELIMINARY,pair_electronegativity_mean_abs_diff,102
+BALANCED_PRELIMINARY,mean local difference in CovalentRadius,103
+BALANCED_PRELIMINARY,derived_melting_point_mean,104
+BALANCED_PRELIMINARY,maximum local difference in NUnfilled,105
+BALANCED_PRELIMINARY,MagpieData mean NUnfilled,106
+BALANCED_PRELIMINARY,maximum local difference in GSmagmom,107
+BALANCED_PRELIMINARY,maximum local difference in CovalentRadius,108
+BALANCED_PRELIMINARY,avg_dev local difference in GSbandgap,109
+BALANCED_PRELIMINARY,minimum local difference in CovalentRadius,110
+BALANCED_PRELIMINARY,avg_dev local difference in NValence,111
+BALANCED_PRELIMINARY,maximum local difference in SpaceGroupNumber,112
+BALANCED_PRELIMINARY,minimum local difference in SpaceGroupNumber,113
+BALANCED_PRELIMINARY,mean local difference in Electronegativity,114
+BALANCED_PRELIMINARY,max ionic char,115
+BALANCED_PRELIMINARY,MagpieData mean GSbandgap,116
+BALANCED_PRELIMINARY,pair_fraction_Si_Si,117
+BALANCED_PRELIMINARY,composition_fraction_Al,118
+BALANCED_PRELIMINARY,pair_fraction_Al_Al,119
+BALANCED_PRELIMINARY,minimum local difference in Row,120
+BALANCED_PRELIMINARY,MagpieData range MeltingT,121
+BALANCED_PRELIMINARY,minimum local difference in NpValence,122
+BALANCED_PRELIMINARY,derived_electronegativity_mean,123
+BALANCED_PRELIMINARY,range local difference in Electronegativity,124
+BALANCED_PRELIMINARY,MagpieData range AtomicWeight,125
+BALANCED_PRELIMINARY,MagpieData minimum NUnfilled,126
+BALANCED_PRELIMINARY,MagpieData maximum Number,127
+BALANCED_PRELIMINARY,MagpieData maximum AtomicWeight,128
+BALANCED_PRELIMINARY,MagpieData range SpaceGroupNumber,129
+BALANCED_PRELIMINARY,MagpieData range GSmagmom,130
+BALANCED_PRELIMINARY,minimum local difference in Electronegativity,131
+BALANCED_PRELIMINARY,range local difference in MeltingT,132
+BALANCED_PRELIMINARY,MagpieData range NValence,133
+BALANCED_PRELIMINARY,avg_dev local difference in CovalentRadius,134
+BALANCED_PRELIMINARY,pair_fraction_Al_Si,135
+BALANCED_PRELIMINARY,pair_fraction_Ni_Si,136
+BALANCED_PRELIMINARY,pair_fraction_Al_Co,137
+BALANCED_PRELIMINARY,MagpieData range NsValence,138
+BALANCED_PRELIMINARY,pair_fraction_Al_Ni,139
+BALANCED_PRELIMINARY,mean local difference in MeltingT,140
+BALANCED_PRELIMINARY,pair_fraction_Al_Fe,141
+BALANCED_PRELIMINARY,avg_dev local difference in MeltingT,142
+BALANCED_PRELIMINARY,pair_fraction_Al_Cr,143
+BALANCED_PRELIMINARY,pair_fraction_Co_Si,144
+BALANCED_PRELIMINARY,pair_fraction_Al_Mn,145
+BALANCED_PRELIMINARY,pair_fraction_Fe_Si,146
+BALANCED_PRELIMINARY,pair_fraction_Cr_Si,147
+BALANCED_PRELIMINARY,pair_fraction_Mn_Si,148
+BALANCED_PRELIMINARY,MagpieData maximum Electronegativity,149
+BALANCED_PRELIMINARY,MagpieData range Column,150
+BALANCED_PRELIMINARY,minimum local difference in GSbandgap,151
+BALANCED_PRELIMINARY,MagpieData minimum GSvolume_pa,152
+BALANCED_PRELIMINARY,MagpieData minimum Column,153
+BALANCED_PRELIMINARY,MagpieData maximum MeltingT,154
+BALANCED_PRELIMINARY,MagpieData minimum Electronegativity,155
+BALANCED_PRELIMINARY,MagpieData maximum NUnfilled,156
+BALANCED_PRELIMINARY,MagpieData range CovalentRadius,157
+BALANCED_PRELIMINARY,pair_fraction_Cu_Cu,158
+BALANCED_PRELIMINARY,composition_fraction_Cu,159
+BALANCED_PRELIMINARY,MagpieData maximum Column,160
+BALANCED_PRELIMINARY,avg_dev local difference in Electronegativity,161
+BALANCED_PRELIMINARY,MagpieData minimum CovalentRadius,162
+BALANCED_PRELIMINARY,MagpieData minimum NValence,163
+BALANCED_PRELIMINARY,MagpieData minimum NdUnfilled,164
+BALANCED_PRELIMINARY,MagpieData minimum MeltingT,165
+BALANCED_PRELIMINARY,maximum local difference in Electronegativity,166
+BALANCED_PRELIMINARY,MagpieData maximum CovalentRadius,167
+BALANCED_PRELIMINARY,minimum local difference in MeltingT,168
+BALANCED_PRELIMINARY,maximum local difference in MeltingT,169
+BALANCED_PRELIMINARY,MagpieData mode GSvolume_pa,170
+BALANCED_PRELIMINARY,MagpieData maximum NdUnfilled,171
+BALANCED_PRELIMINARY,MagpieData mode Column,172
+BALANCED_PRELIMINARY,MagpieData maximum SpaceGroupNumber,173
+BALANCED_PRELIMINARY,MagpieData range NdUnfilled,174
+BALANCED_PRELIMINARY,MagpieData mode NUnfilled,175
+BALANCED_PRELIMINARY,MagpieData mode NpUnfilled,176
+BALANCED_PRELIMINARY,MagpieData mode SpaceGroupNumber,177
+BALANCED_PRELIMINARY,pair_fraction_Co_Cu,178
+BALANCED_PRELIMINARY,pair_fraction_Cu_Ni,179
+BALANCED_PRELIMINARY,pair_fraction_Cu_Si,180
+BALANCED_PRELIMINARY,pair_fraction_Cu_Fe,181
+BALANCED_PRELIMINARY,pair_fraction_Al_Cu,182
+BALANCED_PRELIMINARY,pair_fraction_Cr_Cu,183
+BALANCED_PRELIMINARY,pair_fraction_Cu_Mn,184
+BALANCED_PRELIMINARY,MagpieData mode Electronegativity,185
+BALANCED_PRELIMINARY,MagpieData mode NsValence,186
+BALANCED_PRELIMINARY,MagpieData minimum GSmagmom,187
+BALANCED_PRELIMINARY,MagpieData mode MeltingT,188
+BALANCED_PRELIMINARY,MagpieData mode Row,189
+BALANCED_PRELIMINARY,MagpieData mode GSbandgap,190
+BALANCED_PRELIMINARY,MagpieData mode NValence,191
+BALANCED_PRELIMINARY,MagpieData mode CovalentRadius,192
+BALANCED_PRELIMINARY,MagpieData maximum NsValence,193
+BALANCED_PRELIMINARY,MagpieData mode NdUnfilled,194
+BALANCED_PRELIMINARY,MagpieData mode GSmagmom,195
+BALANCED_PRELIMINARY,MagpieData mode NsUnfilled,196
+BALANCED_PRELIMINARY,compound possible,197
+BALANCED_PRELIMINARY,MagpieData minimum NpValence,198
+FULL_CLEAN,0-norm,1
+FULL_CLEAN,10-norm,2
+FULL_CLEAN,2-norm,3
+FULL_CLEAN,3-norm,4
+FULL_CLEAN,5-norm,5
+FULL_CLEAN,7-norm,6
+FULL_CLEAN,MagpieData avg_dev AtomicWeight,7
+FULL_CLEAN,MagpieData avg_dev Column,8
+FULL_CLEAN,MagpieData avg_dev CovalentRadius,9
+FULL_CLEAN,MagpieData avg_dev Electronegativity,10
+FULL_CLEAN,MagpieData avg_dev GSbandgap,11
+FULL_CLEAN,MagpieData avg_dev GSmagmom,12
+FULL_CLEAN,MagpieData avg_dev GSvolume_pa,13
+FULL_CLEAN,MagpieData avg_dev MeltingT,14
+FULL_CLEAN,MagpieData avg_dev MendeleevNumber,15
+FULL_CLEAN,MagpieData avg_dev NUnfilled,16
+FULL_CLEAN,MagpieData avg_dev NValence,17
+FULL_CLEAN,MagpieData avg_dev NdUnfilled,18
+FULL_CLEAN,MagpieData avg_dev NdValence,19
+FULL_CLEAN,MagpieData avg_dev NpUnfilled,20
+FULL_CLEAN,MagpieData avg_dev NpValence,21
+FULL_CLEAN,MagpieData avg_dev NsUnfilled,22
+FULL_CLEAN,MagpieData avg_dev NsValence,23
+FULL_CLEAN,MagpieData avg_dev Number,24
+FULL_CLEAN,MagpieData avg_dev Row,25
+FULL_CLEAN,MagpieData avg_dev SpaceGroupNumber,26
+FULL_CLEAN,MagpieData maximum AtomicWeight,27
+FULL_CLEAN,MagpieData maximum Column,28
+FULL_CLEAN,MagpieData maximum CovalentRadius,29
+FULL_CLEAN,MagpieData maximum Electronegativity,30
+FULL_CLEAN,MagpieData maximum GSbandgap,31
+FULL_CLEAN,MagpieData maximum GSmagmom,32
+FULL_CLEAN,MagpieData maximum GSvolume_pa,33
+FULL_CLEAN,MagpieData maximum MeltingT,34
+FULL_CLEAN,MagpieData maximum MendeleevNumber,35
+FULL_CLEAN,MagpieData maximum NUnfilled,36
+FULL_CLEAN,MagpieData maximum NValence,37
+FULL_CLEAN,MagpieData maximum NdUnfilled,38
+FULL_CLEAN,MagpieData maximum NdValence,39
+FULL_CLEAN,MagpieData maximum NpUnfilled,40
+FULL_CLEAN,MagpieData maximum NpValence,41
+FULL_CLEAN,MagpieData maximum NsUnfilled,42
+FULL_CLEAN,MagpieData maximum NsValence,43
+FULL_CLEAN,MagpieData maximum Number,44
+FULL_CLEAN,MagpieData maximum Row,45
+FULL_CLEAN,MagpieData maximum SpaceGroupNumber,46
+FULL_CLEAN,MagpieData mean AtomicWeight,47
+FULL_CLEAN,MagpieData mean Column,48
+FULL_CLEAN,MagpieData mean CovalentRadius,49
+FULL_CLEAN,MagpieData mean Electronegativity,50
+FULL_CLEAN,MagpieData mean GSbandgap,51
+FULL_CLEAN,MagpieData mean GSmagmom,52
+FULL_CLEAN,MagpieData mean GSvolume_pa,53
+FULL_CLEAN,MagpieData mean MeltingT,54
+FULL_CLEAN,MagpieData mean MendeleevNumber,55
+FULL_CLEAN,MagpieData mean NUnfilled,56
+FULL_CLEAN,MagpieData mean NValence,57
+FULL_CLEAN,MagpieData mean NdUnfilled,58
+FULL_CLEAN,MagpieData mean NdValence,59
+FULL_CLEAN,MagpieData mean NpUnfilled,60
+FULL_CLEAN,MagpieData mean NpValence,61
+FULL_CLEAN,MagpieData mean NsUnfilled,62
+FULL_CLEAN,MagpieData mean NsValence,63
+FULL_CLEAN,MagpieData mean Number,64
+FULL_CLEAN,MagpieData mean Row,65
+FULL_CLEAN,MagpieData mean SpaceGroupNumber,66
+FULL_CLEAN,MagpieData minimum AtomicWeight,67
+FULL_CLEAN,MagpieData minimum Column,68
+FULL_CLEAN,MagpieData minimum CovalentRadius,69
+FULL_CLEAN,MagpieData minimum Electronegativity,70
+FULL_CLEAN,MagpieData minimum GSmagmom,71
+FULL_CLEAN,MagpieData minimum GSvolume_pa,72
+FULL_CLEAN,MagpieData minimum MeltingT,73
+FULL_CLEAN,MagpieData minimum MendeleevNumber,74
+FULL_CLEAN,MagpieData minimum NUnfilled,75
+FULL_CLEAN,MagpieData minimum NValence,76
+FULL_CLEAN,MagpieData minimum NdUnfilled,77
+FULL_CLEAN,MagpieData minimum NdValence,78
+FULL_CLEAN,MagpieData minimum NpUnfilled,79
+FULL_CLEAN,MagpieData minimum NpValence,80
+FULL_CLEAN,MagpieData minimum NsUnfilled,81
+FULL_CLEAN,MagpieData minimum NsValence,82
+FULL_CLEAN,MagpieData minimum Number,83
+FULL_CLEAN,MagpieData minimum Row,84
+FULL_CLEAN,MagpieData minimum SpaceGroupNumber,85
+FULL_CLEAN,MagpieData mode AtomicWeight,86
+FULL_CLEAN,MagpieData mode Column,87
+FULL_CLEAN,MagpieData mode CovalentRadius,88
+FULL_CLEAN,MagpieData mode Electronegativity,89
+FULL_CLEAN,MagpieData mode GSbandgap,90
+FULL_CLEAN,MagpieData mode GSmagmom,91
+FULL_CLEAN,MagpieData mode GSvolume_pa,92
+FULL_CLEAN,MagpieData mode MeltingT,93
+FULL_CLEAN,MagpieData mode MendeleevNumber,94
+FULL_CLEAN,MagpieData mode NUnfilled,95
+FULL_CLEAN,MagpieData mode NValence,96
+FULL_CLEAN,MagpieData mode NdUnfilled,97
+FULL_CLEAN,MagpieData mode NdValence,98
+FULL_CLEAN,MagpieData mode NpUnfilled,99
+FULL_CLEAN,MagpieData mode NpValence,100
+FULL_CLEAN,MagpieData mode NsUnfilled,101
+FULL_CLEAN,MagpieData mode NsValence,102
+FULL_CLEAN,MagpieData mode Number,103
+FULL_CLEAN,MagpieData mode Row,104
+FULL_CLEAN,MagpieData mode SpaceGroupNumber,105
+FULL_CLEAN,MagpieData range AtomicWeight,106
+FULL_CLEAN,MagpieData range Column,107
+FULL_CLEAN,MagpieData range CovalentRadius,108
+FULL_CLEAN,MagpieData range Electronegativity,109
+FULL_CLEAN,MagpieData range GSbandgap,110
+FULL_CLEAN,MagpieData range GSmagmom,111
+FULL_CLEAN,MagpieData range GSvolume_pa,112
+FULL_CLEAN,MagpieData range MeltingT,113
+FULL_CLEAN,MagpieData range MendeleevNumber,114
+FULL_CLEAN,MagpieData range NUnfilled,115
+FULL_CLEAN,MagpieData range NValence,116
+FULL_CLEAN,MagpieData range NdUnfilled,117
+FULL_CLEAN,MagpieData range NdValence,118
+FULL_CLEAN,MagpieData range NpUnfilled,119
+FULL_CLEAN,MagpieData range NpValence,120
+FULL_CLEAN,MagpieData range NsUnfilled,121
+FULL_CLEAN,MagpieData range NsValence,122
+FULL_CLEAN,MagpieData range Number,123
+FULL_CLEAN,MagpieData range Row,124
+FULL_CLEAN,MagpieData range SpaceGroupNumber,125
+FULL_CLEAN,NIONS,126
+FULL_CLEAN,atomic_size_mismatch_percent,127
+FULL_CLEAN,avg ionic char,128
+FULL_CLEAN,avg_dev CN_VoronoiNN,129
+FULL_CLEAN,avg_dev local difference in AtomicWeight,130
+FULL_CLEAN,avg_dev local difference in Column,131
+FULL_CLEAN,avg_dev local difference in CovalentRadius,132
+FULL_CLEAN,avg_dev local difference in Electronegativity,133
+FULL_CLEAN,avg_dev local difference in GSbandgap,134
+FULL_CLEAN,avg_dev local difference in GSmagmom,135
+FULL_CLEAN,avg_dev local difference in GSvolume_pa,136
+FULL_CLEAN,avg_dev local difference in MeltingT,137
+FULL_CLEAN,avg_dev local difference in MendeleevNumber,138
+FULL_CLEAN,avg_dev local difference in NUnfilled,139
+FULL_CLEAN,avg_dev local difference in NValence,140
+FULL_CLEAN,avg_dev local difference in NdUnfilled,141
+FULL_CLEAN,avg_dev local difference in NdValence,142
+FULL_CLEAN,avg_dev local difference in NpUnfilled,143
+FULL_CLEAN,avg_dev local difference in NpValence,144
+FULL_CLEAN,avg_dev local difference in NsUnfilled,145
+FULL_CLEAN,avg_dev local difference in NsValence,146
+FULL_CLEAN,avg_dev local difference in Number,147
+FULL_CLEAN,avg_dev local difference in Row,148
+FULL_CLEAN,avg_dev local difference in SpaceGroupNumber,149
+FULL_CLEAN,avg_dev neighbor distance variation,150
+FULL_CLEAN,composition_fraction_Al,151
+FULL_CLEAN,composition_fraction_Co,152
+FULL_CLEAN,composition_fraction_Cr,153
+FULL_CLEAN,composition_fraction_Cu,154
+FULL_CLEAN,composition_fraction_Fe,155
+FULL_CLEAN,composition_fraction_Mn,156
+FULL_CLEAN,composition_fraction_Ni,157
+FULL_CLEAN,composition_fraction_Si,158
+FULL_CLEAN,composition_number_of_elements,159
+FULL_CLEAN,compound possible,160
+FULL_CLEAN,configurational_entropy_j_mol_k,161
+FULL_CLEAN,configurational_entropy_kb_per_atom,162
+FULL_CLEAN,configurational_entropy_normalized,163
+FULL_CLEAN,derived_atomic_mass_mean,164
+FULL_CLEAN,derived_atomic_mass_std,165
+FULL_CLEAN,derived_atomic_number_mean,166
+FULL_CLEAN,derived_atomic_number_std,167
+FULL_CLEAN,derived_atomic_radius_covalent_mean,168
+FULL_CLEAN,derived_atomic_radius_covalent_std,169
+FULL_CLEAN,derived_electronegativity_mean,170
+FULL_CLEAN,derived_electronegativity_std,171
+FULL_CLEAN,derived_melting_point_mean,172
+FULL_CLEAN,derived_melting_point_std,173
+FULL_CLEAN,derived_vec_mean,174
+FULL_CLEAN,derived_vec_std,175
+FULL_CLEAN,frac d valence electrons,176
+FULL_CLEAN,frac p valence electrons,177
+FULL_CLEAN,frac s valence electrons,178
+FULL_CLEAN,max ionic char,179
+FULL_CLEAN,max packing efficiency,180
+FULL_CLEAN,max relative bond length,181
+FULL_CLEAN,maximum CN_VoronoiNN,182
+FULL_CLEAN,maximum local difference in AtomicWeight,183
+FULL_CLEAN,maximum local difference in Column,184
+FULL_CLEAN,maximum local difference in CovalentRadius,185
+FULL_CLEAN,maximum local difference in Electronegativity,186
+FULL_CLEAN,maximum local difference in GSbandgap,187
+FULL_CLEAN,maximum local difference in GSmagmom,188
+FULL_CLEAN,maximum local difference in GSvolume_pa,189
+FULL_CLEAN,maximum local difference in MeltingT,190
+FULL_CLEAN,maximum local difference in MendeleevNumber,191
+FULL_CLEAN,maximum local difference in NUnfilled,192
+FULL_CLEAN,maximum local difference in NValence,193
+FULL_CLEAN,maximum local difference in NdUnfilled,194
+FULL_CLEAN,maximum local difference in NdValence,195
+FULL_CLEAN,maximum local difference in NpUnfilled,196
+FULL_CLEAN,maximum local difference in NpValence,197
+FULL_CLEAN,maximum local difference in NsUnfilled,198
+FULL_CLEAN,maximum local difference in NsValence,199
+FULL_CLEAN,maximum local difference in Number,200
+FULL_CLEAN,maximum local difference in Row,201
+FULL_CLEAN,maximum local difference in SpaceGroupNumber,202
+FULL_CLEAN,maximum neighbor distance variation,203
+FULL_CLEAN,mean CN_VoronoiNN,204
+FULL_CLEAN,mean absolute deviation in relative bond length,205
+FULL_CLEAN,mean absolute deviation in relative cell size,206
+FULL_CLEAN,mean local difference in AtomicWeight,207
+FULL_CLEAN,mean local difference in Column,208
+FULL_CLEAN,mean local difference in CovalentRadius,209
+FULL_CLEAN,mean local difference in Electronegativity,210
+FULL_CLEAN,mean local difference in GSbandgap,211
+FULL_CLEAN,mean local difference in GSmagmom,212
+FULL_CLEAN,mean local difference in GSvolume_pa,213
+FULL_CLEAN,mean local difference in MeltingT,214
+FULL_CLEAN,mean local difference in MendeleevNumber,215
+FULL_CLEAN,mean local difference in NUnfilled,216
+FULL_CLEAN,mean local difference in NValence,217
+FULL_CLEAN,mean local difference in NdUnfilled,218
+FULL_CLEAN,mean local difference in NdValence,219
+FULL_CLEAN,mean local difference in NpUnfilled,220
+FULL_CLEAN,mean local difference in NpValence,221
+FULL_CLEAN,mean local difference in NsUnfilled,222
+FULL_CLEAN,mean local difference in NsValence,223
+FULL_CLEAN,mean local difference in Number,224
+FULL_CLEAN,mean local difference in Row,225
+FULL_CLEAN,mean local difference in SpaceGroupNumber,226
+FULL_CLEAN,mean neighbor distance variation,227
+FULL_CLEAN,min relative bond length,228
+FULL_CLEAN,minimum CN_VoronoiNN,229
+FULL_CLEAN,minimum local difference in AtomicWeight,230
+FULL_CLEAN,minimum local difference in Column,231
+FULL_CLEAN,minimum local difference in CovalentRadius,232
+FULL_CLEAN,minimum local difference in Electronegativity,233
+FULL_CLEAN,minimum local difference in GSbandgap,234
+FULL_CLEAN,minimum local difference in GSmagmom,235
+FULL_CLEAN,minimum local difference in GSvolume_pa,236
+FULL_CLEAN,minimum local difference in MeltingT,237
+FULL_CLEAN,minimum local difference in MendeleevNumber,238
+FULL_CLEAN,minimum local difference in NUnfilled,239
+FULL_CLEAN,minimum local difference in NValence,240
+FULL_CLEAN,minimum local difference in NdUnfilled,241
+FULL_CLEAN,minimum local difference in NdValence,242
+FULL_CLEAN,minimum local difference in NpUnfilled,243
+FULL_CLEAN,minimum local difference in NpValence,244
+FULL_CLEAN,minimum local difference in NsUnfilled,245
+FULL_CLEAN,minimum local difference in NsValence,246
+FULL_CLEAN,minimum local difference in Number,247
+FULL_CLEAN,minimum local difference in Row,248
+FULL_CLEAN,minimum local difference in SpaceGroupNumber,249
+FULL_CLEAN,minimum neighbor distance variation,250
+FULL_CLEAN,nelements,251
+FULL_CLEAN,pair_atomic_mass_mean_abs_diff,252
+FULL_CLEAN,pair_atomic_mass_rms_diff,253
+FULL_CLEAN,pair_atomic_number_mean_abs_diff,254
+FULL_CLEAN,pair_atomic_number_rms_diff,255
+FULL_CLEAN,pair_atomic_radius_covalent_mean_abs_diff,256
+FULL_CLEAN,pair_atomic_radius_covalent_rms_diff,257
+FULL_CLEAN,pair_electronegativity_mean_abs_diff,258
+FULL_CLEAN,pair_electronegativity_rms_diff,259
+FULL_CLEAN,pair_fraction_Al_Al,260
+FULL_CLEAN,pair_fraction_Al_Co,261
+FULL_CLEAN,pair_fraction_Al_Cr,262
+FULL_CLEAN,pair_fraction_Al_Cu,263
+FULL_CLEAN,pair_fraction_Al_Fe,264
+FULL_CLEAN,pair_fraction_Al_Mn,265
+FULL_CLEAN,pair_fraction_Al_Ni,266
+FULL_CLEAN,pair_fraction_Al_Si,267
+FULL_CLEAN,pair_fraction_Co_Co,268
+FULL_CLEAN,pair_fraction_Co_Cr,269
+FULL_CLEAN,pair_fraction_Co_Cu,270
+FULL_CLEAN,pair_fraction_Co_Fe,271
+FULL_CLEAN,pair_fraction_Co_Mn,272
+FULL_CLEAN,pair_fraction_Co_Ni,273
+FULL_CLEAN,pair_fraction_Co_Si,274
+FULL_CLEAN,pair_fraction_Cr_Cr,275
+FULL_CLEAN,pair_fraction_Cr_Cu,276
+FULL_CLEAN,pair_fraction_Cr_Fe,277
+FULL_CLEAN,pair_fraction_Cr_Mn,278
+FULL_CLEAN,pair_fraction_Cr_Ni,279
+FULL_CLEAN,pair_fraction_Cr_Si,280
+FULL_CLEAN,pair_fraction_Cu_Cu,281
+FULL_CLEAN,pair_fraction_Cu_Fe,282
+FULL_CLEAN,pair_fraction_Cu_Mn,283
+FULL_CLEAN,pair_fraction_Cu_Ni,284
+FULL_CLEAN,pair_fraction_Cu_Si,285
+FULL_CLEAN,pair_fraction_Fe_Fe,286
+FULL_CLEAN,pair_fraction_Fe_Mn,287
+FULL_CLEAN,pair_fraction_Fe_Ni,288
+FULL_CLEAN,pair_fraction_Fe_Si,289
+FULL_CLEAN,pair_fraction_Mn_Mn,290
+FULL_CLEAN,pair_fraction_Mn_Ni,291
+FULL_CLEAN,pair_fraction_Mn_Si,292
+FULL_CLEAN,pair_fraction_Ni_Ni,293
+FULL_CLEAN,pair_fraction_Ni_Si,294
+FULL_CLEAN,pair_fraction_Si_Si,295
+FULL_CLEAN,pair_melting_point_mean_abs_diff,296
+FULL_CLEAN,pair_melting_point_rms_diff,297
+FULL_CLEAN,pair_vec_mean_abs_diff,298
+FULL_CLEAN,pair_vec_rms_diff,299
+FULL_CLEAN,phase_BCC,300
+FULL_CLEAN,phase_FCC,301
+FULL_CLEAN,range CN_VoronoiNN,302
+FULL_CLEAN,range local difference in AtomicWeight,303
+FULL_CLEAN,range local difference in Column,304
+FULL_CLEAN,range local difference in CovalentRadius,305
+FULL_CLEAN,range local difference in Electronegativity,306
+FULL_CLEAN,range local difference in GSbandgap,307
+FULL_CLEAN,range local difference in GSmagmom,308
+FULL_CLEAN,range local difference in GSvolume_pa,309
+FULL_CLEAN,range local difference in MeltingT,310
+FULL_CLEAN,range local difference in MendeleevNumber,311
+FULL_CLEAN,range local difference in NUnfilled,312
+FULL_CLEAN,range local difference in NValence,313
+FULL_CLEAN,range local difference in NdUnfilled,314
+FULL_CLEAN,range local difference in NdValence,315
+FULL_CLEAN,range local difference in NpUnfilled,316
+FULL_CLEAN,range local difference in NpValence,317
+FULL_CLEAN,range local difference in NsUnfilled,318
+FULL_CLEAN,range local difference in NsValence,319
+FULL_CLEAN,range local difference in Number,320
+FULL_CLEAN,range local difference in Row,321
+FULL_CLEAN,range local difference in SpaceGroupNumber,322
+FULL_CLEAN,range neighbor distance variation,323
+FULL_CLEAN,space_group_number_ini,324
+MINIMAL_PRELIMINARY,composition_number_of_elements,1
+MINIMAL_PRELIMINARY,configurational_entropy_j_mol_k,2
+MINIMAL_PRELIMINARY,atomic_size_mismatch_percent,3
+MINIMAL_PRELIMINARY,derived_atomic_number_mean,4
+MINIMAL_PRELIMINARY,derived_atomic_number_std,5
+MINIMAL_PRELIMINARY,derived_atomic_mass_mean,6
+MINIMAL_PRELIMINARY,derived_atomic_mass_std,7
+MINIMAL_PRELIMINARY,derived_atomic_radius_covalent_mean,8
+MINIMAL_PRELIMINARY,derived_atomic_radius_covalent_std,9
+MINIMAL_PRELIMINARY,pair_atomic_radius_covalent_mean_abs_diff,10
+MINIMAL_PRELIMINARY,derived_electronegativity_mean,11
+MINIMAL_PRELIMINARY,derived_electronegativity_std,12
+MINIMAL_PRELIMINARY,pair_electronegativity_mean_abs_diff,13
+MINIMAL_PRELIMINARY,derived_vec_mean,14
+MINIMAL_PRELIMINARY,derived_vec_std,15
+MINIMAL_PRELIMINARY,pair_vec_mean_abs_diff,16
+MINIMAL_PRELIMINARY,derived_melting_point_mean,17
+MINIMAL_PRELIMINARY,derived_melting_point_std,18
+MINIMAL_PRELIMINARY,phase_FCC,19
+COMPOSITION_ONLY,0-norm,1
+COMPOSITION_ONLY,10-norm,2
+COMPOSITION_ONLY,2-norm,3
+COMPOSITION_ONLY,3-norm,4
+COMPOSITION_ONLY,5-norm,5
+COMPOSITION_ONLY,7-norm,6
+COMPOSITION_ONLY,MagpieData avg_dev AtomicWeight,7
+COMPOSITION_ONLY,MagpieData avg_dev Column,8
+COMPOSITION_ONLY,MagpieData avg_dev CovalentRadius,9
+COMPOSITION_ONLY,MagpieData avg_dev Electronegativity,10
+COMPOSITION_ONLY,MagpieData avg_dev GSbandgap,11
+COMPOSITION_ONLY,MagpieData avg_dev GSmagmom,12
+COMPOSITION_ONLY,MagpieData avg_dev GSvolume_pa,13
+COMPOSITION_ONLY,MagpieData avg_dev MeltingT,14
+COMPOSITION_ONLY,MagpieData avg_dev MendeleevNumber,15
+COMPOSITION_ONLY,MagpieData avg_dev NUnfilled,16
+COMPOSITION_ONLY,MagpieData avg_dev NValence,17
+COMPOSITION_ONLY,MagpieData avg_dev NdUnfilled,18
+COMPOSITION_ONLY,MagpieData avg_dev NdValence,19
+COMPOSITION_ONLY,MagpieData avg_dev NpUnfilled,20
+COMPOSITION_ONLY,MagpieData avg_dev NpValence,21
+COMPOSITION_ONLY,MagpieData avg_dev NsUnfilled,22
+COMPOSITION_ONLY,MagpieData avg_dev NsValence,23
+COMPOSITION_ONLY,MagpieData avg_dev Number,24
+COMPOSITION_ONLY,MagpieData avg_dev Row,25
+COMPOSITION_ONLY,MagpieData avg_dev SpaceGroupNumber,26
+COMPOSITION_ONLY,MagpieData maximum AtomicWeight,27
+COMPOSITION_ONLY,MagpieData maximum Column,28
+COMPOSITION_ONLY,MagpieData maximum CovalentRadius,29
+COMPOSITION_ONLY,MagpieData maximum Electronegativity,30
+COMPOSITION_ONLY,MagpieData maximum GSbandgap,31
+COMPOSITION_ONLY,MagpieData maximum GSmagmom,32
+COMPOSITION_ONLY,MagpieData maximum GSvolume_pa,33
+COMPOSITION_ONLY,MagpieData maximum MeltingT,34
+COMPOSITION_ONLY,MagpieData maximum MendeleevNumber,35
+COMPOSITION_ONLY,MagpieData maximum NUnfilled,36
+COMPOSITION_ONLY,MagpieData maximum NValence,37
+COMPOSITION_ONLY,MagpieData maximum NdUnfilled,38
+COMPOSITION_ONLY,MagpieData maximum NdValence,39
+COMPOSITION_ONLY,MagpieData maximum NpUnfilled,40
+COMPOSITION_ONLY,MagpieData maximum NpValence,41
+COMPOSITION_ONLY,MagpieData maximum NsUnfilled,42
+COMPOSITION_ONLY,MagpieData maximum NsValence,43
+COMPOSITION_ONLY,MagpieData maximum Number,44
+COMPOSITION_ONLY,MagpieData maximum Row,45
+COMPOSITION_ONLY,MagpieData maximum SpaceGroupNumber,46
+COMPOSITION_ONLY,MagpieData mean AtomicWeight,47
+COMPOSITION_ONLY,MagpieData mean Column,48
+COMPOSITION_ONLY,MagpieData mean CovalentRadius,49
+COMPOSITION_ONLY,MagpieData mean Electronegativity,50
+COMPOSITION_ONLY,MagpieData mean GSbandgap,51
+COMPOSITION_ONLY,MagpieData mean GSmagmom,52
+COMPOSITION_ONLY,MagpieData mean GSvolume_pa,53
+COMPOSITION_ONLY,MagpieData mean MeltingT,54
+COMPOSITION_ONLY,MagpieData mean MendeleevNumber,55
+COMPOSITION_ONLY,MagpieData mean NUnfilled,56
+COMPOSITION_ONLY,MagpieData mean NValence,57
+COMPOSITION_ONLY,MagpieData mean NdUnfilled,58
+COMPOSITION_ONLY,MagpieData mean NdValence,59
+COMPOSITION_ONLY,MagpieData mean NpUnfilled,60
+COMPOSITION_ONLY,MagpieData mean NpValence,61
+COMPOSITION_ONLY,MagpieData mean NsUnfilled,62
+COMPOSITION_ONLY,MagpieData mean NsValence,63
+COMPOSITION_ONLY,MagpieData mean Number,64
+COMPOSITION_ONLY,MagpieData mean Row,65
+COMPOSITION_ONLY,MagpieData mean SpaceGroupNumber,66
+COMPOSITION_ONLY,MagpieData minimum AtomicWeight,67
+COMPOSITION_ONLY,MagpieData minimum Column,68
+COMPOSITION_ONLY,MagpieData minimum CovalentRadius,69
+COMPOSITION_ONLY,MagpieData minimum Electronegativity,70
+COMPOSITION_ONLY,MagpieData minimum GSmagmom,71
+COMPOSITION_ONLY,MagpieData minimum GSvolume_pa,72
+COMPOSITION_ONLY,MagpieData minimum MeltingT,73
+COMPOSITION_ONLY,MagpieData minimum MendeleevNumber,74
+COMPOSITION_ONLY,MagpieData minimum NUnfilled,75
+COMPOSITION_ONLY,MagpieData minimum NValence,76
+COMPOSITION_ONLY,MagpieData minimum NdUnfilled,77
+COMPOSITION_ONLY,MagpieData minimum NdValence,78
+COMPOSITION_ONLY,MagpieData minimum NpUnfilled,79
+COMPOSITION_ONLY,MagpieData minimum NpValence,80
+COMPOSITION_ONLY,MagpieData minimum NsUnfilled,81
+COMPOSITION_ONLY,MagpieData minimum NsValence,82
+COMPOSITION_ONLY,MagpieData minimum Number,83
+COMPOSITION_ONLY,MagpieData minimum Row,84
+COMPOSITION_ONLY,MagpieData minimum SpaceGroupNumber,85
+COMPOSITION_ONLY,MagpieData mode AtomicWeight,86
+COMPOSITION_ONLY,MagpieData mode Column,87
+COMPOSITION_ONLY,MagpieData mode CovalentRadius,88
+COMPOSITION_ONLY,MagpieData mode Electronegativity,89
+COMPOSITION_ONLY,MagpieData mode GSbandgap,90
+COMPOSITION_ONLY,MagpieData mode GSmagmom,91
+COMPOSITION_ONLY,MagpieData mode GSvolume_pa,92
+COMPOSITION_ONLY,MagpieData mode MeltingT,93
+COMPOSITION_ONLY,MagpieData mode MendeleevNumber,94
+COMPOSITION_ONLY,MagpieData mode NUnfilled,95
+COMPOSITION_ONLY,MagpieData mode NValence,96
+COMPOSITION_ONLY,MagpieData mode NdUnfilled,97
+COMPOSITION_ONLY,MagpieData mode NdValence,98
+COMPOSITION_ONLY,MagpieData mode NpUnfilled,99
+COMPOSITION_ONLY,MagpieData mode NpValence,100
+COMPOSITION_ONLY,MagpieData mode NsUnfilled,101
+COMPOSITION_ONLY,MagpieData mode NsValence,102
+COMPOSITION_ONLY,MagpieData mode Number,103
+COMPOSITION_ONLY,MagpieData mode Row,104
+COMPOSITION_ONLY,MagpieData mode SpaceGroupNumber,105
+COMPOSITION_ONLY,MagpieData range AtomicWeight,106
+COMPOSITION_ONLY,MagpieData range Column,107
+COMPOSITION_ONLY,MagpieData range CovalentRadius,108
+COMPOSITION_ONLY,MagpieData range Electronegativity,109
+COMPOSITION_ONLY,MagpieData range GSbandgap,110
+COMPOSITION_ONLY,MagpieData range GSmagmom,111
+COMPOSITION_ONLY,MagpieData range GSvolume_pa,112
+COMPOSITION_ONLY,MagpieData range MeltingT,113
+COMPOSITION_ONLY,MagpieData range MendeleevNumber,114
+COMPOSITION_ONLY,MagpieData range NUnfilled,115
+COMPOSITION_ONLY,MagpieData range NValence,116
+COMPOSITION_ONLY,MagpieData range NdUnfilled,117
+COMPOSITION_ONLY,MagpieData range NdValence,118
+COMPOSITION_ONLY,MagpieData range NpUnfilled,119
+COMPOSITION_ONLY,MagpieData range NpValence,120
+COMPOSITION_ONLY,MagpieData range NsUnfilled,121
+COMPOSITION_ONLY,MagpieData range NsValence,122
+COMPOSITION_ONLY,MagpieData range Number,123
+COMPOSITION_ONLY,MagpieData range Row,124
+COMPOSITION_ONLY,MagpieData range SpaceGroupNumber,125
+COMPOSITION_ONLY,atomic_size_mismatch_percent,126
+COMPOSITION_ONLY,avg ionic char,127
+COMPOSITION_ONLY,composition_fraction_Al,128
+COMPOSITION_ONLY,composition_fraction_Co,129
+COMPOSITION_ONLY,composition_fraction_Cr,130
+COMPOSITION_ONLY,composition_fraction_Cu,131
+COMPOSITION_ONLY,composition_fraction_Fe,132
+COMPOSITION_ONLY,composition_fraction_Mn,133
+COMPOSITION_ONLY,composition_fraction_Ni,134
+COMPOSITION_ONLY,composition_fraction_Si,135
+COMPOSITION_ONLY,composition_number_of_elements,136
+COMPOSITION_ONLY,compound possible,137
+COMPOSITION_ONLY,configurational_entropy_j_mol_k,138
+COMPOSITION_ONLY,configurational_entropy_kb_per_atom,139
+COMPOSITION_ONLY,configurational_entropy_normalized,140
+COMPOSITION_ONLY,derived_atomic_mass_mean,141
+COMPOSITION_ONLY,derived_atomic_mass_std,142
+COMPOSITION_ONLY,derived_atomic_number_mean,143
+COMPOSITION_ONLY,derived_atomic_number_std,144
+COMPOSITION_ONLY,derived_atomic_radius_covalent_mean,145
+COMPOSITION_ONLY,derived_atomic_radius_covalent_std,146
+COMPOSITION_ONLY,derived_electronegativity_mean,147
+COMPOSITION_ONLY,derived_electronegativity_std,148
+COMPOSITION_ONLY,derived_melting_point_mean,149
+COMPOSITION_ONLY,derived_melting_point_std,150
+COMPOSITION_ONLY,derived_vec_mean,151
+COMPOSITION_ONLY,derived_vec_std,152
+COMPOSITION_ONLY,frac d valence electrons,153
+COMPOSITION_ONLY,frac p valence electrons,154
+COMPOSITION_ONLY,frac s valence electrons,155
+COMPOSITION_ONLY,max ionic char,156
+COMPOSITION_ONLY,pair_atomic_mass_mean_abs_diff,157
+COMPOSITION_ONLY,pair_atomic_mass_rms_diff,158
+COMPOSITION_ONLY,pair_atomic_number_mean_abs_diff,159
+COMPOSITION_ONLY,pair_atomic_number_rms_diff,160
+COMPOSITION_ONLY,pair_atomic_radius_covalent_mean_abs_diff,161
+COMPOSITION_ONLY,pair_atomic_radius_covalent_rms_diff,162
+COMPOSITION_ONLY,pair_electronegativity_mean_abs_diff,163
+COMPOSITION_ONLY,pair_electronegativity_rms_diff,164
+COMPOSITION_ONLY,pair_fraction_Al_Al,165
+COMPOSITION_ONLY,pair_fraction_Al_Co,166
+COMPOSITION_ONLY,pair_fraction_Al_Cr,167
+COMPOSITION_ONLY,pair_fraction_Al_Cu,168
+COMPOSITION_ONLY,pair_fraction_Al_Fe,169
+COMPOSITION_ONLY,pair_fraction_Al_Mn,170
+COMPOSITION_ONLY,pair_fraction_Al_Ni,171
+COMPOSITION_ONLY,pair_fraction_Al_Si,172
+COMPOSITION_ONLY,pair_fraction_Co_Co,173
+COMPOSITION_ONLY,pair_fraction_Co_Cr,174
+COMPOSITION_ONLY,pair_fraction_Co_Cu,175
+COMPOSITION_ONLY,pair_fraction_Co_Fe,176
+COMPOSITION_ONLY,pair_fraction_Co_Mn,177
+COMPOSITION_ONLY,pair_fraction_Co_Ni,178
+COMPOSITION_ONLY,pair_fraction_Co_Si,179
+COMPOSITION_ONLY,pair_fraction_Cr_Cr,180
+COMPOSITION_ONLY,pair_fraction_Cr_Cu,181
+COMPOSITION_ONLY,pair_fraction_Cr_Fe,182
+COMPOSITION_ONLY,pair_fraction_Cr_Mn,183
+COMPOSITION_ONLY,pair_fraction_Cr_Ni,184
+COMPOSITION_ONLY,pair_fraction_Cr_Si,185
+COMPOSITION_ONLY,pair_fraction_Cu_Cu,186
+COMPOSITION_ONLY,pair_fraction_Cu_Fe,187
+COMPOSITION_ONLY,pair_fraction_Cu_Mn,188
+COMPOSITION_ONLY,pair_fraction_Cu_Ni,189
+COMPOSITION_ONLY,pair_fraction_Cu_Si,190
+COMPOSITION_ONLY,pair_fraction_Fe_Fe,191
+COMPOSITION_ONLY,pair_fraction_Fe_Mn,192
+COMPOSITION_ONLY,pair_fraction_Fe_Ni,193
+COMPOSITION_ONLY,pair_fraction_Fe_Si,194
+COMPOSITION_ONLY,pair_fraction_Mn_Mn,195
+COMPOSITION_ONLY,pair_fraction_Mn_Ni,196
+COMPOSITION_ONLY,pair_fraction_Mn_Si,197
+COMPOSITION_ONLY,pair_fraction_Ni_Ni,198
+COMPOSITION_ONLY,pair_fraction_Ni_Si,199
+COMPOSITION_ONLY,pair_fraction_Si_Si,200
+COMPOSITION_ONLY,pair_melting_point_mean_abs_diff,201
+COMPOSITION_ONLY,pair_melting_point_rms_diff,202
+COMPOSITION_ONLY,pair_vec_mean_abs_diff,203
+COMPOSITION_ONLY,pair_vec_rms_diff,204
+COMPOSITION_PLUS_PHASE,0-norm,1
+COMPOSITION_PLUS_PHASE,10-norm,2
+COMPOSITION_PLUS_PHASE,2-norm,3
+COMPOSITION_PLUS_PHASE,3-norm,4
+COMPOSITION_PLUS_PHASE,5-norm,5
+COMPOSITION_PLUS_PHASE,7-norm,6
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev AtomicWeight,7
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev Column,8
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev CovalentRadius,9
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev Electronegativity,10
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev GSbandgap,11
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev GSmagmom,12
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev GSvolume_pa,13
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev MeltingT,14
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev MendeleevNumber,15
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NUnfilled,16
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NValence,17
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NdUnfilled,18
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NdValence,19
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NpUnfilled,20
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NpValence,21
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NsUnfilled,22
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev NsValence,23
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev Number,24
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev Row,25
+COMPOSITION_PLUS_PHASE,MagpieData avg_dev SpaceGroupNumber,26
+COMPOSITION_PLUS_PHASE,MagpieData maximum AtomicWeight,27
+COMPOSITION_PLUS_PHASE,MagpieData maximum Column,28
+COMPOSITION_PLUS_PHASE,MagpieData maximum CovalentRadius,29
+COMPOSITION_PLUS_PHASE,MagpieData maximum Electronegativity,30
+COMPOSITION_PLUS_PHASE,MagpieData maximum GSbandgap,31
+COMPOSITION_PLUS_PHASE,MagpieData maximum GSmagmom,32
+COMPOSITION_PLUS_PHASE,MagpieData maximum GSvolume_pa,33
+COMPOSITION_PLUS_PHASE,MagpieData maximum MeltingT,34
+COMPOSITION_PLUS_PHASE,MagpieData maximum MendeleevNumber,35
+COMPOSITION_PLUS_PHASE,MagpieData maximum NUnfilled,36
+COMPOSITION_PLUS_PHASE,MagpieData maximum NValence,37
+COMPOSITION_PLUS_PHASE,MagpieData maximum NdUnfilled,38
+COMPOSITION_PLUS_PHASE,MagpieData maximum NdValence,39
+COMPOSITION_PLUS_PHASE,MagpieData maximum NpUnfilled,40
+COMPOSITION_PLUS_PHASE,MagpieData maximum NpValence,41
+COMPOSITION_PLUS_PHASE,MagpieData maximum NsUnfilled,42
+COMPOSITION_PLUS_PHASE,MagpieData maximum NsValence,43
+COMPOSITION_PLUS_PHASE,MagpieData maximum Number,44
+COMPOSITION_PLUS_PHASE,MagpieData maximum Row,45
+COMPOSITION_PLUS_PHASE,MagpieData maximum SpaceGroupNumber,46
+COMPOSITION_PLUS_PHASE,MagpieData mean AtomicWeight,47
+COMPOSITION_PLUS_PHASE,MagpieData mean Column,48
+COMPOSITION_PLUS_PHASE,MagpieData mean CovalentRadius,49
+COMPOSITION_PLUS_PHASE,MagpieData mean Electronegativity,50
+COMPOSITION_PLUS_PHASE,MagpieData mean GSbandgap,51
+COMPOSITION_PLUS_PHASE,MagpieData mean GSmagmom,52
+COMPOSITION_PLUS_PHASE,MagpieData mean GSvolume_pa,53
+COMPOSITION_PLUS_PHASE,MagpieData mean MeltingT,54
+COMPOSITION_PLUS_PHASE,MagpieData mean MendeleevNumber,55
+COMPOSITION_PLUS_PHASE,MagpieData mean NUnfilled,56
+COMPOSITION_PLUS_PHASE,MagpieData mean NValence,57
+COMPOSITION_PLUS_PHASE,MagpieData mean NdUnfilled,58
+COMPOSITION_PLUS_PHASE,MagpieData mean NdValence,59
+COMPOSITION_PLUS_PHASE,MagpieData mean NpUnfilled,60
+COMPOSITION_PLUS_PHASE,MagpieData mean NpValence,61
+COMPOSITION_PLUS_PHASE,MagpieData mean NsUnfilled,62
+COMPOSITION_PLUS_PHASE,MagpieData mean NsValence,63
+COMPOSITION_PLUS_PHASE,MagpieData mean Number,64
+COMPOSITION_PLUS_PHASE,MagpieData mean Row,65
+COMPOSITION_PLUS_PHASE,MagpieData mean SpaceGroupNumber,66
+COMPOSITION_PLUS_PHASE,MagpieData minimum AtomicWeight,67
+COMPOSITION_PLUS_PHASE,MagpieData minimum Column,68
+COMPOSITION_PLUS_PHASE,MagpieData minimum CovalentRadius,69
+COMPOSITION_PLUS_PHASE,MagpieData minimum Electronegativity,70
+COMPOSITION_PLUS_PHASE,MagpieData minimum GSmagmom,71
+COMPOSITION_PLUS_PHASE,MagpieData minimum GSvolume_pa,72
+COMPOSITION_PLUS_PHASE,MagpieData minimum MeltingT,73
+COMPOSITION_PLUS_PHASE,MagpieData minimum MendeleevNumber,74
+COMPOSITION_PLUS_PHASE,MagpieData minimum NUnfilled,75
+COMPOSITION_PLUS_PHASE,MagpieData minimum NValence,76
+COMPOSITION_PLUS_PHASE,MagpieData minimum NdUnfilled,77
+COMPOSITION_PLUS_PHASE,MagpieData minimum NdValence,78
+COMPOSITION_PLUS_PHASE,MagpieData minimum NpUnfilled,79
+COMPOSITION_PLUS_PHASE,MagpieData minimum NpValence,80
+COMPOSITION_PLUS_PHASE,MagpieData minimum NsUnfilled,81
+COMPOSITION_PLUS_PHASE,MagpieData minimum NsValence,82
+COMPOSITION_PLUS_PHASE,MagpieData minimum Number,83
+COMPOSITION_PLUS_PHASE,MagpieData minimum Row,84
+COMPOSITION_PLUS_PHASE,MagpieData minimum SpaceGroupNumber,85
+COMPOSITION_PLUS_PHASE,MagpieData mode AtomicWeight,86
+COMPOSITION_PLUS_PHASE,MagpieData mode Column,87
+COMPOSITION_PLUS_PHASE,MagpieData mode CovalentRadius,88
+COMPOSITION_PLUS_PHASE,MagpieData mode Electronegativity,89
+COMPOSITION_PLUS_PHASE,MagpieData mode GSbandgap,90
+COMPOSITION_PLUS_PHASE,MagpieData mode GSmagmom,91
+COMPOSITION_PLUS_PHASE,MagpieData mode GSvolume_pa,92
+COMPOSITION_PLUS_PHASE,MagpieData mode MeltingT,93
+COMPOSITION_PLUS_PHASE,MagpieData mode MendeleevNumber,94
+COMPOSITION_PLUS_PHASE,MagpieData mode NUnfilled,95
+COMPOSITION_PLUS_PHASE,MagpieData mode NValence,96
+COMPOSITION_PLUS_PHASE,MagpieData mode NdUnfilled,97
+COMPOSITION_PLUS_PHASE,MagpieData mode NdValence,98
+COMPOSITION_PLUS_PHASE,MagpieData mode NpUnfilled,99
+COMPOSITION_PLUS_PHASE,MagpieData mode NpValence,100
+COMPOSITION_PLUS_PHASE,MagpieData mode NsUnfilled,101
+COMPOSITION_PLUS_PHASE,MagpieData mode NsValence,102
+COMPOSITION_PLUS_PHASE,MagpieData mode Number,103
+COMPOSITION_PLUS_PHASE,MagpieData mode Row,104
+COMPOSITION_PLUS_PHASE,MagpieData mode SpaceGroupNumber,105
+COMPOSITION_PLUS_PHASE,MagpieData range AtomicWeight,106
+COMPOSITION_PLUS_PHASE,MagpieData range Column,107
+COMPOSITION_PLUS_PHASE,MagpieData range CovalentRadius,108
+COMPOSITION_PLUS_PHASE,MagpieData range Electronegativity,109
+COMPOSITION_PLUS_PHASE,MagpieData range GSbandgap,110
+COMPOSITION_PLUS_PHASE,MagpieData range GSmagmom,111
+COMPOSITION_PLUS_PHASE,MagpieData range GSvolume_pa,112
+COMPOSITION_PLUS_PHASE,MagpieData range MeltingT,113
+COMPOSITION_PLUS_PHASE,MagpieData range MendeleevNumber,114
+COMPOSITION_PLUS_PHASE,MagpieData range NUnfilled,115
+COMPOSITION_PLUS_PHASE,MagpieData range NValence,116
+COMPOSITION_PLUS_PHASE,MagpieData range NdUnfilled,117
+COMPOSITION_PLUS_PHASE,MagpieData range NdValence,118
+COMPOSITION_PLUS_PHASE,MagpieData range NpUnfilled,119
+COMPOSITION_PLUS_PHASE,MagpieData range NpValence,120
+COMPOSITION_PLUS_PHASE,MagpieData range NsUnfilled,121
+COMPOSITION_PLUS_PHASE,MagpieData range NsValence,122
+COMPOSITION_PLUS_PHASE,MagpieData range Number,123
+COMPOSITION_PLUS_PHASE,MagpieData range Row,124
+COMPOSITION_PLUS_PHASE,MagpieData range SpaceGroupNumber,125
+COMPOSITION_PLUS_PHASE,atomic_size_mismatch_percent,126
+COMPOSITION_PLUS_PHASE,avg ionic char,127
+COMPOSITION_PLUS_PHASE,composition_fraction_Al,128
+COMPOSITION_PLUS_PHASE,composition_fraction_Co,129
+COMPOSITION_PLUS_PHASE,composition_fraction_Cr,130
+COMPOSITION_PLUS_PHASE,composition_fraction_Cu,131
+COMPOSITION_PLUS_PHASE,composition_fraction_Fe,132
+COMPOSITION_PLUS_PHASE,composition_fraction_Mn,133
+COMPOSITION_PLUS_PHASE,composition_fraction_Ni,134
+COMPOSITION_PLUS_PHASE,composition_fraction_Si,135
+COMPOSITION_PLUS_PHASE,composition_number_of_elements,136
+COMPOSITION_PLUS_PHASE,compound possible,137
+COMPOSITION_PLUS_PHASE,configurational_entropy_j_mol_k,138
+COMPOSITION_PLUS_PHASE,configurational_entropy_kb_per_atom,139
+COMPOSITION_PLUS_PHASE,configurational_entropy_normalized,140
+COMPOSITION_PLUS_PHASE,derived_atomic_mass_mean,141
+COMPOSITION_PLUS_PHASE,derived_atomic_mass_std,142
+COMPOSITION_PLUS_PHASE,derived_atomic_number_mean,143
+COMPOSITION_PLUS_PHASE,derived_atomic_number_std,144
+COMPOSITION_PLUS_PHASE,derived_atomic_radius_covalent_mean,145
+COMPOSITION_PLUS_PHASE,derived_atomic_radius_covalent_std,146
+COMPOSITION_PLUS_PHASE,derived_electronegativity_mean,147
+COMPOSITION_PLUS_PHASE,derived_electronegativity_std,148
+COMPOSITION_PLUS_PHASE,derived_melting_point_mean,149
+COMPOSITION_PLUS_PHASE,derived_melting_point_std,150
+COMPOSITION_PLUS_PHASE,derived_vec_mean,151
+COMPOSITION_PLUS_PHASE,derived_vec_std,152
+COMPOSITION_PLUS_PHASE,frac d valence electrons,153
+COMPOSITION_PLUS_PHASE,frac p valence electrons,154
+COMPOSITION_PLUS_PHASE,frac s valence electrons,155
+COMPOSITION_PLUS_PHASE,max ionic char,156
+COMPOSITION_PLUS_PHASE,pair_atomic_mass_mean_abs_diff,157
+COMPOSITION_PLUS_PHASE,pair_atomic_mass_rms_diff,158
+COMPOSITION_PLUS_PHASE,pair_atomic_number_mean_abs_diff,159
+COMPOSITION_PLUS_PHASE,pair_atomic_number_rms_diff,160
+COMPOSITION_PLUS_PHASE,pair_atomic_radius_covalent_mean_abs_diff,161
+COMPOSITION_PLUS_PHASE,pair_atomic_radius_covalent_rms_diff,162
+COMPOSITION_PLUS_PHASE,pair_electronegativity_mean_abs_diff,163
+COMPOSITION_PLUS_PHASE,pair_electronegativity_rms_diff,164
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Al,165
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Co,166
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Cr,167
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Cu,168
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Fe,169
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Mn,170
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Ni,171
+COMPOSITION_PLUS_PHASE,pair_fraction_Al_Si,172
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Co,173
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Cr,174
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Cu,175
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Fe,176
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Mn,177
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Ni,178
+COMPOSITION_PLUS_PHASE,pair_fraction_Co_Si,179
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Cr,180
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Cu,181
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Fe,182
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Mn,183
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Ni,184
+COMPOSITION_PLUS_PHASE,pair_fraction_Cr_Si,185
+COMPOSITION_PLUS_PHASE,pair_fraction_Cu_Cu,186
+COMPOSITION_PLUS_PHASE,pair_fraction_Cu_Fe,187
+COMPOSITION_PLUS_PHASE,pair_fraction_Cu_Mn,188
+COMPOSITION_PLUS_PHASE,pair_fraction_Cu_Ni,189
+COMPOSITION_PLUS_PHASE,pair_fraction_Cu_Si,190
+COMPOSITION_PLUS_PHASE,pair_fraction_Fe_Fe,191
+COMPOSITION_PLUS_PHASE,pair_fraction_Fe_Mn,192
+COMPOSITION_PLUS_PHASE,pair_fraction_Fe_Ni,193
+COMPOSITION_PLUS_PHASE,pair_fraction_Fe_Si,194
+COMPOSITION_PLUS_PHASE,pair_fraction_Mn_Mn,195
+COMPOSITION_PLUS_PHASE,pair_fraction_Mn_Ni,196
+COMPOSITION_PLUS_PHASE,pair_fraction_Mn_Si,197
+COMPOSITION_PLUS_PHASE,pair_fraction_Ni_Ni,198
+COMPOSITION_PLUS_PHASE,pair_fraction_Ni_Si,199
+COMPOSITION_PLUS_PHASE,pair_fraction_Si_Si,200
+COMPOSITION_PLUS_PHASE,pair_melting_point_mean_abs_diff,201
+COMPOSITION_PLUS_PHASE,pair_melting_point_rms_diff,202
+COMPOSITION_PLUS_PHASE,pair_vec_mean_abs_diff,203
+COMPOSITION_PLUS_PHASE,pair_vec_rms_diff,204
+COMPOSITION_PLUS_PHASE,phase_FCC,205
+COMPOSITION_PLUS_INITIAL_STRUCTURE,0-norm,1
+COMPOSITION_PLUS_INITIAL_STRUCTURE,10-norm,2
+COMPOSITION_PLUS_INITIAL_STRUCTURE,2-norm,3
+COMPOSITION_PLUS_INITIAL_STRUCTURE,3-norm,4
+COMPOSITION_PLUS_INITIAL_STRUCTURE,5-norm,5
+COMPOSITION_PLUS_INITIAL_STRUCTURE,7-norm,6
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev AtomicWeight,7
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev Column,8
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev CovalentRadius,9
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev Electronegativity,10
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev GSbandgap,11
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev GSmagmom,12
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev GSvolume_pa,13
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev MeltingT,14
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev MendeleevNumber,15
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NUnfilled,16
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NValence,17
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NdUnfilled,18
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NdValence,19
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NpUnfilled,20
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NpValence,21
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NsUnfilled,22
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev NsValence,23
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev Number,24
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev Row,25
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData avg_dev SpaceGroupNumber,26
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum AtomicWeight,27
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum Column,28
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum CovalentRadius,29
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum Electronegativity,30
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum GSbandgap,31
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum GSmagmom,32
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum GSvolume_pa,33
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum MeltingT,34
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum MendeleevNumber,35
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NUnfilled,36
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NValence,37
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NdUnfilled,38
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NdValence,39
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NpUnfilled,40
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NpValence,41
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NsUnfilled,42
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum NsValence,43
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum Number,44
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum Row,45
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData maximum SpaceGroupNumber,46
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean AtomicWeight,47
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean Column,48
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean CovalentRadius,49
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean Electronegativity,50
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean GSbandgap,51
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean GSmagmom,52
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean GSvolume_pa,53
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean MeltingT,54
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean MendeleevNumber,55
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NUnfilled,56
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NValence,57
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NdUnfilled,58
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NdValence,59
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NpUnfilled,60
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NpValence,61
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NsUnfilled,62
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean NsValence,63
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean Number,64
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean Row,65
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mean SpaceGroupNumber,66
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum AtomicWeight,67
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum Column,68
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum CovalentRadius,69
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum Electronegativity,70
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum GSmagmom,71
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum GSvolume_pa,72
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum MeltingT,73
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum MendeleevNumber,74
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NUnfilled,75
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NValence,76
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NdUnfilled,77
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NdValence,78
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NpUnfilled,79
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NpValence,80
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NsUnfilled,81
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum NsValence,82
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum Number,83
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum Row,84
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData minimum SpaceGroupNumber,85
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode AtomicWeight,86
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode Column,87
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode CovalentRadius,88
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode Electronegativity,89
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode GSbandgap,90
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode GSmagmom,91
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode GSvolume_pa,92
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode MeltingT,93
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode MendeleevNumber,94
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NUnfilled,95
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NValence,96
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NdUnfilled,97
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NdValence,98
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NpUnfilled,99
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NpValence,100
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NsUnfilled,101
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode NsValence,102
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode Number,103
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode Row,104
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData mode SpaceGroupNumber,105
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range AtomicWeight,106
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range Column,107
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range CovalentRadius,108
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range Electronegativity,109
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range GSbandgap,110
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range GSmagmom,111
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range GSvolume_pa,112
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range MeltingT,113
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range MendeleevNumber,114
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NUnfilled,115
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NValence,116
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NdUnfilled,117
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NdValence,118
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NpUnfilled,119
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NpValence,120
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NsUnfilled,121
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range NsValence,122
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range Number,123
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range Row,124
+COMPOSITION_PLUS_INITIAL_STRUCTURE,MagpieData range SpaceGroupNumber,125
+COMPOSITION_PLUS_INITIAL_STRUCTURE,atomic_size_mismatch_percent,126
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg ionic char,127
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Al,128
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Co,129
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Cr,130
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Cu,131
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Fe,132
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Mn,133
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Ni,134
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_fraction_Si,135
+COMPOSITION_PLUS_INITIAL_STRUCTURE,composition_number_of_elements,136
+COMPOSITION_PLUS_INITIAL_STRUCTURE,compound possible,137
+COMPOSITION_PLUS_INITIAL_STRUCTURE,configurational_entropy_j_mol_k,138
+COMPOSITION_PLUS_INITIAL_STRUCTURE,configurational_entropy_kb_per_atom,139
+COMPOSITION_PLUS_INITIAL_STRUCTURE,configurational_entropy_normalized,140
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_mass_mean,141
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_mass_std,142
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_number_mean,143
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_number_std,144
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_radius_covalent_mean,145
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_atomic_radius_covalent_std,146
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_electronegativity_mean,147
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_electronegativity_std,148
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_melting_point_mean,149
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_melting_point_std,150
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_vec_mean,151
+COMPOSITION_PLUS_INITIAL_STRUCTURE,derived_vec_std,152
+COMPOSITION_PLUS_INITIAL_STRUCTURE,frac d valence electrons,153
+COMPOSITION_PLUS_INITIAL_STRUCTURE,frac p valence electrons,154
+COMPOSITION_PLUS_INITIAL_STRUCTURE,frac s valence electrons,155
+COMPOSITION_PLUS_INITIAL_STRUCTURE,max ionic char,156
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_mass_mean_abs_diff,157
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_mass_rms_diff,158
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_number_mean_abs_diff,159
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_number_rms_diff,160
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_radius_covalent_mean_abs_diff,161
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_atomic_radius_covalent_rms_diff,162
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_electronegativity_mean_abs_diff,163
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_electronegativity_rms_diff,164
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Al,165
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Co,166
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Cr,167
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Cu,168
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Fe,169
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Mn,170
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Ni,171
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Al_Si,172
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Co,173
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Cr,174
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Cu,175
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Fe,176
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Mn,177
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Ni,178
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Co_Si,179
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Cr,180
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Cu,181
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Fe,182
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Mn,183
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Ni,184
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cr_Si,185
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cu_Cu,186
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cu_Fe,187
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cu_Mn,188
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cu_Ni,189
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Cu_Si,190
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Fe_Fe,191
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Fe_Mn,192
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Fe_Ni,193
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Fe_Si,194
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Mn_Mn,195
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Mn_Ni,196
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Mn_Si,197
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Ni_Ni,198
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Ni_Si,199
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_fraction_Si_Si,200
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_melting_point_mean_abs_diff,201
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_melting_point_rms_diff,202
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_vec_mean_abs_diff,203
+COMPOSITION_PLUS_INITIAL_STRUCTURE,pair_vec_rms_diff,204
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev CN_VoronoiNN,205
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in AtomicWeight,206
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in Column,207
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in CovalentRadius,208
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in Electronegativity,209
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in GSbandgap,210
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in GSmagmom,211
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in GSvolume_pa,212
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in MeltingT,213
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in MendeleevNumber,214
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NUnfilled,215
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NValence,216
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NdUnfilled,217
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NdValence,218
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NpUnfilled,219
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NpValence,220
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NsUnfilled,221
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in NsValence,222
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in Number,223
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in Row,224
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev local difference in SpaceGroupNumber,225
+COMPOSITION_PLUS_INITIAL_STRUCTURE,avg_dev neighbor distance variation,226
+COMPOSITION_PLUS_INITIAL_STRUCTURE,max packing efficiency,227
+COMPOSITION_PLUS_INITIAL_STRUCTURE,max relative bond length,228
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum CN_VoronoiNN,229
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in AtomicWeight,230
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in Column,231
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in CovalentRadius,232
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in Electronegativity,233
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in GSbandgap,234
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in GSmagmom,235
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in GSvolume_pa,236
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in MeltingT,237
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in MendeleevNumber,238
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NUnfilled,239
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NValence,240
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NdUnfilled,241
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NdValence,242
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NpUnfilled,243
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NpValence,244
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NsUnfilled,245
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in NsValence,246
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in Number,247
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in Row,248
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum local difference in SpaceGroupNumber,249
+COMPOSITION_PLUS_INITIAL_STRUCTURE,maximum neighbor distance variation,250
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean CN_VoronoiNN,251
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean absolute deviation in relative bond length,252
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean absolute deviation in relative cell size,253
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in AtomicWeight,254
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in Column,255
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in CovalentRadius,256
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in Electronegativity,257
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in GSbandgap,258
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in GSmagmom,259
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in GSvolume_pa,260
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in MeltingT,261
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in MendeleevNumber,262
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NUnfilled,263
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NValence,264
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NdUnfilled,265
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NdValence,266
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NpUnfilled,267
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NpValence,268
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NsUnfilled,269
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in NsValence,270
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in Number,271
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in Row,272
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean local difference in SpaceGroupNumber,273
+COMPOSITION_PLUS_INITIAL_STRUCTURE,mean neighbor distance variation,274
+COMPOSITION_PLUS_INITIAL_STRUCTURE,min relative bond length,275
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum CN_VoronoiNN,276
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in AtomicWeight,277
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in Column,278
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in CovalentRadius,279
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in Electronegativity,280
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in GSbandgap,281
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in GSmagmom,282
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in GSvolume_pa,283
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in MeltingT,284
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in MendeleevNumber,285
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NUnfilled,286
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NValence,287
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NdUnfilled,288
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NdValence,289
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NpUnfilled,290
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NpValence,291
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NsUnfilled,292
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in NsValence,293
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in Number,294
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in Row,295
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum local difference in SpaceGroupNumber,296
+COMPOSITION_PLUS_INITIAL_STRUCTURE,minimum neighbor distance variation,297
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range CN_VoronoiNN,298
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in AtomicWeight,299
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in Column,300
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in CovalentRadius,301
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in Electronegativity,302
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in GSbandgap,303
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in GSmagmom,304
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in GSvolume_pa,305
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in MeltingT,306
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in MendeleevNumber,307
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NUnfilled,308
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NValence,309
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NdUnfilled,310
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NdValence,311
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NpUnfilled,312
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NpValence,313
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NsUnfilled,314
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in NsValence,315
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in Number,316
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in Row,317
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range local difference in SpaceGroupNumber,318
+COMPOSITION_PLUS_INITIAL_STRUCTURE,range neighbor distance variation,319
+COMPOSITION_PLUS_INITIAL_STRUCTURE,space_group_number_ini,320

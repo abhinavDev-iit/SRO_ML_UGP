@@ -57,3 +57,17 @@ Feature origins are controlled vocabulary values: `direct source`, `composition-
 | `target_statistics.csv` | range, moments, percentiles, Tukey outliers and near-zero fractions for all/FCC/BCC | target units | target is dimensionless aggregate first-shell ordering magnitude |
 
 Phase 4 excludes the 24 aggregate-constant predictors from `FULL_CLEAN`; it does not treat the 255 HCP candidate configurations as labelled observations. The 19-feature portable set uses `phase_FCC` for the current two-phase database. If HCP is validated later, phase encoding must become an explicit three-level training-time transformation.
+
+## Phase 5 model-result fields
+
+| Field/group | Definition | Units | Interpretation |
+|---|---|---|---|
+| `split_strategy` | `random_configuration`, `composition_grouped`, or `alloy_system_grouped` | none | alloy-system grouping is the primary scientific evaluation |
+| `cv_*_mean/std` | three-fold inner validation statistic within the outer training set | metric-specific | used for model/feature-set selection; never outer-test metrics |
+| `test_mae`, `test_rmse`, `test_r2` | performance on the frozen outer holdout | target units or dimensionless | primary reported generalization result |
+| `test_normalized_mae/rmse` | error divided by held-out target standard deviation | dimensionless | supports FCC/BCC comparison despite different target spreads |
+| `train_*` | fitted-training performance | metric-specific | compared with CV/test results to diagnose overfitting |
+| `permutation_mae_increase` | increase in held-out MAE after deterministic feature permutation | target units | model dependence, not causal importance |
+| `prediction`, `residual` | fitted prediction and `observed - prediction` | dimensionless SRO magnitude | outer-test diagnostics only |
+
+Every fitted pipeline begins with training-fold `VarianceThreshold(0)`. Linear, Ridge, Elastic Net, and SVR pipelines fit `StandardScaler` only inside training data. Model binaries remain under ignored `models/phase5/`; tracked `model_metadata_*.json` files contain features, hyperparameters, date and primary metrics.
