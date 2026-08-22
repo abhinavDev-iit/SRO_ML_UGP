@@ -1,0 +1,21 @@
+{
+  "docx": "deliverables\\SRO_ML_Project_Progress_Report.docx",
+  "report_generation_date": "2026-08-23",
+  "figures": 45,
+  "tables": 49,
+  "appendices": 8,
+  "figure_inventory": "deliverables\\report_figure_inventory.csv",
+  "evidence_map": "deliverables\\report_evidence_map.md",
+  "scientific_analysis_performed": false,
+  "docx_bytes": 7882038,
+  "pdf_bytes": 4344829,
+  "pages": 47,
+  "authored_data_tables": 49,
+  "docx_table_objects": 49,
+  "a4_points": [
+    595.32,
+    841.92
+  ],
+  "metric_validation": "passed",
+  "hcp_validation_status": "0 validated; provisional only"
+}
