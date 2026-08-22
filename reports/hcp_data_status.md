@@ -2,6 +2,12 @@
 
 Inventory date: 2026-08-22.
 
+## Phase 6 final status
+
+Validated HCP observations remain **0**. The **255 provisional CrCoNi HCP configurations** were not integrated and no HCP model was trained. They are equiatomic 144-atom frames from five reported 500 K MC trajectories, but the author-local six-component HCP Warren–Cowley `LOP_*.npy` reference arrays and the exact ideal-HCP neighbour/topology mapping remain unavailable. Distance-ranked reconstruction is not accepted because 98/255 frames have a 13th/12th-neighbour distance ratio below 1.02, making the first-shell boundary ambiguous under displacement.
+
+The best immediate candidate is still the compact author HCP DFT-MC WC reference array/topology bundle, which would validate the already-local structures. The best chemically independent next dataset is a completed HfTiZr HCP bundle with configurations, pair-resolved WC outputs, genuine temperature/run metadata and trajectory grouping. The present study therefore makes conclusions for validated FCC and BCC data only.
+
 ## Phase 5 update
 
 No HCP model was trained. All Phase 5 split, model, prediction, residual, importance, and alloy-error tables assert a validated HCP count of **0** and contain only the **40,425 FCC** and **43,372 BCC** observations. The 255 MLP-cSRO HCP configurations remain provisional and excluded because the author WC reference arrays/topology validation are unavailable. This prevents any claim of FCC/BCC/HCP model parity and remains the principal data limitation before HCP inference.

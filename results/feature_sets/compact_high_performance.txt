@@ -1,0 +1,10 @@
+space_group_number_ini
+configurational_entropy_j_mol_k
+max packing efficiency
+NIONS
+range neighbor distance variation
+configurational_entropy_normalized
+minimum local difference in NsUnfilled
+mean local difference in SpaceGroupNumber
+mean local difference in NsValence
+avg_dev local difference in NsValence

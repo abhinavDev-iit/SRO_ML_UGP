@@ -67,3 +67,18 @@
 - **Outputs:** complete result/prediction/importance/split/alloy CSVs; seven ML reports; 18 Phase 5 300 dpi figures; updated thesis captions, notes and numerical summary
 - **Runtime:** approximately 31.9 minutes for the complete local run; no raw ingestion rerun; no model binary committed
 - **Training caution:** Phase 4 BALANCED selection was informed by whole-dataset EDA, so Phase 5 is exploratory rather than pristine confirmatory validation
+
+## 2026-08-22 — Phase 6: robustness, refinement and thesis synthesis
+
+- **Input:** validated 83,797-row FCC/BCC ML table; Phase 4 mappings; Phase 5 fixed HistGradientBoosting specification, predictions and ignored local model pipelines
+- **Population/target:** FCC 40,425; BCC 43,372; HCP 0; `target_mean_abs_sro_shell1`
+- **Robustness:** repeated complete alloy-system holdout for seeds 7/19/42/73/101; mean R² 0.8946±0.0187 unified, 0.9046±0.0128 FCC, 0.9042±0.0287 BCC
+- **Compact refinement:** feature rankings calculated inside fold-training partitions; size chosen by three-fold grouped validation only; ten predictors selected at CV R² 0.8636 versus 0.8803 BALANCED; untouched unified outer R² 0.8917
+- **Group ablation:** largest ΔCV R² from symmetry −0.0666, structural geometry −0.0246, configurational entropy −0.0220 and electronic/VEC/periodic −0.0126
+- **Configuration sensitivity:** removing initial space group lowers outer R² by 0.0830 unified; result persists within FCC/BCC but is treated as predictive/configuration-sensitive, not causal
+- **Error/extrapolation:** 95th-percentile absolute-error threshold 0.1682; errors concentrate at high targets and selected held-out systems; no compact feature exceeds literal training min/max, but joint-domain extrapolation remains possible
+- **Outputs:** eight Phase 6 300 dpi figures, requested robustness/ablation CSVs, exact four-level feature lists, sensitivity/error/extrapolation tables, final scientific reports, thesis support map, figure/table manifests and results/discussion material
+- **HCP:** zero validated observations; 255 provisional CrCoNi configurations excluded; no HCP model trained
+- **Validation:** Phase 6 rerun reproduced all numerical results; metrics are independently recomputable from saved predictions; outer-test columns absent from compact-selection table; PNG DPI/schema/leakage/HCP tests added
+- **Runtime:** approximately 7.2 minutes for the deterministic Phase 6 analysis on this workstation
+- **Local-only files:** raw data, four processed Parquet tables, provisional HCP Parquet and compressed Phase 5 model binaries remain ignored

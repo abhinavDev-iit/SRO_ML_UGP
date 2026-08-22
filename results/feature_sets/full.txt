@@ -1,0 +1,324 @@
+0-norm
+10-norm
+2-norm
+3-norm
+5-norm
+7-norm
+MagpieData avg_dev AtomicWeight
+MagpieData avg_dev Column
+MagpieData avg_dev CovalentRadius
+MagpieData avg_dev Electronegativity
+MagpieData avg_dev GSbandgap
+MagpieData avg_dev GSmagmom
+MagpieData avg_dev GSvolume_pa
+MagpieData avg_dev MeltingT
+MagpieData avg_dev MendeleevNumber
+MagpieData avg_dev NUnfilled
+MagpieData avg_dev NValence
+MagpieData avg_dev NdUnfilled
+MagpieData avg_dev NdValence
+MagpieData avg_dev NpUnfilled
+MagpieData avg_dev NpValence
+MagpieData avg_dev NsUnfilled
+MagpieData avg_dev NsValence
+MagpieData avg_dev Number
+MagpieData avg_dev Row
+MagpieData avg_dev SpaceGroupNumber
+MagpieData maximum AtomicWeight
+MagpieData maximum Column
+MagpieData maximum CovalentRadius
+MagpieData maximum Electronegativity
+MagpieData maximum GSbandgap
+MagpieData maximum GSmagmom
+MagpieData maximum GSvolume_pa
+MagpieData maximum MeltingT
+MagpieData maximum MendeleevNumber
+MagpieData maximum NUnfilled
+MagpieData maximum NValence
+MagpieData maximum NdUnfilled
+MagpieData maximum NdValence
+MagpieData maximum NpUnfilled
+MagpieData maximum NpValence
+MagpieData maximum NsUnfilled
+MagpieData maximum NsValence
+MagpieData maximum Number
+MagpieData maximum Row
+MagpieData maximum SpaceGroupNumber
+MagpieData mean AtomicWeight
+MagpieData mean Column
+MagpieData mean CovalentRadius
+MagpieData mean Electronegativity
+MagpieData mean GSbandgap
+MagpieData mean GSmagmom
+MagpieData mean GSvolume_pa
+MagpieData mean MeltingT
+MagpieData mean MendeleevNumber
+MagpieData mean NUnfilled
+MagpieData mean NValence
+MagpieData mean NdUnfilled
+MagpieData mean NdValence
+MagpieData mean NpUnfilled
+MagpieData mean NpValence
+MagpieData mean NsUnfilled
+MagpieData mean NsValence
+MagpieData mean Number
+MagpieData mean Row
+MagpieData mean SpaceGroupNumber
+MagpieData minimum AtomicWeight
+MagpieData minimum Column
+MagpieData minimum CovalentRadius
+MagpieData minimum Electronegativity
+MagpieData minimum GSmagmom
+MagpieData minimum GSvolume_pa
+MagpieData minimum MeltingT
+MagpieData minimum MendeleevNumber
+MagpieData minimum NUnfilled
+MagpieData minimum NValence
+MagpieData minimum NdUnfilled
+MagpieData minimum NdValence
+MagpieData minimum NpUnfilled
+MagpieData minimum NpValence
+MagpieData minimum NsUnfilled
+MagpieData minimum NsValence
+MagpieData minimum Number
+MagpieData minimum Row
+MagpieData minimum SpaceGroupNumber
+MagpieData mode AtomicWeight
+MagpieData mode Column
+MagpieData mode CovalentRadius
+MagpieData mode Electronegativity
+MagpieData mode GSbandgap
+MagpieData mode GSmagmom
+MagpieData mode GSvolume_pa
+MagpieData mode MeltingT
+MagpieData mode MendeleevNumber
+MagpieData mode NUnfilled
+MagpieData mode NValence
+MagpieData mode NdUnfilled
+MagpieData mode NdValence
+MagpieData mode NpUnfilled
+MagpieData mode NpValence
+MagpieData mode NsUnfilled
+MagpieData mode NsValence
+MagpieData mode Number
+MagpieData mode Row
+MagpieData mode SpaceGroupNumber
+MagpieData range AtomicWeight
+MagpieData range Column
+MagpieData range CovalentRadius
+MagpieData range Electronegativity
+MagpieData range GSbandgap
+MagpieData range GSmagmom
+MagpieData range GSvolume_pa
+MagpieData range MeltingT
+MagpieData range MendeleevNumber
+MagpieData range NUnfilled
+MagpieData range NValence
+MagpieData range NdUnfilled
+MagpieData range NdValence
+MagpieData range NpUnfilled
+MagpieData range NpValence
+MagpieData range NsUnfilled
+MagpieData range NsValence
+MagpieData range Number
+MagpieData range Row
+MagpieData range SpaceGroupNumber
+NIONS
+atomic_size_mismatch_percent
+avg ionic char
+avg_dev CN_VoronoiNN
+avg_dev local difference in AtomicWeight
+avg_dev local difference in Column
+avg_dev local difference in CovalentRadius
+avg_dev local difference in Electronegativity
+avg_dev local difference in GSbandgap
+avg_dev local difference in GSmagmom
+avg_dev local difference in GSvolume_pa
+avg_dev local difference in MeltingT
+avg_dev local difference in MendeleevNumber
+avg_dev local difference in NUnfilled
+avg_dev local difference in NValence
+avg_dev local difference in NdUnfilled
+avg_dev local difference in NdValence
+avg_dev local difference in NpUnfilled
+avg_dev local difference in NpValence
+avg_dev local difference in NsUnfilled
+avg_dev local difference in NsValence
+avg_dev local difference in Number
+avg_dev local difference in Row
+avg_dev local difference in SpaceGroupNumber
+avg_dev neighbor distance variation
+composition_fraction_Al
+composition_fraction_Co
+composition_fraction_Cr
+composition_fraction_Cu
+composition_fraction_Fe
+composition_fraction_Mn
+composition_fraction_Ni
+composition_fraction_Si
+composition_number_of_elements
+compound possible
+configurational_entropy_j_mol_k
+configurational_entropy_kb_per_atom
+configurational_entropy_normalized
+derived_atomic_mass_mean
+derived_atomic_mass_std
+derived_atomic_number_mean
+derived_atomic_number_std
+derived_atomic_radius_covalent_mean
+derived_atomic_radius_covalent_std
+derived_electronegativity_mean
+derived_electronegativity_std
+derived_melting_point_mean
+derived_melting_point_std
+derived_vec_mean
+derived_vec_std
+frac d valence electrons
+frac p valence electrons
+frac s valence electrons
+max ionic char
+max packing efficiency
+max relative bond length
+maximum CN_VoronoiNN
+maximum local difference in AtomicWeight
+maximum local difference in Column
+maximum local difference in CovalentRadius
+maximum local difference in Electronegativity
+maximum local difference in GSbandgap
+maximum local difference in GSmagmom
+maximum local difference in GSvolume_pa
+maximum local difference in MeltingT
+maximum local difference in MendeleevNumber
+maximum local difference in NUnfilled
+maximum local difference in NValence
+maximum local difference in NdUnfilled
+maximum local difference in NdValence
+maximum local difference in NpUnfilled
+maximum local difference in NpValence
+maximum local difference in NsUnfilled
+maximum local difference in NsValence
+maximum local difference in Number
+maximum local difference in Row
+maximum local difference in SpaceGroupNumber
+maximum neighbor distance variation
+mean CN_VoronoiNN
+mean absolute deviation in relative bond length
+mean absolute deviation in relative cell size
+mean local difference in AtomicWeight
+mean local difference in Column
+mean local difference in CovalentRadius
+mean local difference in Electronegativity
+mean local difference in GSbandgap
+mean local difference in GSmagmom
+mean local difference in GSvolume_pa
+mean local difference in MeltingT
+mean local difference in MendeleevNumber
+mean local difference in NUnfilled
+mean local difference in NValence
+mean local difference in NdUnfilled
+mean local difference in NdValence
+mean local difference in NpUnfilled
+mean local difference in NpValence
+mean local difference in NsUnfilled
+mean local difference in NsValence
+mean local difference in Number
+mean local difference in Row
+mean local difference in SpaceGroupNumber
+mean neighbor distance variation
+min relative bond length
+minimum CN_VoronoiNN
+minimum local difference in AtomicWeight
+minimum local difference in Column
+minimum local difference in CovalentRadius
+minimum local difference in Electronegativity
+minimum local difference in GSbandgap
+minimum local difference in GSmagmom
+minimum local difference in GSvolume_pa
+minimum local difference in MeltingT
+minimum local difference in MendeleevNumber
+minimum local difference in NUnfilled
+minimum local difference in NValence
+minimum local difference in NdUnfilled
+minimum local difference in NdValence
+minimum local difference in NpUnfilled
+minimum local difference in NpValence
+minimum local difference in NsUnfilled
+minimum local difference in NsValence
+minimum local difference in Number
+minimum local difference in Row
+minimum local difference in SpaceGroupNumber
+minimum neighbor distance variation
+nelements
+pair_atomic_mass_mean_abs_diff
+pair_atomic_mass_rms_diff
+pair_atomic_number_mean_abs_diff
+pair_atomic_number_rms_diff
+pair_atomic_radius_covalent_mean_abs_diff
+pair_atomic_radius_covalent_rms_diff
+pair_electronegativity_mean_abs_diff
+pair_electronegativity_rms_diff
+pair_fraction_Al_Al
+pair_fraction_Al_Co
+pair_fraction_Al_Cr
+pair_fraction_Al_Cu
+pair_fraction_Al_Fe
+pair_fraction_Al_Mn
+pair_fraction_Al_Ni
+pair_fraction_Al_Si
+pair_fraction_Co_Co
+pair_fraction_Co_Cr
+pair_fraction_Co_Cu
+pair_fraction_Co_Fe
+pair_fraction_Co_Mn
+pair_fraction_Co_Ni
+pair_fraction_Co_Si
+pair_fraction_Cr_Cr
+pair_fraction_Cr_Cu
+pair_fraction_Cr_Fe
+pair_fraction_Cr_Mn
+pair_fraction_Cr_Ni
+pair_fraction_Cr_Si
+pair_fraction_Cu_Cu
+pair_fraction_Cu_Fe
+pair_fraction_Cu_Mn
+pair_fraction_Cu_Ni
+pair_fraction_Cu_Si
+pair_fraction_Fe_Fe
+pair_fraction_Fe_Mn
+pair_fraction_Fe_Ni
+pair_fraction_Fe_Si
+pair_fraction_Mn_Mn
+pair_fraction_Mn_Ni
+pair_fraction_Mn_Si
+pair_fraction_Ni_Ni
+pair_fraction_Ni_Si
+pair_fraction_Si_Si
+pair_melting_point_mean_abs_diff
+pair_melting_point_rms_diff
+pair_vec_mean_abs_diff
+pair_vec_rms_diff
+phase_BCC
+phase_FCC
+range CN_VoronoiNN
+range local difference in AtomicWeight
+range local difference in Column
+range local difference in CovalentRadius
+range local difference in Electronegativity
+range local difference in GSbandgap
+range local difference in GSmagmom
+range local difference in GSvolume_pa
+range local difference in MeltingT
+range local difference in MendeleevNumber
+range local difference in NUnfilled
+range local difference in NValence
+range local difference in NdUnfilled
+range local difference in NdValence
+range local difference in NpUnfilled
+range local difference in NpValence
+range local difference in NsUnfilled
+range local difference in NsValence
+range local difference in Number
+range local difference in Row
+range local difference in SpaceGroupNumber
+range neighbor distance variation
+space_group_number_ini
