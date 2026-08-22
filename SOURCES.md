@@ -35,13 +35,14 @@ Inventory date: 2026-08-22. Status values distinguish files that are locally pre
 - **Dataset/paper:** Capturing Short-Range Order in High-Entropy Alloys with Machine Learning Potentials
 - **Authors:** Yifan Cao; Killian Sheriff; Rodrigo Freitas
 - **Year / DOI:** 2025; `10.1038/s41524-025-01722-2`
-- **Repository:** local snapshot of the MLP-cSRO repository; upstream URL to be recorded after repository-remote verification
+- **Repository:** https://github.com/yifan-henry-cao/MachineLearningPotential plus the local MLP-cSRO snapshot
 - **Source type / provenance:** `theoretical_MLIP` / `direct_dataset`
 - **Method:** moment tensor potentials trained to DFT CrCoNi configurations
 - **Coverage:** CrCoNi; FCC, HCP and liquid configurations in later training sets; no ready normalized SRO table identified
 - **Files:** 10 CFG training datasets, 863 MTP files, plotting arrays/tables and scripts
-- **SRO:** WC-SRO is discussed and plotted; extraction from structures/plot arrays requires validation against published curves
-- **Limitations:** many potential ensembles are model artifacts rather than independent observations; shared configurations across nested training sets create pseudo-replication risk.
+- **SRO:** 255 HCP CFG additions support provisional first-shell WC reconstruction, but the six-component author HCP reference arrays are not public in the checked repositories. Ninety-eight candidates have an ambiguous 13th/12th shell-distance ratio below 1.02 and are excluded from validated ML.
+- **Current compact upstream check:** the 5.68 MB `DFTMC_structures.tar.gz` contains five 108-atom cubic FCC trajectories and no HCP/WC reference arrays; no archive over 500 MB was downloaded.
+- **Limitations:** many potential ensembles are model artifacts rather than independent observations; shared configurations across nested training sets create pseudo-replication risk; HCP configuration order is not a substitute for missing trajectory identifiers/reference labels.
 
 ## `csro_lattice_crconi_2025`
 

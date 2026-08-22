@@ -1,0 +1,68 @@
+{
+  "rows": 83797,
+  "fcc_observations": 40425,
+  "bcc_observations": 43372,
+  "validated_hcp_observations": 0,
+  "provisional_hcp_configurations": 255,
+  "candidate_features": 348,
+  "features_with_any_missing": 0,
+  "overall_feature_missing_fraction": 0.0,
+  "major_feature_missingness": {
+    "configurational_entropy_j_mol_k": 0.0,
+    "atomic_size_mismatch_percent": 0.0,
+    "derived_electronegativity_mean": 0.0,
+    "pair_electronegativity_mean_abs_diff": 0.0,
+    "derived_vec_mean": 0.0,
+    "pair_vec_mean_abs_diff": 0.0,
+    "derived_melting_point_mean": 0.0,
+    "space_group_number_ini": 0.0
+  },
+  "elemental_reference_reconstruction_max_abs_error": {
+    "atomic_number": 2.0889956431346945e-12,
+    "atomic_mass": 4.376943252282217e-12,
+    "atomic_radius_covalent": 1.1652900866465643e-11,
+    "electronegativity": 1.4033219031261979e-13,
+    "vec": 5.071498776487715e-13,
+    "melting_point": 1.837179297581315e-10
+  },
+  "hcp_audit": {
+    "candidate_configurations": 255,
+    "all_144_atoms": true,
+    "all_equiatomic": true,
+    "minimum_shell_gap_ratio": 1.0000007841888645,
+    "median_shell_gap_ratio": 1.2001694459847712,
+    "configurations_with_shell_gap_below_1_02": 98,
+    "validated_reference_arrays_available": false,
+    "validated_hcp_observations": 0
+  },
+  "figures": {
+    "phase_counts": "figures\\phase3\\phase_counts.png",
+    "alloy_system_coverage": "figures\\phase3\\alloy_system_coverage.png",
+    "element_coverage": "figures\\phase3\\element_coverage.png",
+    "feature_availability": "figures\\phase3\\feature_availability.png",
+    "missing_data_patterns": "figures\\phase3\\missing_data_patterns.png"
+  },
+  "processed_outputs": {
+    "structures.parquet": "data\\processed\\structures.parquet",
+    "sro_long.parquet": "data\\processed\\sro_long.parquet",
+    "features.parquet": "data\\processed\\features.parquet",
+    "ml_dataset.parquet": "data\\processed\\ml_dataset.parquet"
+  },
+  "ready_for_eda_correlation": true,
+  "leakage_fields_excluded": [
+    "Ef_per_atom",
+    "e_above_hull",
+    "e_per_atom",
+    "elements",
+    "magmom",
+    "max_FORCE",
+    "mean ordering parameter shell 1",
+    "mean ordering parameter shell 2",
+    "mean ordering parameter shell 3",
+    "pressure",
+    "space_group_number",
+    "structure",
+    "structure_ini",
+    "volume_per_atom"
+  ]
+}

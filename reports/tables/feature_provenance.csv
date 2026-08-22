@@ -1,0 +1,349 @@
+feature,origin,source_field
+0-norm,composition-derived,0-norm
+10-norm,composition-derived,10-norm
+2-norm,composition-derived,2-norm
+3-norm,composition-derived,3-norm
+5-norm,composition-derived,5-norm
+7-norm,composition-derived,7-norm
+MagpieData avg_dev AtomicWeight,elemental-reference-derived,MagpieData avg_dev AtomicWeight
+MagpieData avg_dev Column,elemental-reference-derived,MagpieData avg_dev Column
+MagpieData avg_dev CovalentRadius,elemental-reference-derived,MagpieData avg_dev CovalentRadius
+MagpieData avg_dev Electronegativity,elemental-reference-derived,MagpieData avg_dev Electronegativity
+MagpieData avg_dev GSbandgap,elemental-reference-derived,MagpieData avg_dev GSbandgap
+MagpieData avg_dev GSmagmom,elemental-reference-derived,MagpieData avg_dev GSmagmom
+MagpieData avg_dev GSvolume_pa,elemental-reference-derived,MagpieData avg_dev GSvolume_pa
+MagpieData avg_dev MeltingT,elemental-reference-derived,MagpieData avg_dev MeltingT
+MagpieData avg_dev MendeleevNumber,elemental-reference-derived,MagpieData avg_dev MendeleevNumber
+MagpieData avg_dev NUnfilled,elemental-reference-derived,MagpieData avg_dev NUnfilled
+MagpieData avg_dev NValence,elemental-reference-derived,MagpieData avg_dev NValence
+MagpieData avg_dev NdUnfilled,elemental-reference-derived,MagpieData avg_dev NdUnfilled
+MagpieData avg_dev NdValence,elemental-reference-derived,MagpieData avg_dev NdValence
+MagpieData avg_dev NfUnfilled,elemental-reference-derived,MagpieData avg_dev NfUnfilled
+MagpieData avg_dev NfValence,elemental-reference-derived,MagpieData avg_dev NfValence
+MagpieData avg_dev NpUnfilled,elemental-reference-derived,MagpieData avg_dev NpUnfilled
+MagpieData avg_dev NpValence,elemental-reference-derived,MagpieData avg_dev NpValence
+MagpieData avg_dev NsUnfilled,elemental-reference-derived,MagpieData avg_dev NsUnfilled
+MagpieData avg_dev NsValence,elemental-reference-derived,MagpieData avg_dev NsValence
+MagpieData avg_dev Number,elemental-reference-derived,MagpieData avg_dev Number
+MagpieData avg_dev Row,elemental-reference-derived,MagpieData avg_dev Row
+MagpieData avg_dev SpaceGroupNumber,elemental-reference-derived,MagpieData avg_dev SpaceGroupNumber
+MagpieData maximum AtomicWeight,elemental-reference-derived,MagpieData maximum AtomicWeight
+MagpieData maximum Column,elemental-reference-derived,MagpieData maximum Column
+MagpieData maximum CovalentRadius,elemental-reference-derived,MagpieData maximum CovalentRadius
+MagpieData maximum Electronegativity,elemental-reference-derived,MagpieData maximum Electronegativity
+MagpieData maximum GSbandgap,elemental-reference-derived,MagpieData maximum GSbandgap
+MagpieData maximum GSmagmom,elemental-reference-derived,MagpieData maximum GSmagmom
+MagpieData maximum GSvolume_pa,elemental-reference-derived,MagpieData maximum GSvolume_pa
+MagpieData maximum MeltingT,elemental-reference-derived,MagpieData maximum MeltingT
+MagpieData maximum MendeleevNumber,elemental-reference-derived,MagpieData maximum MendeleevNumber
+MagpieData maximum NUnfilled,elemental-reference-derived,MagpieData maximum NUnfilled
+MagpieData maximum NValence,elemental-reference-derived,MagpieData maximum NValence
+MagpieData maximum NdUnfilled,elemental-reference-derived,MagpieData maximum NdUnfilled
+MagpieData maximum NdValence,elemental-reference-derived,MagpieData maximum NdValence
+MagpieData maximum NfUnfilled,elemental-reference-derived,MagpieData maximum NfUnfilled
+MagpieData maximum NfValence,elemental-reference-derived,MagpieData maximum NfValence
+MagpieData maximum NpUnfilled,elemental-reference-derived,MagpieData maximum NpUnfilled
+MagpieData maximum NpValence,elemental-reference-derived,MagpieData maximum NpValence
+MagpieData maximum NsUnfilled,elemental-reference-derived,MagpieData maximum NsUnfilled
+MagpieData maximum NsValence,elemental-reference-derived,MagpieData maximum NsValence
+MagpieData maximum Number,elemental-reference-derived,MagpieData maximum Number
+MagpieData maximum Row,elemental-reference-derived,MagpieData maximum Row
+MagpieData maximum SpaceGroupNumber,elemental-reference-derived,MagpieData maximum SpaceGroupNumber
+MagpieData mean AtomicWeight,elemental-reference-derived,MagpieData mean AtomicWeight
+MagpieData mean Column,elemental-reference-derived,MagpieData mean Column
+MagpieData mean CovalentRadius,elemental-reference-derived,MagpieData mean CovalentRadius
+MagpieData mean Electronegativity,elemental-reference-derived,MagpieData mean Electronegativity
+MagpieData mean GSbandgap,elemental-reference-derived,MagpieData mean GSbandgap
+MagpieData mean GSmagmom,elemental-reference-derived,MagpieData mean GSmagmom
+MagpieData mean GSvolume_pa,elemental-reference-derived,MagpieData mean GSvolume_pa
+MagpieData mean MeltingT,elemental-reference-derived,MagpieData mean MeltingT
+MagpieData mean MendeleevNumber,elemental-reference-derived,MagpieData mean MendeleevNumber
+MagpieData mean NUnfilled,elemental-reference-derived,MagpieData mean NUnfilled
+MagpieData mean NValence,elemental-reference-derived,MagpieData mean NValence
+MagpieData mean NdUnfilled,elemental-reference-derived,MagpieData mean NdUnfilled
+MagpieData mean NdValence,elemental-reference-derived,MagpieData mean NdValence
+MagpieData mean NfUnfilled,elemental-reference-derived,MagpieData mean NfUnfilled
+MagpieData mean NfValence,elemental-reference-derived,MagpieData mean NfValence
+MagpieData mean NpUnfilled,elemental-reference-derived,MagpieData mean NpUnfilled
+MagpieData mean NpValence,elemental-reference-derived,MagpieData mean NpValence
+MagpieData mean NsUnfilled,elemental-reference-derived,MagpieData mean NsUnfilled
+MagpieData mean NsValence,elemental-reference-derived,MagpieData mean NsValence
+MagpieData mean Number,elemental-reference-derived,MagpieData mean Number
+MagpieData mean Row,elemental-reference-derived,MagpieData mean Row
+MagpieData mean SpaceGroupNumber,elemental-reference-derived,MagpieData mean SpaceGroupNumber
+MagpieData minimum AtomicWeight,elemental-reference-derived,MagpieData minimum AtomicWeight
+MagpieData minimum Column,elemental-reference-derived,MagpieData minimum Column
+MagpieData minimum CovalentRadius,elemental-reference-derived,MagpieData minimum CovalentRadius
+MagpieData minimum Electronegativity,elemental-reference-derived,MagpieData minimum Electronegativity
+MagpieData minimum GSbandgap,elemental-reference-derived,MagpieData minimum GSbandgap
+MagpieData minimum GSmagmom,elemental-reference-derived,MagpieData minimum GSmagmom
+MagpieData minimum GSvolume_pa,elemental-reference-derived,MagpieData minimum GSvolume_pa
+MagpieData minimum MeltingT,elemental-reference-derived,MagpieData minimum MeltingT
+MagpieData minimum MendeleevNumber,elemental-reference-derived,MagpieData minimum MendeleevNumber
+MagpieData minimum NUnfilled,elemental-reference-derived,MagpieData minimum NUnfilled
+MagpieData minimum NValence,elemental-reference-derived,MagpieData minimum NValence
+MagpieData minimum NdUnfilled,elemental-reference-derived,MagpieData minimum NdUnfilled
+MagpieData minimum NdValence,elemental-reference-derived,MagpieData minimum NdValence
+MagpieData minimum NfUnfilled,elemental-reference-derived,MagpieData minimum NfUnfilled
+MagpieData minimum NfValence,elemental-reference-derived,MagpieData minimum NfValence
+MagpieData minimum NpUnfilled,elemental-reference-derived,MagpieData minimum NpUnfilled
+MagpieData minimum NpValence,elemental-reference-derived,MagpieData minimum NpValence
+MagpieData minimum NsUnfilled,elemental-reference-derived,MagpieData minimum NsUnfilled
+MagpieData minimum NsValence,elemental-reference-derived,MagpieData minimum NsValence
+MagpieData minimum Number,elemental-reference-derived,MagpieData minimum Number
+MagpieData minimum Row,elemental-reference-derived,MagpieData minimum Row
+MagpieData minimum SpaceGroupNumber,elemental-reference-derived,MagpieData minimum SpaceGroupNumber
+MagpieData mode AtomicWeight,elemental-reference-derived,MagpieData mode AtomicWeight
+MagpieData mode Column,elemental-reference-derived,MagpieData mode Column
+MagpieData mode CovalentRadius,elemental-reference-derived,MagpieData mode CovalentRadius
+MagpieData mode Electronegativity,elemental-reference-derived,MagpieData mode Electronegativity
+MagpieData mode GSbandgap,elemental-reference-derived,MagpieData mode GSbandgap
+MagpieData mode GSmagmom,elemental-reference-derived,MagpieData mode GSmagmom
+MagpieData mode GSvolume_pa,elemental-reference-derived,MagpieData mode GSvolume_pa
+MagpieData mode MeltingT,elemental-reference-derived,MagpieData mode MeltingT
+MagpieData mode MendeleevNumber,elemental-reference-derived,MagpieData mode MendeleevNumber
+MagpieData mode NUnfilled,elemental-reference-derived,MagpieData mode NUnfilled
+MagpieData mode NValence,elemental-reference-derived,MagpieData mode NValence
+MagpieData mode NdUnfilled,elemental-reference-derived,MagpieData mode NdUnfilled
+MagpieData mode NdValence,elemental-reference-derived,MagpieData mode NdValence
+MagpieData mode NfUnfilled,elemental-reference-derived,MagpieData mode NfUnfilled
+MagpieData mode NfValence,elemental-reference-derived,MagpieData mode NfValence
+MagpieData mode NpUnfilled,elemental-reference-derived,MagpieData mode NpUnfilled
+MagpieData mode NpValence,elemental-reference-derived,MagpieData mode NpValence
+MagpieData mode NsUnfilled,elemental-reference-derived,MagpieData mode NsUnfilled
+MagpieData mode NsValence,elemental-reference-derived,MagpieData mode NsValence
+MagpieData mode Number,elemental-reference-derived,MagpieData mode Number
+MagpieData mode Row,elemental-reference-derived,MagpieData mode Row
+MagpieData mode SpaceGroupNumber,elemental-reference-derived,MagpieData mode SpaceGroupNumber
+MagpieData range AtomicWeight,elemental-reference-derived,MagpieData range AtomicWeight
+MagpieData range Column,elemental-reference-derived,MagpieData range Column
+MagpieData range CovalentRadius,elemental-reference-derived,MagpieData range CovalentRadius
+MagpieData range Electronegativity,elemental-reference-derived,MagpieData range Electronegativity
+MagpieData range GSbandgap,elemental-reference-derived,MagpieData range GSbandgap
+MagpieData range GSmagmom,elemental-reference-derived,MagpieData range GSmagmom
+MagpieData range GSvolume_pa,elemental-reference-derived,MagpieData range GSvolume_pa
+MagpieData range MeltingT,elemental-reference-derived,MagpieData range MeltingT
+MagpieData range MendeleevNumber,elemental-reference-derived,MagpieData range MendeleevNumber
+MagpieData range NUnfilled,elemental-reference-derived,MagpieData range NUnfilled
+MagpieData range NValence,elemental-reference-derived,MagpieData range NValence
+MagpieData range NdUnfilled,elemental-reference-derived,MagpieData range NdUnfilled
+MagpieData range NdValence,elemental-reference-derived,MagpieData range NdValence
+MagpieData range NfUnfilled,elemental-reference-derived,MagpieData range NfUnfilled
+MagpieData range NfValence,elemental-reference-derived,MagpieData range NfValence
+MagpieData range NpUnfilled,elemental-reference-derived,MagpieData range NpUnfilled
+MagpieData range NpValence,elemental-reference-derived,MagpieData range NpValence
+MagpieData range NsUnfilled,elemental-reference-derived,MagpieData range NsUnfilled
+MagpieData range NsValence,elemental-reference-derived,MagpieData range NsValence
+MagpieData range Number,elemental-reference-derived,MagpieData range Number
+MagpieData range Row,elemental-reference-derived,MagpieData range Row
+MagpieData range SpaceGroupNumber,elemental-reference-derived,MagpieData range SpaceGroupNumber
+NIONS,direct source,NIONS
+atomic_size_mismatch_percent,elemental-reference-derived,formula + reconstructed Magpie reference
+avg ionic char,elemental-reference-derived,avg ionic char
+avg_dev CN_VoronoiNN,structure-derived,avg_dev CN_VoronoiNN
+avg_dev local difference in AtomicWeight,structure-derived,avg_dev local difference in AtomicWeight
+avg_dev local difference in Column,structure-derived,avg_dev local difference in Column
+avg_dev local difference in CovalentRadius,structure-derived,avg_dev local difference in CovalentRadius
+avg_dev local difference in Electronegativity,structure-derived,avg_dev local difference in Electronegativity
+avg_dev local difference in GSbandgap,structure-derived,avg_dev local difference in GSbandgap
+avg_dev local difference in GSmagmom,structure-derived,avg_dev local difference in GSmagmom
+avg_dev local difference in GSvolume_pa,structure-derived,avg_dev local difference in GSvolume_pa
+avg_dev local difference in MeltingT,structure-derived,avg_dev local difference in MeltingT
+avg_dev local difference in MendeleevNumber,structure-derived,avg_dev local difference in MendeleevNumber
+avg_dev local difference in NUnfilled,structure-derived,avg_dev local difference in NUnfilled
+avg_dev local difference in NValence,structure-derived,avg_dev local difference in NValence
+avg_dev local difference in NdUnfilled,structure-derived,avg_dev local difference in NdUnfilled
+avg_dev local difference in NdValence,structure-derived,avg_dev local difference in NdValence
+avg_dev local difference in NfUnfilled,structure-derived,avg_dev local difference in NfUnfilled
+avg_dev local difference in NfValence,structure-derived,avg_dev local difference in NfValence
+avg_dev local difference in NpUnfilled,structure-derived,avg_dev local difference in NpUnfilled
+avg_dev local difference in NpValence,structure-derived,avg_dev local difference in NpValence
+avg_dev local difference in NsUnfilled,structure-derived,avg_dev local difference in NsUnfilled
+avg_dev local difference in NsValence,structure-derived,avg_dev local difference in NsValence
+avg_dev local difference in Number,structure-derived,avg_dev local difference in Number
+avg_dev local difference in Row,structure-derived,avg_dev local difference in Row
+avg_dev local difference in SpaceGroupNumber,structure-derived,avg_dev local difference in SpaceGroupNumber
+avg_dev neighbor distance variation,structure-derived,avg_dev neighbor distance variation
+composition_fraction_Al,composition-derived,formula
+composition_fraction_Co,composition-derived,formula
+composition_fraction_Cr,composition-derived,formula
+composition_fraction_Cu,composition-derived,formula
+composition_fraction_Fe,composition-derived,formula
+composition_fraction_Mn,composition-derived,formula
+composition_fraction_Ni,composition-derived,formula
+composition_fraction_Si,composition-derived,formula
+composition_number_of_elements,composition-derived,formula
+compound possible,composition-derived,compound possible
+configurational_entropy_j_mol_k,composition-derived,formula
+configurational_entropy_kb_per_atom,composition-derived,formula
+configurational_entropy_normalized,composition-derived,formula
+derived_atomic_mass_mean,elemental-reference-derived,MagpieData mean AtomicWeight
+derived_atomic_mass_std,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_atomic_number_mean,elemental-reference-derived,MagpieData mean Number
+derived_atomic_number_std,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_atomic_radius_covalent_mean,elemental-reference-derived,MagpieData mean CovalentRadius
+derived_atomic_radius_covalent_std,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_electronegativity_mean,elemental-reference-derived,MagpieData mean Electronegativity
+derived_electronegativity_std,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_melting_point_mean,elemental-reference-derived,MagpieData mean MeltingT
+derived_melting_point_std,elemental-reference-derived,formula + reconstructed Magpie reference
+derived_vec_mean,elemental-reference-derived,MagpieData mean NValence
+derived_vec_std,elemental-reference-derived,formula + reconstructed Magpie reference
+frac d valence electrons,elemental-reference-derived,frac d valence electrons
+frac f valence electrons,elemental-reference-derived,frac f valence electrons
+frac p valence electrons,elemental-reference-derived,frac p valence electrons
+frac s valence electrons,elemental-reference-derived,frac s valence electrons
+max ionic char,elemental-reference-derived,max ionic char
+max packing efficiency,structure-derived,max packing efficiency
+max relative bond length,structure-derived,max relative bond length
+maximum CN_VoronoiNN,structure-derived,maximum CN_VoronoiNN
+maximum local difference in AtomicWeight,structure-derived,maximum local difference in AtomicWeight
+maximum local difference in Column,structure-derived,maximum local difference in Column
+maximum local difference in CovalentRadius,structure-derived,maximum local difference in CovalentRadius
+maximum local difference in Electronegativity,structure-derived,maximum local difference in Electronegativity
+maximum local difference in GSbandgap,structure-derived,maximum local difference in GSbandgap
+maximum local difference in GSmagmom,structure-derived,maximum local difference in GSmagmom
+maximum local difference in GSvolume_pa,structure-derived,maximum local difference in GSvolume_pa
+maximum local difference in MeltingT,structure-derived,maximum local difference in MeltingT
+maximum local difference in MendeleevNumber,structure-derived,maximum local difference in MendeleevNumber
+maximum local difference in NUnfilled,structure-derived,maximum local difference in NUnfilled
+maximum local difference in NValence,structure-derived,maximum local difference in NValence
+maximum local difference in NdUnfilled,structure-derived,maximum local difference in NdUnfilled
+maximum local difference in NdValence,structure-derived,maximum local difference in NdValence
+maximum local difference in NfUnfilled,structure-derived,maximum local difference in NfUnfilled
+maximum local difference in NfValence,structure-derived,maximum local difference in NfValence
+maximum local difference in NpUnfilled,structure-derived,maximum local difference in NpUnfilled
+maximum local difference in NpValence,structure-derived,maximum local difference in NpValence
+maximum local difference in NsUnfilled,structure-derived,maximum local difference in NsUnfilled
+maximum local difference in NsValence,structure-derived,maximum local difference in NsValence
+maximum local difference in Number,structure-derived,maximum local difference in Number
+maximum local difference in Row,structure-derived,maximum local difference in Row
+maximum local difference in SpaceGroupNumber,structure-derived,maximum local difference in SpaceGroupNumber
+maximum neighbor distance variation,structure-derived,maximum neighbor distance variation
+mean CN_VoronoiNN,structure-derived,mean CN_VoronoiNN
+mean absolute deviation in relative bond length,structure-derived,mean absolute deviation in relative bond length
+mean absolute deviation in relative cell size,structure-derived,mean absolute deviation in relative cell size
+mean local difference in AtomicWeight,structure-derived,mean local difference in AtomicWeight
+mean local difference in Column,structure-derived,mean local difference in Column
+mean local difference in CovalentRadius,structure-derived,mean local difference in CovalentRadius
+mean local difference in Electronegativity,structure-derived,mean local difference in Electronegativity
+mean local difference in GSbandgap,structure-derived,mean local difference in GSbandgap
+mean local difference in GSmagmom,structure-derived,mean local difference in GSmagmom
+mean local difference in GSvolume_pa,structure-derived,mean local difference in GSvolume_pa
+mean local difference in MeltingT,structure-derived,mean local difference in MeltingT
+mean local difference in MendeleevNumber,structure-derived,mean local difference in MendeleevNumber
+mean local difference in NUnfilled,structure-derived,mean local difference in NUnfilled
+mean local difference in NValence,structure-derived,mean local difference in NValence
+mean local difference in NdUnfilled,structure-derived,mean local difference in NdUnfilled
+mean local difference in NdValence,structure-derived,mean local difference in NdValence
+mean local difference in NfUnfilled,structure-derived,mean local difference in NfUnfilled
+mean local difference in NfValence,structure-derived,mean local difference in NfValence
+mean local difference in NpUnfilled,structure-derived,mean local difference in NpUnfilled
+mean local difference in NpValence,structure-derived,mean local difference in NpValence
+mean local difference in NsUnfilled,structure-derived,mean local difference in NsUnfilled
+mean local difference in NsValence,structure-derived,mean local difference in NsValence
+mean local difference in Number,structure-derived,mean local difference in Number
+mean local difference in Row,structure-derived,mean local difference in Row
+mean local difference in SpaceGroupNumber,structure-derived,mean local difference in SpaceGroupNumber
+mean neighbor distance variation,structure-derived,mean neighbor distance variation
+min relative bond length,structure-derived,min relative bond length
+minimum CN_VoronoiNN,structure-derived,minimum CN_VoronoiNN
+minimum local difference in AtomicWeight,structure-derived,minimum local difference in AtomicWeight
+minimum local difference in Column,structure-derived,minimum local difference in Column
+minimum local difference in CovalentRadius,structure-derived,minimum local difference in CovalentRadius
+minimum local difference in Electronegativity,structure-derived,minimum local difference in Electronegativity
+minimum local difference in GSbandgap,structure-derived,minimum local difference in GSbandgap
+minimum local difference in GSmagmom,structure-derived,minimum local difference in GSmagmom
+minimum local difference in GSvolume_pa,structure-derived,minimum local difference in GSvolume_pa
+minimum local difference in MeltingT,structure-derived,minimum local difference in MeltingT
+minimum local difference in MendeleevNumber,structure-derived,minimum local difference in MendeleevNumber
+minimum local difference in NUnfilled,structure-derived,minimum local difference in NUnfilled
+minimum local difference in NValence,structure-derived,minimum local difference in NValence
+minimum local difference in NdUnfilled,structure-derived,minimum local difference in NdUnfilled
+minimum local difference in NdValence,structure-derived,minimum local difference in NdValence
+minimum local difference in NfUnfilled,structure-derived,minimum local difference in NfUnfilled
+minimum local difference in NfValence,structure-derived,minimum local difference in NfValence
+minimum local difference in NpUnfilled,structure-derived,minimum local difference in NpUnfilled
+minimum local difference in NpValence,structure-derived,minimum local difference in NpValence
+minimum local difference in NsUnfilled,structure-derived,minimum local difference in NsUnfilled
+minimum local difference in NsValence,structure-derived,minimum local difference in NsValence
+minimum local difference in Number,structure-derived,minimum local difference in Number
+minimum local difference in Row,structure-derived,minimum local difference in Row
+minimum local difference in SpaceGroupNumber,structure-derived,minimum local difference in SpaceGroupNumber
+minimum neighbor distance variation,structure-derived,minimum neighbor distance variation
+nelements,direct source,nelements
+pair_atomic_mass_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_mass_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_number_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_number_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_radius_covalent_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_atomic_radius_covalent_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_electronegativity_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_electronegativity_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_fraction_Al_Al,composition-derived,formula
+pair_fraction_Al_Co,composition-derived,formula
+pair_fraction_Al_Cr,composition-derived,formula
+pair_fraction_Al_Cu,composition-derived,formula
+pair_fraction_Al_Fe,composition-derived,formula
+pair_fraction_Al_Mn,composition-derived,formula
+pair_fraction_Al_Ni,composition-derived,formula
+pair_fraction_Al_Si,composition-derived,formula
+pair_fraction_Co_Co,composition-derived,formula
+pair_fraction_Co_Cr,composition-derived,formula
+pair_fraction_Co_Cu,composition-derived,formula
+pair_fraction_Co_Fe,composition-derived,formula
+pair_fraction_Co_Mn,composition-derived,formula
+pair_fraction_Co_Ni,composition-derived,formula
+pair_fraction_Co_Si,composition-derived,formula
+pair_fraction_Cr_Cr,composition-derived,formula
+pair_fraction_Cr_Cu,composition-derived,formula
+pair_fraction_Cr_Fe,composition-derived,formula
+pair_fraction_Cr_Mn,composition-derived,formula
+pair_fraction_Cr_Ni,composition-derived,formula
+pair_fraction_Cr_Si,composition-derived,formula
+pair_fraction_Cu_Cu,composition-derived,formula
+pair_fraction_Cu_Fe,composition-derived,formula
+pair_fraction_Cu_Mn,composition-derived,formula
+pair_fraction_Cu_Ni,composition-derived,formula
+pair_fraction_Cu_Si,composition-derived,formula
+pair_fraction_Fe_Fe,composition-derived,formula
+pair_fraction_Fe_Mn,composition-derived,formula
+pair_fraction_Fe_Ni,composition-derived,formula
+pair_fraction_Fe_Si,composition-derived,formula
+pair_fraction_Mn_Mn,composition-derived,formula
+pair_fraction_Mn_Ni,composition-derived,formula
+pair_fraction_Mn_Si,composition-derived,formula
+pair_fraction_Ni_Ni,composition-derived,formula
+pair_fraction_Ni_Si,composition-derived,formula
+pair_fraction_Si_Si,composition-derived,formula
+pair_melting_point_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_melting_point_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_vec_mean_abs_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+pair_vec_rms_diff,elemental-reference-derived,formula + reconstructed Magpie reference
+phase_BCC,direct source,lattice
+phase_FCC,direct source,lattice
+range CN_VoronoiNN,structure-derived,range CN_VoronoiNN
+range local difference in AtomicWeight,structure-derived,range local difference in AtomicWeight
+range local difference in Column,structure-derived,range local difference in Column
+range local difference in CovalentRadius,structure-derived,range local difference in CovalentRadius
+range local difference in Electronegativity,structure-derived,range local difference in Electronegativity
+range local difference in GSbandgap,structure-derived,range local difference in GSbandgap
+range local difference in GSmagmom,structure-derived,range local difference in GSmagmom
+range local difference in GSvolume_pa,structure-derived,range local difference in GSvolume_pa
+range local difference in MeltingT,structure-derived,range local difference in MeltingT
+range local difference in MendeleevNumber,structure-derived,range local difference in MendeleevNumber
+range local difference in NUnfilled,structure-derived,range local difference in NUnfilled
+range local difference in NValence,structure-derived,range local difference in NValence
+range local difference in NdUnfilled,structure-derived,range local difference in NdUnfilled
+range local difference in NdValence,structure-derived,range local difference in NdValence
+range local difference in NfUnfilled,structure-derived,range local difference in NfUnfilled
+range local difference in NfValence,structure-derived,range local difference in NfValence
+range local difference in NpUnfilled,structure-derived,range local difference in NpUnfilled
+range local difference in NpValence,structure-derived,range local difference in NpValence
+range local difference in NsUnfilled,structure-derived,range local difference in NsUnfilled
+range local difference in NsValence,structure-derived,range local difference in NsValence
+range local difference in Number,structure-derived,range local difference in Number
+range local difference in Row,structure-derived,range local difference in Row
+range local difference in SpaceGroupNumber,structure-derived,range local difference in SpaceGroupNumber
+range neighbor distance variation,structure-derived,range neighbor distance variation
+space_group_number_ini,structure-derived,space_group_number_ini

@@ -22,3 +22,17 @@
 - **Validation:** seven tests passed; independent WC calculations matched supplied binary and ternary SRO summaries for shells 1–4
 - **Warnings:** 84k labels are aggregate and temperature-free; exact pair values are absent; 255 HCP CrCoNi CFG blocks lack locally available validated WC labels; arrangement-sensitive features may make prediction tautological
 - **Raw changes:** none
+
+## 2026-08-22 — Phase 3: processed database and feature engineering
+
+- **Input:** 83,797 initial/pre-relaxation 84k feature rows, matching aggregate SRO table, local TS-4/TS-5 MLP-cSRO CFGs, and current upstream source metadata
+- **Operations:** exact one-to-one FCC/BCC join; shell-long normalization; composition/entropy/pair feature engineering; source-convention elemental-property reconstruction; feature provenance assignment; leakage exclusion; HCP CFG parsing and neighbour-shell audit; Parquet validation; 300 dpi summary figures
+- **Outputs:** ignored local `structures.parquet`, `sro_long.parquet`, `features.parquet`, `ml_dataset.parquet`, and provisional HCP audit Parquet; tracked QA report, provenance/reference tables, five figures and five compact CSV summaries
+- **Rows before/after:** 83,797 to 83,797 validated ML rows; FCC 40,425; BCC 43,372; validated HCP 0; SRO-long 335,188 rows
+- **Features:** 348 numeric candidates; 0% missingness; origins recorded for every feature; no final feature selection performed
+- **Validation:** exact IDs/counts; unique keys; readable Parquet metadata; target completeness; source Magpie means reconstructed to maximum absolute error below `2e-10`; 255 HCP candidates all 144-atom/equiatomic; 98 have first-shell gap ratio below 1.02
+- **Leakage:** final energies, relaxed volume/symmetry/structures, force/pressure/magnetization outputs and three ordering-parameter proxies excluded
+- **HCP:** current 5.68 MB upstream DFT-MC archive inspected; it contains FCC trajectories only. Provisional HCP WC remains excluded pending author reference arrays or a validated topology map.
+- **Warnings:** 84k target is shell/pair aggregated and temperature-free; initial arrangement descriptors need composition-only ablation; rows within chemical systems/configuration families are dependent
+- **Raw changes:** added ignored 5.68 MB upstream source archive under `data/raw/mlp_csro/upstream_2026-08-22/`; no existing raw file changed
+- **Training:** not started

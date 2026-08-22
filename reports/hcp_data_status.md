@@ -2,6 +2,14 @@
 
 Inventory date: 2026-08-22.
 
+## Phase 3 update
+
+The validated HCP count remains **0**. The 255 TS-5-minus-TS-4 HCP CFG additions were parsed as 144-atom equiatomic CrCoNi configurations at the study's documented 500 K. First-shell WC values were provisionally reconstructed using 12 periodic nearest neighbours, but 98/255 configurations have a minimum 13th/12th-neighbour distance ratio below 1.02 (minimum `1.0000008`). This makes distance-ranked topology ambiguous for a substantial subset. Because the author-reference `LOP_*.npy` HCP arrays and exact topology mapping are still absent, these values are stored only in ignored `data/processed/hcp_candidates_provisional.parquet` and are excluded from the validated ML database.
+
+The current upstream `MachineLearningPotential` repository was rechecked on 2026-08-22. It now lists compact simulation archives. Only the 5.68 MB `DFTMC_structures.tar.gz` was downloaded and inspected. It contains five `structures_1`–`structures_5` trajectories with 108-atom cubic FCC cells (`Cr36Co36Ni36`) and MC logs; it provides neither HCP configurations nor WC reference arrays. Thus it does not close the HCP gap. Repository: https://github.com/yifan-henry-cao/MachineLearningPotential
+
+No larger archive was downloaded. The next credible compact source remains a completed HfTiZr HCP random/CSRO bundle from the CMS-EAM workflow (configurations plus WC output and 300 K run metadata). A paper figure or a workflow script alone will not be counted as observations.
+
 ## Current balance
 
 | Source | HCP status | Usable HCP structures now | Temperature | SRO status | Main gap |
