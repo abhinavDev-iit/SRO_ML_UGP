@@ -24,6 +24,7 @@ The project has completed database construction, EDA, leakage-controlled regress
 - Symmetry, initial structural geometry, configurational entropy and electronic/VEC/periodic descriptors give the largest conditional group-ablation losses. Initial space group is highly predictive but may encode configuration-generation signatures.
 - FCC mean SRO magnitude is 0.2640 versus 0.4002 for BCC (d=0.5253). This dataset contrast is not attributed causally to phase because chemistry and configuration distributions differ.
 - Best model binaries are stored only under ignored `models/`; compact metadata, predictions, metrics, tables, reports and 300 dpi thesis figures are version-controlled.
+- Phase 7 has selected exact two-atom Co–Cr low/high-SRO pairs for FCC and BCC and prepared spin-polarized static-QE input templates. No DFT energy is reported because `pw.x` and a documented consistent Co/Cr UPF family are not yet available locally; see `reports/dft_summary.md`.
 
 ## Scientific objective and scope
 
@@ -70,6 +71,11 @@ python run_pipeline.py build-phase3
 python run_pipeline.py analyze-phase4
 python run_pipeline.py train-phase5
 python run_pipeline.py interpret-phase6
+python run_pipeline.py dft-select
+python run_pipeline.py dft-prepare
+# After pw.x, consistent Co/Cr UPFs, checksums and recommended cutoffs are configured:
+python run_pipeline.py dft-run
+python run_pipeline.py dft-analyze
 python src/reporting/build_supervisor_report.py
 powershell -ExecutionPolicy Bypass -File src/reporting/export_report_pdf.ps1
 python src/reporting/audit_supervisor_report.py
@@ -96,6 +102,8 @@ python run_pipeline.py ingest-84k
 - `src/ml/`: Phase 5 grouped splits, sklearn pipelines, model/ablation comparison, importance, residual and alloy-system analysis
 - `src/analysis/phase6.py`: repeated grouped robustness, training-only compact refinement, physical-group/configuration sensitivity, error and extrapolation audits
 - `src/reporting/`: reproducible supervisor-report construction, Word-to-PDF export and structural/numerical auditing
+- `src/dft/`: four-structure Phase 7 selection, exact-source extraction, QE input preparation, execution guard and result parsing
+- `dft_structures/`, `dft_inputs/`: compact exact initial structures and tracked non-runnable QE templates/configuration
 - `deliverables/`: editable/fixed-layout supervisor report and its evidence, figure and build manifests
 - `tests/`: scientifically important validation tests
 - `results/feature_sets/`: exact final feature hierarchy

@@ -1,0 +1,5 @@
+fid,phase,chemical_system,composition,NIONS,SRO,low_high_label,source_structure_path
+gra62121526,FCC,Co-Cr,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.0,low,data/raw/dataset_84k_hea/hea.2023-04-06.csv#fid=gra62121526;column=structure_ini_as_dict
+gra62121527,FCC,Co-Cr,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.3333333333333332,high,data/raw/dataset_84k_hea/hea.2023-04-06.csv#fid=gra62121527;column=structure_ini_as_dict
+gra64001864,BCC,Co-Cr,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.0,low,data/raw/dataset_84k_hea/hea.2023-04-06.csv#fid=gra64001864;column=structure_ini_as_dict
+gra62121595,BCC,Co-Cr,"{""Co"": 0.5, ""Cr"": 0.5}",2,1.0,high,data/raw/dataset_84k_hea/hea.2023-04-06.csv#fid=gra62121595;column=structure_ini_as_dict

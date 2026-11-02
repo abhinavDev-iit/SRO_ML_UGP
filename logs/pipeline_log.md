@@ -82,3 +82,14 @@
 - **Validation:** Phase 6 rerun reproduced all numerical results; metrics are independently recomputable from saved predictions; outer-test columns absent from compact-selection table; PNG DPI/schema/leakage/HCP tests added
 - **Runtime:** approximately 7.2 minutes for the deterministic Phase 6 analysis on this workstation
 - **Local-only files:** raw data, four processed Parquet tables, provisional HCP Parquet and compressed Phase 5 model binaries remain ignored
+
+## 2026-11-02 — Phase 7: four-structure DFT selection and environment gate
+
+- **Input:** validated 83,797-row FCC/BCC table and exact `structure_ini_as_dict` records in the immutable 84k master CSV
+- **Selection:** fixed phase/composition/atom-count groups ranked by atom count then SRO range; selected FCC `gra62121526`/`gra62121527` and BCC `gra64001864`/`gra62121595`, all Co0.5Cr0.5 with two atoms
+- **Validation:** exact source lattice, species, fractional coordinates and atom ordering extracted; phase, composition and atom count cross-checked; selected pairs span SRO 0.000000–0.333333 FCC and 0.000000–1.000000 BCC
+- **Preparation:** static spin-polarized PBE Quantum ESPRESSO templates only; identical Co/Cr magnetic initialization, metallic smearing and reciprocal-spacing policy within all comparisons
+- **Environment gate:** no `pw.x`, VASP executable, local UPF file or `ESPRESSO_PSEUDO` path detected; pseudopotential-dependent cutoffs left unresolved rather than fabricated
+- **Outputs:** `results/tables/dft/selected_configurations.csv`, four compact JSON structures, four QE templates, `dft_inputs/qe_config.json`, `reports/dft_summary.md`, CLI commands and unit/artifact tests
+- **Not produced:** no cutoff test, SCF execution, total energy, `dft_results.csv`, DFT figure or scientific SRO–energy conclusion
+- **Local policy:** `dft_runs/`, UPFs, wavefunctions, mixing files and QE save directories are ignored

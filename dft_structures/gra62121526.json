@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "fid": "gra62121526",
+  "phase": "FCC",
+  "chemical_system": "Co-Cr",
+  "composition": {
+    "Co": 0.5,
+    "Cr": 0.5
+  },
+  "NIONS": 2,
+  "target_mean_abs_sro_shell1": 0.0,
+  "sro_label": "low",
+  "source_structure_path": "data/raw/dataset_84k_hea/hea.2023-04-06.csv#fid=gra62121526;column=structure_ini_as_dict",
+  "exact_initial_structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0,
+    "lattice": {
+      "matrix": [
+        [
+          -1.7885,
+          1.7885,
+          3.577
+        ],
+        [
+          -1.7885,
+          3.577,
+          1.7885
+        ],
+        [
+          -3.577,
+          1.7885,
+          1.7885
+        ]
+      ],
+      "a": 4.380912404967714,
+      "b": 4.380912404967714,
+      "c": 4.380912404967714,
+      "alpha": 33.5573097619207,
+      "beta": 33.55730976192071,
+      "gamma": 33.5573097619207,
+      "volume": 22.883730516500002
+    },
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Co",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "xyz": [
+          -3.577,
+          3.577,
+          3.577
+        ],
+        "label": "Co",
+        "properties": {}
+      },
+      {
+        "species": [
+          {
+            "element": "Cr",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "label": "Cr",
+        "properties": {}
+      }
+    ]
+  }
+}

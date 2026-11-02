@@ -1,0 +1,30 @@
+{
+  "engine": "Quantum ESPRESSO pw.x",
+  "pw_x": "pw.x",
+  "exchange_correlation": "PBE",
+  "pseudo_dir": "dft_pseudopotentials",
+  "pseudo_family": null,
+  "pseudo_source": null,
+  "pseudopotentials": {
+    "Co": {
+      "filename": null,
+      "sha256": null
+    },
+    "Cr": {
+      "filename": null,
+      "sha256": null
+    }
+  },
+  "ecutwfc_ry": null,
+  "ecutrho_ry": null,
+  "kpoint_spacing_inv_angstrom": 0.25,
+  "smearing": "mv",
+  "degauss_ry": 0.02,
+  "conv_thr": 1e-08,
+  "electron_maxstep": 200,
+  "mixing_beta": 0.3,
+  "starting_magnetization": {
+    "Co": 0.3,
+    "Cr": -0.3
+  }
+}
