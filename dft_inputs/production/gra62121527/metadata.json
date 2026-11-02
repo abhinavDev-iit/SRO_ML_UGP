@@ -1,0 +1,48 @@
+{
+  "fid": "gra62121527",
+  "phase": "FCC",
+  "composition": "{\"Co\": 0.5, \"Cr\": 0.5}",
+  "SRO": 0.3333333333333332,
+  "NIONS": 2,
+  "engine": "Quantum ESPRESSO pw.x",
+  "qe_version": "7.6",
+  "execution": "WSL",
+  "executable": "/home/aditya/miniconda3/envs/qe7/bin/pw.x",
+  "conda_environment": "qe7",
+  "pseudo_family": "SSSP PBE Efficiency v1.3.0",
+  "pseudopotentials": {
+    "Co": {
+      "filename": "Co_pbe_v1.2.uspp.F.UPF",
+      "underlying_family": "GBRV-1.2",
+      "xc_functional": "PBE",
+      "md5": "5f91765df6ddd3222702df6e7b74a16d",
+      "sha256": "a5f392a0d35fc78cc9e2ac1636bb1cd02e9b80a063ea368e85be83b0e4523c45",
+      "recommended_ecutwfc_ry": 45.0,
+      "recommended_ecutrho_ry": 360.0
+    },
+    "Cr": {
+      "filename": "cr_pbe_v1.5.uspp.F.UPF",
+      "underlying_family": "GBRV-1.5",
+      "xc_functional": "PBE",
+      "md5": "0d52af634a40206e4dee301ad30da4bf",
+      "sha256": "c7449bbfea358d76832cf2f7b43dc89101ead6891806773121bfaa93a140f6de",
+      "recommended_ecutwfc_ry": 40.0,
+      "recommended_ecutrho_ry": 320.0
+    }
+  },
+  "ecutwfc_ry": 55.0,
+  "ecutrho_ry": 440.0,
+  "kpoint_grid": [
+    12,
+    12,
+    12
+  ],
+  "kpoint_policy": "fixed 12x12x12 Monkhorst-Pack grid for all four two-atom cells",
+  "smearing": "mv",
+  "degauss_ry": 0.02,
+  "spin_polarized": true,
+  "starting_magnetization": {
+    "Co": 0.3,
+    "Cr": -0.3
+  }
+}

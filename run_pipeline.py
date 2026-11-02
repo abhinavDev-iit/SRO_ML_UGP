@@ -9,7 +9,7 @@ from pathlib import Path
 from src.ingestion.hea84k import build_manifest, ingest_hea84k
 from src.analysis.phase4 import run_phase4
 from src.analysis.phase6 import run_phase6
-from src.dft.phase7 import analyze_dft_results, prepare_dft_inputs, run_dft, select_dft_configurations
+from src.dft.phase7 import analyze_dft_results, prepare_dft_inputs, run_cutoff_sanity_check, run_dft, select_dft_configurations
 from src.ml.phase5 import run_phase5
 from src.pipeline.phase3 import build_phase3_database
 
@@ -37,6 +37,7 @@ def main() -> None:
     dft_run = sub.add_parser("dft-run", help="run four prepared static QE SCF calculations")
     dft_run.add_argument("--config", type=Path, default=Path("dft_inputs/qe_config.json"))
     sub.add_parser("dft-analyze", help="parse completed QE outputs and build compact Phase 7 results")
+    sub.add_parser("dft-cutoff", help="run the three-point Phase 7 cutoff sanity check")
     args = parser.parse_args()
 
     if args.command == "ingest-84k":
@@ -58,6 +59,8 @@ def main() -> None:
         print(json.dumps(run_dft(config_path=args.config), indent=2))
     elif args.command == "dft-analyze":
         print(json.dumps(analyze_dft_results(), indent=2))
+    elif args.command == "dft-cutoff":
+        print(json.dumps(run_cutoff_sanity_check(), indent=2))
 
 
 if __name__ == "__main__":

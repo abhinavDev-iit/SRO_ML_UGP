@@ -93,3 +93,15 @@
 - **Outputs:** `results/tables/dft/selected_configurations.csv`, four compact JSON structures, four QE templates, `dft_inputs/qe_config.json`, `reports/dft_summary.md`, CLI commands and unit/artifact tests
 - **Not produced:** no cutoff test, SCF execution, total energy, `dft_results.csv`, DFT figure or scientific SRO–energy conclusion
 - **Local policy:** `dft_runs/`, UPFs, wavefunctions, mixing files and QE save directories are ignored
+
+## 2026-11-02 — Phase 7: QE 7.6 cutoff decision and manual production handoff
+
+- **Runtime:** verified `/home/aditya/miniconda3/envs/qe7/bin/pw.x` as Quantum ESPRESSO 7.6 through WSL Conda environment `qe7`; the broken `/usr/bin/pw.x` is explicitly excluded
+- **Pseudopotentials:** local Git-ignored SSSP PBE Efficiency v1.3.0 Co/Cr UPFs passed recorded MD5/SHA-256 checks; no pseudopotential binary was staged
+- **Cutoff check:** FCC low-SRO `gra62121526` converged formally at 55/440 Ry with total energy `-473.95628523 Ry`; the optional 65/520 Ry point was manually stopped without `JOB DONE` after energy stabilization
+- **Near-converged endpoint:** latest completed 65 Ry energy `-473.95654789 Ry`; immediately preceding energy `-473.95654736 Ry` at approximately `7e-8 Ry` estimated SCF error; 65 Ry remains labelled not formally converged
+- **Decision:** the latest 65 Ry energy is `1.78684 meV/atom` below the 55 Ry value, so 55/440 Ry was selected for this preliminary fixed-composition comparison
+- **Preparation:** regenerated and validated four exact two-atom, one-Co/one-Cr static SCF inputs with fixed 12×12×12 sampling, Marzari–Vanderbilt smearing, spin polarization and identical starting magnetizations
+- **Manual runner:** added `dft_runs/run_final_scfs.sh`; it runs sequentially in `qe7`, preserves incomplete prior outputs, reports `SUCCESS` only for `JOB DONE`, continues after failure and does not delete outputs
+- **Validation:** eight Phase 7 unit/artifact tests pass; runner passes WSL `bash -n`; executable resolves to the `qe7` path; all QE runtime/scratch directories remain ignored
+- **Deferred:** Codex did not execute the four production SCFs; result parsing, DFT plots and scientific FCC/BCC energy conclusions await the user's manual run

@@ -133,13 +133,17 @@ cache/
 
 # Phase 7 DFT executables write large local scratch/runtime data.  Only compact
 # structures, input templates, parsed tables, figures and reports are tracked.
-dft_runs/
+dft_runs/*
+!dft_runs/run_final_scfs.sh
 dft_pseudopotentials/
+dft_pseudos/
 *.UPF
 *.upf
 *.wfc*
 *.mix*
 *.save/
+CRASH
+input_tmp.in
 
 # Local spreadsheet lock files.
 ~$*.xlsx
