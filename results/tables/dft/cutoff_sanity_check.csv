@@ -1,4 +1,4 @@
 fid,ecutwfc_ry,ecutrho_ry,total_energy_ry,total_energy_eV,energy_per_atom_eV,relative_energy_change_meV_atom,convergence_status,normal_termination,latest_estimated_scf_error_ry,notes
-gra62121526,45.0,360.0,-473.95516783,-6448.488567552098,-3224.244283776049,9.388336426,formally_converged,True,6.5e-09,Smoke-test baseline; convergence achieved and JOB DONE
-gra62121526,55.0,440.0,-473.95628523,-6448.503770553593,-3224.251885276797,1.786835678,formally_converged,True,2.6e-09,Selected production cutoff; convergence achieved and JOB DONE
-gra62121526,65.0,520.0,-473.95654789,-6448.507344224950,-3224.253672112475,0.000000000,near_converged_not_formal,False,8.8e-07,Manually stopped without JOB DONE; preceding iteration was -473.95654736 Ry at approximately 7e-08 Ry error
+gra62121526,45.0,360.0,-473.95516783,-6448.488567552098,-3224.244283776049,9.373642277,formally_converged,True,6.5e-09,Smoke-test baseline; convergence achieved and JOB DONE
+gra62121526,55.0,440.0,-473.95628523,-6448.503770553593,-3224.251885276797,1.772141529,formally_converged,True,2.6e-09,Selected production cutoff; convergence achieved and JOB DONE
+gra62121526,65.0,520.0,-473.95654573,-6448.507314836652,-3224.253657418326,0.000000000,formally_converged_after_checkpoint,True,1.1e-09,Selection used manually stopped near-converged checkpoint difference 1.78684 meV/atom; pre-existing background job later reached JOB DONE without a restart

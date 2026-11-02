@@ -717,6 +717,11 @@ def parse_qe_output(path: Path) -> dict[str, Any]:
     moments = re.findall(r"total magnetization\s+=\s+([-+0-9.Ee]+)", text)
     absolute_moments = re.findall(r"absolute magnetization\s+=\s+([-+0-9.Ee]+)", text)
     iterations = re.findall(r"convergence has been achieved in\s+(\d+)\s+iterations", text)
+    failure_markers = re.findall(
+        r"Error in routine|MPI_ABORT|\bNaN\b|convergence NOT achieved|segmentation fault|SIGSEGV",
+        text,
+        flags=re.IGNORECASE,
+    )
     converged = "convergence has been achieved" in text and bool(energies)
     energy_ry = float(energies[-1]) if energies else math.nan
     latest_energy_ry = float(latest_energies[-1]) if latest_energies else math.nan
@@ -731,6 +736,7 @@ def parse_qe_output(path: Path) -> dict[str, Any]:
         "magnetic_moment_muB": float(moments[-1]) if moments else math.nan,
         "absolute_magnetization_muB": float(absolute_moments[-1]) if absolute_moments else math.nan,
         "scf_iterations": int(iterations[-1]) if iterations else None,
+        "failure_markers": failure_markers,
     }
 
 
@@ -739,18 +745,34 @@ def _save_dft_figures(results: pd.DataFrame, figure_dir: Path) -> list[str]:
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    from matplotlib.patches import Patch
 
     figure_dir.mkdir(parents=True, exist_ok=True)
     outputs: list[str] = []
     colors = {"FCC": "#2878B5", "BCC": "#D95319"}
 
-    order = results.sort_values(["phase", "low_high_label"], ascending=[True, False])
+    order_map = {("FCC", "low"): 0, ("FCC", "high"): 1, ("BCC", "low"): 2, ("BCC", "high"): 3}
+    order = results.assign(
+        _plot_order=[order_map[(row.phase, row.low_high_label)] for row in results.itertuples()]
+    ).sort_values("_plot_order")
     labels = [f"{row.phase} {row.low_high_label}\nSRO={row.SRO:.3f}" for row in order.itertuples()]
-    fig, ax = plt.subplots(figsize=(7.0, 4.2))
-    bars = ax.bar(labels, order["relative_energy_meV_atom"], color=[colors[p] for p in order["phase"]])
+    x_positions = np.asarray([0.0, 1.0, 2.8, 3.8])
+    fig, ax = plt.subplots(figsize=(7.4, 4.5))
+    bars = ax.bar(
+        x_positions,
+        order["relative_energy_meV_atom"],
+        width=0.72,
+        color=[colors[p] for p in order["phase"]],
+    )
     ax.bar_label(bars, fmt="%.2f", padding=3)
-    ax.set_ylabel("Relative DFT energy (meV/atom)")
-    ax.set_title("Static energy within fixed-composition phase pairs")
+    ax.set_xticks(x_positions, labels)
+    ax.axvline(1.9, color="#777777", linewidth=0.8, linestyle="--")
+    ax.set_ylabel("Relative static DFT energy (meV/atom)")
+    ax.set_title("Static energy differences within FCC and BCC Co-Cr pairs")
+    ax.legend(
+        handles=[Patch(facecolor=colors["FCC"], label="FCC"), Patch(facecolor=colors["BCC"], label="BCC")],
+        frameon=False,
+    )
     ax.spines[["top", "right"]].set_visible(False)
     fig.tight_layout()
     path = figure_dir / "dft_relative_energy.png"
@@ -763,7 +785,11 @@ def _save_dft_figures(results: pd.DataFrame, figure_dir: Path) -> list[str]:
         ax.scatter(group["SRO"], group["relative_energy_meV_atom"], s=70, color=colors[phase], label=phase)
         for row in group.itertuples():
             ax.annotate(row.low_high_label, (row.SRO, row.relative_energy_meV_atom), xytext=(5, 5), textcoords="offset points")
-    ax.set(xlabel=TARGET, ylabel="Relative DFT energy (meV/atom)", title="Selected SRO-energy comparisons")
+    ax.set(
+        xlabel="Aggregate first-shell SRO magnitude",
+        ylabel="Relative static DFT energy (meV/atom)",
+        title="SRO magnitude and static energy within phase pairs",
+    )
     ax.legend(frameon=False)
     ax.spines[["top", "right"]].set_visible(False)
     fig.tight_layout()
@@ -793,8 +819,14 @@ def analyze_dft_results(
         if not output_path.is_file():
             raise FileNotFoundError(f"actual QE output missing: {output_path}")
         parsed = parse_qe_output(output_path)
-        valid = parsed["converged"] and parsed["normal_termination"]
-        energy_per_atom = parsed["total_energy_eV"] / int(row.NIONS) if valid else math.nan
+        valid = (
+            parsed["converged"]
+            and parsed["normal_termination"]
+            and math.isfinite(parsed["total_energy_ry"])
+            and not parsed["failure_markers"]
+        )
+        energy_per_atom_ry = parsed["total_energy_ry"] / int(row.NIONS) if valid else math.nan
+        energy_per_atom_eV = energy_per_atom_ry * RY_TO_EV if valid else math.nan
         rows.append(
             {
                 "fid": row.fid,
@@ -803,22 +835,25 @@ def analyze_dft_results(
                 "NIONS": int(row.NIONS),
                 "SRO": float(row.SRO),
                 "low_high_label": row.low_high_label,
-                "total_DFT_energy_eV": parsed["total_energy_eV"],
-                "energy_per_atom_eV": energy_per_atom,
+                "total_energy_ry": parsed["total_energy_ry"],
+                "energy_per_atom_ry": energy_per_atom_ry,
+                "total_energy_eV": parsed["total_energy_eV"],
+                "energy_per_atom_eV": energy_per_atom_eV,
                 "relative_energy_meV_atom": math.nan,
                 "SCF_convergence_status": "converged" if valid else "not_converged",
                 "normal_termination": parsed["normal_termination"],
                 "scf_iterations": parsed["scf_iterations"],
-                "magnetic_moment_muB": parsed["magnetic_moment_muB"],
-                "absolute_magnetization_muB": parsed["absolute_magnetization_muB"],
+                "total_magnetization_muB_cell": parsed["magnetic_moment_muB"],
+                "absolute_magnetization_muB_cell": parsed["absolute_magnetization_muB"],
+                "failure_marker_count": len(parsed["failure_markers"]),
             }
         )
     results = pd.DataFrame(rows)
     if len(results) != 4 or not results["SCF_convergence_status"].eq("converged").all():
         raise RuntimeError("all four actual SCF calculations must converge before Phase 7 analysis")
     for _, indices in results.groupby(["phase", "composition"], observed=True).groups.items():
-        values = results.loc[indices, "energy_per_atom_eV"]
-        results.loc[indices, "relative_energy_meV_atom"] = (values - values.min()) * 1000.0
+        values = results.loc[indices, "energy_per_atom_ry"]
+        results.loc[indices, "relative_energy_meV_atom"] = (values - values.min()) * RY_TO_EV * 1000.0
     results_path.parent.mkdir(parents=True, exist_ok=True)
     results.to_csv(results_path, index=False)
     figures = _save_dft_figures(results, figure_dir)
@@ -856,19 +891,22 @@ def analyze_dft_results(
                 "",
                 *cutoff_rows,
                 "",
-                f"The production cutoff was selected from this lightweight check and recorded in `{config_path.as_posix()}`. The machine-readable check is `{cutoff_table_path.as_posix()}`.",
+                "At the production-selection checkpoint, 55 Ry was formally converged and the 65 Ry calculation had been manually stopped near convergence; the checkpoint energy-difference magnitude was 1.78684 meV/atom. A pre-existing background process subsequently continued the 65 Ry job to formal convergence without a restart, giving a final 55-to-65 Ry difference of 1.77214 meV/atom. This does not change the selected 55/440 Ry production setting or the preliminary-study conclusion.",
+                "",
+                f"The cutoff decision and checkpoint are recorded in `{config_path.as_posix()}`; the machine-readable final audit is `{cutoff_table_path.as_posix()}`.",
                 "",
             ]
         )
     result_rows = [
-        "| Phase | Label | fid | SRO | energy/atom (eV) | relative energy (meV/atom) | total magnetization (muB/cell) | absolute magnetization (muB/cell) | iterations | status |",
-        "|---|---|---|---:|---:|---:|---:|---:|---:|---|",
+        "| Phase | Label | fid | SRO | total energy (Ry) | energy/atom (Ry) | relative energy (meV/atom) | total magnetization (muB/cell) | absolute magnetization (muB/cell) | iterations | status |",
+        "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|",
     ]
     for row in results.itertuples(index=False):
         result_rows.append(
-            f"| {row.phase} | {row.low_high_label} | `{row.fid}` | {row.SRO:.6f} | {row.energy_per_atom_eV:.8f} | "
-            f"{row.relative_energy_meV_atom:.4f} | {row.magnetic_moment_muB:.4f} | "
-            f"{row.absolute_magnetization_muB:.4f} | {row.scf_iterations} | {row.SCF_convergence_status} |"
+            f"| {row.phase} | {row.low_high_label} | `{row.fid}` | {row.SRO:.6f} | {row.total_energy_ry:.8f} | "
+            f"{row.energy_per_atom_ry:.8f} | {row.relative_energy_meV_atom:.4f} | "
+            f"{row.total_magnetization_muB_cell:.4f} | {row.absolute_magnetization_muB_cell:.4f} | "
+            f"{row.scf_iterations} | {row.SCF_convergence_status} |"
         )
     lines.extend(
         [
@@ -891,7 +929,7 @@ def analyze_dft_results(
                 "",
                 f"Composition `{low.composition}`; {low.NIONS} atoms; SRO {low.SRO:.6f} ({low.fid}) versus {high.SRO:.6f} ({high.fid}).",
                 "",
-                f"For the selected Co-Cr {phase} configurations, changing the aggregate first-shell SRO from {low.SRO:.4f} to {high.SRO:.4f} corresponds to a static DFT energy difference of {difference:.3f} meV/atom. The lower-energy configuration is `{lower.fid}`.",
+                f"For the selected fixed-composition Co-Cr {phase} configurations, increasing the aggregate first-shell SRO magnitude from {low.SRO:.4f} to {high.SRO:.4f} changed the static DFT energy by {difference:.3f} meV/atom. The {lower.low_high_label}-SRO configuration (`{lower.fid}`) was energetically lower.",
                 "",
             ]
         )
@@ -899,7 +937,7 @@ def analyze_dft_results(
         [
             "## Scope",
             "",
-            "These four calculations provide a targeted first-principles comparison for selected fixed-composition configurations and should not be interpreted as establishing a universal causal relationship between SRO and energetic stability.",
+            "These targeted calculations demonstrate that configurations with identical chemistry and atom count but different local ordering can exhibit different first-principles energies. The four-configuration study is a focused validation/extension of the larger SRO-ML analysis and should not be interpreted as establishing a universal causal SRO-energy relationship.",
             "",
             f"Machine-readable results: `{results_path.as_posix()}`. Figures: " + ", ".join(f"`{path}`" for path in figures) + ".",
         ]

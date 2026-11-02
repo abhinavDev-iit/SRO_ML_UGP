@@ -1,43 +1,54 @@
-# Phase 7 targeted DFT preparation status
+# Phase 7 targeted static-DFT comparison
 
-Phase 7 asks whether static DFT energy differs between low- and high-SRO initial configurations at fixed composition and phase. The response remains `target_mean_abs_sro_shell1`, the aggregate mean absolute first-shell Warren–Cowley coefficient over unlike-element pairs.
+Four exact-source initial structures were compared using static Quantum ESPRESSO SCF calculations. Energies are normalized per atom and referenced only within each fixed-composition phase pair.
 
-## Selected exact-source configurations
+## Calculation policy
 
-| Phase | Label | fid | Composition | Atoms | SRO |
-|---|---|---|---|---:|---:|
-| FCC | low | `gra62121526` | Co0.5Cr0.5 | 2 | 0.000000 |
-| FCC | high | `gra62121527` | Co0.5Cr0.5 | 2 | 0.333333 |
-| BCC | low | `gra64001864` | Co0.5Cr0.5 | 2 | 0.000000 |
-| BCC | high | `gra62121595` | Co0.5Cr0.5 | 2 | 1.000000 |
+- Engine: Quantum ESPRESSO 7.6 `pw.x` from the WSL Conda environment `qe7` (`/home/aditya/miniconda3/envs/qe7/bin/pw.x`), not `/usr/bin/pw.x`.
+- Pseudopotentials: SSSP PBE Efficiency v1.3.0 (PBE); Co `Co_pbe_v1.2.uspp.F.UPF` and Cr `cr_pbe_v1.5.uspp.F.UPF`.
+- Cutoffs: `ecutwfc = 55 Ry`, `ecutrho = 440 Ry`.
+- Brillouin-zone sampling: `12 x 12 x 12` Monkhorst-Pack grid for every two-atom cell.
+- Metallic occupations: Marzari-Vanderbilt smearing with `degauss = 0.02 Ry`; electronic threshold `conv_thr = 1e-08`.
+- Spin treatment: spin polarized, with deterministic starting magnetizations Co `+0.3` and Cr `-0.3`.
+- Geometry: static SCF on the exact source initial cells and fractional coordinates; no relaxation was performed.
 
-The exact initial lattices, species, fractional coordinates and atom ordering were extracted from the immutable 84k source and validated against composition and `NIONS`. Compact copies are under `dft_structures/`; the selection is `results/tables/dft/selected_configurations.csv`.
+## Cutoff sanity check
 
-## Runtime and calculation policy
-
-- Engine: Quantum ESPRESSO 7.6 at `/home/aditya/miniconda3/envs/qe7/bin/pw.x`, invoked through WSL with the Conda environment `qe7`; `/usr/bin/pw.x` is not used.
-- Pseudopotentials: SSSP PBE Efficiency v1.3.0, Co `Co_pbe_v1.2.uspp.F.UPF` and Cr `cr_pbe_v1.5.uspp.F.UPF`; local UPFs remain Git-ignored and their hashes are recorded in `dft_inputs/qe_config.json`.
-- Production cutoffs: `ecutwfc = 55 Ry`, `ecutrho = 440 Ry`.
-- Sampling: fixed `12 x 12 x 12` Monkhorst-Pack grid for every two-atom cell.
-- Occupations: Marzari–Vanderbilt smearing, `degauss = 0.02 Ry`.
-- Spin: enabled for all four inputs, with starting magnetizations Co `+0.3` and Cr `-0.3`.
-- Electronic settings: `conv_thr = 1e-8`, `electron_maxstep = 200`, `mixing_beta = 0.3`.
-- Geometry: static SCF only; no relaxation, DOS, bands, phonons or additional structures.
-
-## Cutoff decision
-
-The representative structure was FCC low-SRO `gra62121526`.
-
-| Cutoff | Total energy (Ry) | Energy/atom (eV) | Difference from latest 65 Ry energy (meV/atom) | Status |
+| ecutwfc (Ry) | ecutrho (Ry) | energy/atom (eV) | change vs 65 Ry (meV/atom) | status |
 |---:|---:|---:|---:|---|
-| 45 Ry | -473.95516783 | -3224.244283776049 | 9.388336 | Formally converged; `JOB DONE` |
-| 55 Ry | -473.95628523 | -3224.251885276797 | 1.786836 | Formally converged; `JOB DONE` |
-| 65 Ry | -473.95654789 | -3224.253672112475 | 0.000000 | Near-converged; manually stopped; no `JOB DONE` |
+| 45 | 360 | -3224.24428378 | 9.3736 | formally_converged |
+| 55 | 440 | -3224.25188528 | 1.7721 | formally_converged |
+| 65 | 520 | -3224.25365742 | 0.0000 | formally_converged_after_checkpoint |
 
-At 65 Ry the immediately preceding completed iteration was `-473.95654736 Ry` at approximately `7e-8 Ry` estimated SCF error. The final completed iteration reported `-473.95654789 Ry` after the residual rebounded to `8.8e-7 Ry`; these two energies differ by only `0.00361 meV/atom`. The latest 65 Ry energy is `1.78684 meV/atom` below the formally converged 55 Ry energy. This few-meV/atom change does not indicate a meaningful cutoff problem for the intended preliminary fixed-composition comparison, so 55/440 Ry was selected. The machine-readable audit is `results/tables/dft/cutoff_sanity_check.csv`.
+At the production-selection checkpoint, 55 Ry was formally converged and the 65 Ry calculation had been manually stopped near convergence; the checkpoint energy-difference magnitude was 1.78684 meV/atom. A pre-existing background process subsequently continued the 65 Ry job to formal convergence without a restart, giving a final 55-to-65 Ry difference of 1.77214 meV/atom. This does not change the selected 55/440 Ry production setting or the preliminary-study conclusion.
 
-## Production-input status
+The cutoff decision and checkpoint are recorded in `dft_inputs/qe_config.json`; the machine-readable final audit is `results/tables/dft/cutoff_sanity_check.csv`.
 
-Four final static inputs are prepared and validated under `dft_inputs/production/<fid>/scf.in`. Each contains exactly one Co and one Cr site, the exact source cell/coordinates, the same 55/440 Ry cutoff, k-point grid, smearing, spin initialization and electronic settings. The sequential runner is `dft_runs/run_final_scfs.sh`.
+## Converged results
 
-The four production SCFs have **not** been executed by Codex. Consequently, no production `dft_results.csv`, SRO–energy plot or FCC/BCC energetic conclusion is reported yet. Parsing and plotting remain deferred until the user completes the manual run and returns.
+| Phase | Label | fid | SRO | total energy (Ry) | energy/atom (Ry) | relative energy (meV/atom) | total magnetization (muB/cell) | absolute magnetization (muB/cell) | iterations | status |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| FCC | low | `gra62121526` | 0.000000 | -473.95628523 | -236.97814261 | 106.9544 | 0.2200 | 0.3900 | 35 | converged |
+| FCC | high | `gra62121527` | 0.333333 | -473.97200724 | -236.98600362 | 0.0000 | -0.0000 | 0.0000 | 29 | converged |
+| BCC | low | `gra64001864` | 0.000000 | -473.94434310 | -236.97217155 | 0.0000 | -0.0000 | 0.0000 | 32 | converged |
+| BCC | high | `gra62121595` | 1.000000 | -473.92326720 | -236.96163360 | 143.3761 | 0.0000 | 0.0000 | 43 | converged |
+
+All four calculations reached the electronic convergence criterion, printed a finite final total energy, and terminated normally with `JOB DONE`.
+
+## FCC
+
+Composition `{"Co": 0.5, "Cr": 0.5}`; 2 atoms; SRO 0.000000 (gra62121526) versus 0.333333 (gra62121527).
+
+For the selected fixed-composition Co-Cr FCC configurations, increasing the aggregate first-shell SRO magnitude from 0.0000 to 0.3333 changed the static DFT energy by 106.954 meV/atom. The high-SRO configuration (`gra62121527`) was energetically lower.
+
+## BCC
+
+Composition `{"Co": 0.5, "Cr": 0.5}`; 2 atoms; SRO 0.000000 (gra64001864) versus 1.000000 (gra62121595).
+
+For the selected fixed-composition Co-Cr BCC configurations, increasing the aggregate first-shell SRO magnitude from 0.0000 to 1.0000 changed the static DFT energy by 143.376 meV/atom. The low-SRO configuration (`gra64001864`) was energetically lower.
+
+## Scope
+
+These targeted calculations demonstrate that configurations with identical chemistry and atom count but different local ordering can exhibit different first-principles energies. The four-configuration study is a focused validation/extension of the larger SRO-ML analysis and should not be interpreted as establishing a universal causal SRO-energy relationship.
+
+Machine-readable results: `results/tables/dft/dft_results.csv`. Figures: `figures/dft/dft_relative_energy.png`, `figures/dft/sro_vs_relative_energy.png`.

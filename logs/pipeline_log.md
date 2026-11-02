@@ -105,3 +105,15 @@
 - **Manual runner:** added `dft_runs/run_final_scfs.sh`; it runs sequentially in `qe7`, preserves incomplete prior outputs, reports `SUCCESS` only for `JOB DONE`, continues after failure and does not delete outputs
 - **Validation:** eight Phase 7 unit/artifact tests pass; runner passes WSL `bash -n`; executable resolves to the `qe7` path; all QE runtime/scratch directories remain ignored
 - **Deferred:** Codex did not execute the four production SCFs; result parsing, DFT plots and scientific FCC/BCC energy conclusions await the user's manual run
+
+## 2026-11-03 — Phase 7: final four-configuration static-DFT analysis
+
+- **Output gate:** all four production files contain formal SCF convergence, a finite final total energy and `JOB DONE`; no NaN, QE error, MPI abort or failure marker was found
+- **FCC result:** `gra62121527` (SRO 0.333333) is lower than `gra62121526` (SRO 0.000000) by `106.954422 meV/atom`
+- **BCC result:** `gra64001864` (SRO 0.000000) is lower than `gra62121595` (SRO 1.000000) by `143.376114 meV/atom`
+- **Magnetization:** FCC low-SRO total/absolute magnetization `0.22/0.39 μB/cell`; the other three final total/absolute values print as zero within QE output precision
+- **Cutoff provenance:** the production decision used the manually stopped near-converged 65 Ry checkpoint (`1.78684 meV/atom` from 55 Ry); the already-running background process later reached formal convergence and a final `1.77214 meV/atom` difference without a restart; 55/440 Ry remains selected
+- **Outputs:** `results/tables/dft/dft_results.csv`, `figures/dft/dft_relative_energy.png`, `figures/dft/sro_vs_relative_energy.png`, and updated `reports/dft_summary.md`
+- **Interpretation:** FCC and BCC show opposite selected-pair trends; four configurations demonstrate configuration-sensitive static energies but cannot establish a universal causal SRO–energy relationship
+- **Validation:** pairwise relative energies independently recomputed from Ry/atom values using `13.605693122994 eV/Ry`; both PNGs visually inspected and verified at 300 dpi; ten Phase 7 unit/artifact tests pass
+- **Local-only files:** QE outputs, scratch/save data and pseudopotential binaries remain ignored and unstaged

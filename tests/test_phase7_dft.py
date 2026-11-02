@@ -5,9 +5,11 @@ import unittest
 from pathlib import Path
 
 import pandas as pd
+from PIL import Image
 
 from src.dft.phase7 import (
     TARGET,
+    RY_TO_EV,
     analyze_dft_results,
     build_qe_input,
     choose_phase_pairs,
@@ -146,10 +148,10 @@ class TestQuantumEspressoUtilities(unittest.TestCase):
             results = pd.read_csv(results_path)
             self.assertEqual(len(results), 4)
             self.assertTrue(results["normal_termination"].all())
-            self.assertIn("absolute_magnetization_muB", results.columns)
+            self.assertIn("absolute_magnetization_muB_cell", results.columns)
             self.assertEqual(results.groupby("phase")["relative_energy_meV_atom"].min().to_dict(), {"BCC": 0.0, "FCC": 0.0})
             report = report_path.read_text(encoding="utf-8")
-            self.assertIn("should not be interpreted as establishing a universal causal relationship", report)
+            self.assertIn("should not be interpreted as establishing a universal causal SRO-energy relationship", report)
             self.assertTrue((figure_dir / "dft_relative_energy.png").is_file())
             self.assertTrue((figure_dir / "sro_vs_relative_energy.png").is_file())
 
@@ -217,18 +219,46 @@ class TestPhase7TrackedArtifacts(unittest.TestCase):
         self.assertIn("scf.previous.", script)
         self.assertNotIn("rm ", script)
 
-    def test_cutoff_audit_distinguishes_formal_and_near_convergence(self):
+    def test_cutoff_audit_preserves_checkpoint_and_final_status(self):
         cutoff = pd.read_csv("results/tables/dft/cutoff_sanity_check.csv")
         self.assertEqual(cutoff["ecutwfc_ry"].tolist(), [45.0, 55.0, 65.0])
         row55 = cutoff.loc[cutoff["ecutwfc_ry"].eq(55.0)].iloc[0]
         row65 = cutoff.loc[cutoff["ecutwfc_ry"].eq(65.0)].iloc[0]
         self.assertEqual(row55["convergence_status"], "formally_converged")
         self.assertTrue(bool(row55["normal_termination"]))
-        self.assertEqual(row65["convergence_status"], "near_converged_not_formal")
-        self.assertFalse(bool(row65["normal_termination"]))
+        self.assertEqual(row65["convergence_status"], "formally_converged_after_checkpoint")
+        self.assertTrue(bool(row65["normal_termination"]))
         self.assertAlmostEqual(row55["total_energy_ry"], -473.95628523)
-        self.assertAlmostEqual(row65["total_energy_ry"], -473.95654789)
-        self.assertAlmostEqual(row55["relative_energy_change_meV_atom"], 1.786835678)
+        self.assertAlmostEqual(row65["total_energy_ry"], -473.95654573)
+        self.assertAlmostEqual(row55["relative_energy_change_meV_atom"], 1.772141529)
+        config = json.loads(Path("dft_inputs/qe_config.json").read_text(encoding="utf-8"))
+        checkpoint = config["cutoff_selection"]
+        self.assertEqual(checkpoint["near_converged_formal_status"], "not formally converged; manually stopped without JOB DONE")
+        self.assertAlmostEqual(checkpoint["absolute_energy_change_mev_atom"], 1.786835678)
+
+    def test_completed_production_results_and_figures(self):
+        results = pd.read_csv("results/tables/dft/dft_results.csv")
+        self.assertEqual(len(results), 4)
+        self.assertTrue(results["SCF_convergence_status"].eq("converged").all())
+        self.assertTrue(results["normal_termination"].all())
+        self.assertTrue(results["failure_marker_count"].eq(0).all())
+        for _, group in results.groupby("phase"):
+            expected = (group["energy_per_atom_ry"] - group["energy_per_atom_ry"].min()) * RY_TO_EV * 1000.0
+            self.assertTrue((abs(group["relative_energy_meV_atom"] - expected) < 1e-9).all())
+        expected_relative = {
+            "gra62121526": 106.95442166825616,
+            "gra62121527": 0.0,
+            "gra64001864": 0.0,
+            "gra62121595": 143.3761138456452,
+        }
+        for row in results.itertuples(index=False):
+            self.assertAlmostEqual(row.relative_energy_meV_atom, expected_relative[row.fid], places=9)
+        for filename in ("dft_relative_energy.png", "sro_vs_relative_energy.png"):
+            path = Path("figures/dft") / filename
+            self.assertTrue(path.is_file())
+            with Image.open(path) as image:
+                dpi = image.info.get("dpi", (0, 0))
+                self.assertGreaterEqual(min(dpi), 299.0)
 
 
 if __name__ == "__main__":

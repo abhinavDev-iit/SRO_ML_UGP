@@ -24,7 +24,7 @@ The project has completed database construction, EDA, leakage-controlled regress
 - Symmetry, initial structural geometry, configurational entropy and electronic/VEC/periodic descriptors give the largest conditional group-ablation losses. Initial space group is highly predictive but may encode configuration-generation signatures.
 - FCC mean SRO magnitude is 0.2640 versus 0.4002 for BCC (d=0.5253). This dataset contrast is not attributed causally to phase because chemistry and configuration distributions differ.
 - Best model binaries are stored only under ignored `models/`; compact metadata, predictions, metrics, tables, reports and 300 dpi thesis figures are version-controlled.
-- Phase 7 has selected exact two-atom Co–Cr low/high-SRO pairs for FCC and BCC. Quantum ESPRESSO 7.6 in WSL Conda environment `qe7` and SSSP PBE Efficiency v1.3.0 Co/Cr pseudopotentials are validated; a lightweight cutoff check selected 55/440 Ry, and four final spin-polarized static-SCF inputs plus a sequential manual runner are prepared. The production SCFs have not yet been executed, so no FCC/BCC energy conclusion is reported; see `reports/dft_summary.md`.
+- Phase 7 completed four spin-polarized Quantum ESPRESSO 7.6 static SCFs for exact two-atom Co–Cr low/high-SRO pairs at 55/440 Ry. Within the selected FCC pair, the higher-SRO configuration is lower by 106.9544 meV/atom; within the selected BCC pair, the lower-SRO configuration is lower by 143.3761 meV/atom. These opposite pair-specific trends are a focused fixed-composition comparison, not a universal causal SRO–energy law; see `reports/dft_summary.md`.
 
 ## Scientific objective and scope
 

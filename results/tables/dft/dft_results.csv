@@ -1,0 +1,5 @@
+fid,phase,composition,NIONS,SRO,low_high_label,total_energy_ry,energy_per_atom_ry,total_energy_eV,energy_per_atom_eV,relative_energy_meV_atom,SCF_convergence_status,normal_termination,scf_iterations,total_magnetization_muB_cell,absolute_magnetization_muB_cell,failure_marker_count
+gra62121526,FCC,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.0,low,-473.95628523,-236.978142615,-6448.503770553593,-3224.2518852767967,106.95442166825616,converged,True,35,0.22,0.39,0
+gra62121527,FCC,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.3333333333333332,high,-473.97200724,-236.98600362,-6448.71767939693,-3224.358839698465,0.0,converged,True,29,-0.0,0.0,0
+gra64001864,BCC,"{""Co"": 0.5, ""Cr"": 0.5}",2,0.0,low,-473.9443431,-236.97217155,-6448.341289597579,-3224.1706447987895,0.0,converged,True,32,-0.0,0.0,0
+gra62121595,BCC,"{""Co"": 0.5, ""Cr"": 0.5}",2,1.0,high,-473.9232672,-236.9616336,-6448.054537369888,-3224.027268684944,143.3761138456452,converged,True,43,0.0,0.0,0
