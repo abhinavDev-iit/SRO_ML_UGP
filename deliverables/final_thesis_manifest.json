@@ -1,0 +1,27 @@
+{
+  "docx": "D:\\SRO_ML_UGP\\deliverables\\UGP_Final_Thesis_SRO_ML_2026.docx",
+  "pdf": "D:\\SRO_ML_UGP\\deliverables\\UGP_Final_Thesis_SRO_ML_2026.pdf",
+  "page_count": 35,
+  "figure_count": 18,
+  "table_count": 17,
+  "authors": [
+    {
+      "name": "Abhinav Choudhary",
+      "roll": "23145102"
+    },
+    {
+      "name": "Yuvraj Singh",
+      "roll": "23145101"
+    },
+    {
+      "name": "Ashish Gautam",
+      "roll": "23145017"
+    }
+  ],
+  "toc_pages_verified": true,
+  "figure_list_pages_verified": true,
+  "table_list_pages_verified": true,
+  "all_pdf_pages_nonblank": true,
+  "core_repository_values_verified": true,
+  "minimum_effective_figure_dpi": 306.2
+}
